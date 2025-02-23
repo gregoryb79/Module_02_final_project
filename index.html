@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/styles.css">
+    <title>PFT</title>
+</head>
+<body>
+    <header class="pageHeader" aria-label="Page Header">
+        <h2>
+            Overview
+        </h2> 
+        <p>
+            Manage all your personal finanace in a simple way.
+        </p>
+    </header>
+
+    <menu class="sideMenu" aria-label="Site navigation menu">
+        <li>
+            LOGO
+        </li>
+        <li>
+            S
+        </li>
+        <li>
+            E
+        </li>
+        <li>
+            CFG
+        </li>
+        <li>
+            +
+        </li>
+        <li>
+            AWTR
+        </li>
+    </menu> 
+    
+    <ul id="balanceSheet" class="balanceSheet" name="balanceSheet" aria-label="Balance Summary">
+        <li>Total income</li>
+        <li>Total Expense</li>
+        <li>Total Balance</li>
+    </ul>
+    <div id="expenseMeter" class="expenseMeter" name="expenseMeter" aria-label="Graphical representation of balance."> 
+        <canvas id="expenseMeterCanvas" class="expenseMeterCanvas" width = "200" height="125">
+
+        </canvas>
+        <p>
+            <span>You have</span> 
+            <span id="balace">0,000 USD</span>
+        </p>                
+        <p class="u-centerText">remaining till the end of the month.</p>        
+    </div>
+    <div id="expencesGraph" class="expencesGraph" name="expencesGraph" aria-label="Graphical representaion of this month expenses.">
+        <h3 id="expenseGraphTitle">
+            Daily expenses.
+        </h3>
+        <canvas id="expencesGraphCanvas" class="expencesGraphCanvas" width = "200" height="125">
+
+        </canvas>
+    </div>
+    <ul id="largestCategories" class="largestCategories" aria-label="Three largest expenses categories">
+        <li>
+            <p>icon #1</p>
+            <p>description</p>
+        </li>
+        <li>
+            <p>icon #2</p>
+            <p>description</p>
+        </li>
+        <li>
+            <p>icon #3</p>
+            <p>description</p>
+        </li>
+    </ul>
+    <ul id="topFive" class="topFive">
+        <h3>Recent Expences</h3>
+        <li>
+            
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+
+    </ul>
+
+    
+      
+</body>
+</html>
