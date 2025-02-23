@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/styles.css">
-    <title>PFT</title>
+    <title>PFT</title>    
 </head>
 <body>
     <header class="pageHeader" aria-label="Page Header">
@@ -17,23 +17,23 @@
     </header>
 
     <menu class="sideMenu" aria-label="Site navigation menu">
-        <li>
-            LOGO
+        <li class="u-marginTop-1rem">
+            <div class="iconPH">$</div>
         </li>
         <li>
-            S
+            <div class="iconPH">S</div>
         </li>
         <li>
-            E
+            <div class="iconPH">E</div>
         </li>
         <li>
-            CFG
+            <div class="iconPH">CFG</div>
         </li>
         <li>
-            +
+            <div class="iconPH">+</div>
         </li>
-        <li>
-            AWTR
+        <li class="u-marginBot-1rem">
+            <div class="iconPH">👨🏼</div>
         </li>
     </menu> 
     
@@ -52,6 +52,7 @@
         </p>                
         <p class="u-centerText">remaining till the end of the month.</p>        
     </div>
+
     <div id="expencesGraph" class="expencesGraph" name="expencesGraph" aria-label="Graphical representaion of this month expenses.">
         <h3 id="expenseGraphTitle">
             Daily expenses.
@@ -60,33 +61,78 @@
 
         </canvas>
     </div>
-    <ul id="largestCategories" class="largestCategories" aria-label="Three largest expenses categories">
+
+    <ul id="largestCategories" class="largestCategories" aria-label="Largest expenses categories">
         <li>
-            <p>icon #1</p>
-            <p>description</p>
+            <span>icon #1</span>
+            <span>description</span>
+            <span>sum</span>
         </li>
         <li>
-            <p>icon #2</p>
-            <p>description</p>
+            <span>icon #2</span>
+            <span>description</span>
+            <span>sum</span>
         </li>
         <li>
-            <p>icon #3</p>
-            <p>description</p>
+            <span>icon #3</span>
+            <span>description</span>
+            <span>sum</span>
         </li>
     </ul>
-    <ul id="topFive" class="topFive">
-        <h3>Recent Expences</h3>
+
+    <ul id="expensesOnDate" class="expensesOnDate" aria-label="Expenses on selected date">
         <li>
-            
+           <label for="expensesDate">Expenses On</label>
+           <input id="expensesDate" type="date">
         </li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+        <li>
+            <span>catIcon</span>
+            <span>description</span>
+            <span>sum</span>
+        </li>
+        <li>
+            <span>catIcon</span>
+            <span>description</span>
+            <span>sum</span>
+        </li>
+        <li>
+            <span>catIcon</span>
+            <span>description</span>
+            <span>sum</span>
+        </li>
+    </ul>
+
+    <ul id="recentExpences" class="recentExpences">
+        <li class="u-listInline">
+            <h3>Recent Expences</h3>
+            <label for="sortType">Sort By:</label>
+            <select name="sortType" id="sortType">
+                <option value="dateUP">⇑ Date</option>
+                <option value="dateDown">⇓ Date</option>
+                <option value="largestSum">⇑ Sum</option>
+                <option value="smallestSum">⇓ Sum</option>
+            </select>
+        </li>  
+        <li>
+            <span>catIcon</span>
+            <span>description</span>
+            <span>date</span>
+            <span>sum</span>
+        </li>    
+        <li>
+            <span>catIcon</span>
+            <span>description</span>
+            <span>date</span>
+            <span>sum</span>
+        </li>  
+        <li>
+            <span>catIcon</span>
+            <span>description</span>
+            <span>date</span>
+            <span>sum</span>
+        </li>   
 
     </ul>
 
-    
-      
 </body>
 </html>

@@ -14,7 +14,7 @@
   --h2-font-size: 2.5rem;
   --regularFont: 1.2rem;
   --largeFont: 1.5rem;
-  --iconWidth: 4rem;
+  --iconWidth: 3.8rem;
   --smallIconWidth: 3rem;
 }
 *, *::before, *::after {
@@ -68,15 +68,40 @@ a:hover {
 
 body {
   display: grid;
-  grid-template-columns: 1fr 6fr 8fr 6fr;
+  grid-template-columns: 1fr 4fr 9fr 4fr;
   grid-template-rows: repeat(12, 1fr);
-  width: 90vw;
-  height: 90vh;
+  width: 97vw;
+  height: 97vh;
   margin: auto;
 }
 
 .u-centerText {
   text-align: center;
+}
+
+.u-listInline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.u-marginTop-1rem {
+  margin-top: 1rem;
+}
+
+.u-marginBot-1rem {
+  margin-bottom: 1rem;
+}
+
+.iconPH {
+  width: var(--iconWidth);
+  height: var(--iconWidth);
+  border-radius: 50%;
+  background-color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--largeFont);
 }
 
 .sideMenu {
@@ -86,6 +111,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .pageHeader {
@@ -134,6 +160,12 @@ body {
 
 .largestCategories {
   border: 1px solid red;
+  grid-column: 4/5;
+  grid-row: 1/7;
+}
+
+.recentExpences {
+  border: 1px solid red;
   grid-column: 3/4;
-  grid-row: 7/8;
+  grid-row: 7/13;
 }
