@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/styles.css">
+    <title>Expenses</title>    
+</head>
+<body>
+    <header class="pageHeader" aria-label="Page Header">
+        <h2>
+            Expences
+        </h2> 
+        <p>
+            Manage all your expences in a simple way.
+        </p>
+    </header>
+
+    <menu class="sideMenu" aria-label="Site navigation menu">
+        <li class="u-marginTop-1rem">
+            <div class="iconPH">
+                <a href="./index.html">$</a>
+            </div>
+        </li>        
+        <li>
+            <div class="iconPH">
+                <a href="./expenses.html">E</a>
+            </div>
+        </li>
+        <li>
+            <div class="iconPH">
+                <a href="./configuration.html">CFG</a>
+            </div>
+        </li>
+        <li>
+            <div class="iconPH">
+                <a href="./add_transaction.html">+</a>
+            </div>
+        </li>
+        <li class="u-marginBot-1rem">
+            <div class="iconPH">👨🏼</div>
+        </li>
+    </menu> 
+    <section class="expensesSection">
+        <form name="datesRange" class="datesRange">
+            <span>
+                <label for="startDate">From:</label>
+                <input class="u-regFont" type="date" id="startDate" name="startDate" aaria-label="start date setector">
+            </span>
+            <span>
+                <label for="stopDate">To:</label>
+            <input class="u-regFont" type="date" id="stopDate" name="stopDate" aria-label="stop date setector">          
+            </span>                       
+        </form>
+        <ul class="expensesList" id="expensesList" aria-label="List of all expenses in given period.">
+            <li>
+               catIcon description date sum
+           </li>
+       </ul>
+    </section>
+    
+
+    <form name="fileHandler" class="fileHandler">        
+        <label for="importFile">Import Expenses</label>
+        <input type="file" id="importFile" name="importFile">
+        <label for="exportFile">Export Expenses</label>
+        <input type="file" id="exportFile" name="exportFile">
+        <p>must be CSV file</p>
+    </form>
+    
+    <script type="module">
+        import { expenses, checkUser } from "./dist/view.js";
+
+        checkUser();
+
+        expenses(document.forms.namedItem("fileHandler"),
+            document.forms.namedItem("datesRange"),
+            document.getElementById("expensesList")
+        );
+    </script>
+
+</body>
+</html>

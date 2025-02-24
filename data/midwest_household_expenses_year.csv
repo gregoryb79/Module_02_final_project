@@ -1,0 +1,991 @@
+day,category,description,sum
+2024-02-01,education,College Tuition,114.9
+2024-02-01,housing,Mortgage Payment,169.1
+2024-02-02,misc,Hobby Supplies,23.79
+2024-02-03,vacations,Local Attractions,58.04
+2024-02-03,misc,Donation,51.72
+2024-02-04,eatingOut,Coffee,115.9
+2024-02-04,housing,Mortgage Payment,251.51
+2024-02-04,bills,Electric Bill,101.08
+2024-02-05,vacations,Local Attractions,175.22
+2024-02-05,bills,Gas Bill,170.25
+2024-02-06,pets,Vet Visit,260.72
+2024-02-07,apparel,Jeans,67.89
+2024-02-08,housing,Mortgage Payment,116.41
+2024-02-08,transportation,Insurance,45.92
+2024-02-08,apparel,Jacket,100.02
+2024-02-08,vacations,Local Attractions,274.73
+2024-02-09,eatingOut,Lunch at Diner,148.83
+2024-02-09,groceries,Vegetables,286.34
+2024-02-10,bills,Gas Bill,5.91
+2024-02-10,education,Online Course,203.39
+2024-02-10,vacations,Airfare,243.48
+2024-02-10,misc,Gift,281.51
+2024-02-11,eatingOut,Lunch at Diner,74.28
+2024-02-11,groceries,Fruits,136.84
+2024-02-11,transportation,Public Transport,40.58
+2024-02-11,transportation,Car Repair,63.02
+2024-02-12,eatingOut,Coffee,281.43
+2024-02-12,bills,Gas Bill,284.54
+2024-02-13,apparel,Jacket,219.55
+2024-02-13,apparel,Jacket,293.29
+2024-02-13,pets,Vet Visit,130.19
+2024-02-13,education,Online Course,41.99
+2024-02-14,pets,Pet Food,193.73
+2024-02-14,bills,Gas Bill,207.53
+2024-02-14,transportation,Public Transport,144.81
+2024-02-14,vacations,Airfare,81.86
+2024-02-15,transportation,Public Transport,54.81
+2024-02-15,pets,Pet Food,134.38
+2024-02-15,groceries,Meat,60.48
+2024-02-15,housing,Home Maintenance,257.83
+2024-02-16,apparel,Jeans,92.13
+2024-02-16,housing,Mortgage Payment,46.32
+2024-02-16,vacations,Local Attractions,282.31
+2024-02-17,misc,Hobby Supplies,236.23
+2024-02-17,apparel,Shoes,226.84
+2024-02-17,apparel,Jeans,101.23
+2024-02-17,education,Online Course,75.55
+2024-02-18,misc,Donation,147.65
+2024-02-18,bills,Water Bill,98.9
+2024-02-18,groceries,Vegetables,15.47
+2024-02-18,groceries,Fruits,188.23
+2024-02-19,transportation,Car Repair,41.89
+2024-02-19,pets,Vet Visit,14.58
+2024-02-19,housing,Home Maintenance,181.53
+2024-02-20,groceries,Snacks,160.48
+2024-02-20,bills,Electric Bill,60.33
+2024-02-21,bills,Electric Bill,204.96
+2024-02-22,transportation,Insurance,194.54
+2024-02-22,bills,Water Bill,176.58
+2024-02-22,eatingOut,Lunch at Diner,292.6
+2024-02-23,vacations,Hotel Stay,227.23
+2024-02-23,education,School Supplies,58.86
+2024-02-24,education,Online Course,73.59
+2024-02-24,misc,Gift,290.71
+2024-02-25,bills,Water Bill,146.98
+2024-02-25,housing,Home Maintenance,220.12
+2024-02-25,housing,Rent Payment,260.92
+2024-02-25,pets,Vet Visit,223.42
+2024-02-26,eatingOut,Coffee,100.07
+2024-02-26,pets,Toys,190.75
+2024-02-27,vacations,Airfare,173.8
+2024-02-28,misc,Donation,104.82
+2024-02-29,misc,Gift,150.42
+2024-02-29,transportation,Insurance,119.58
+2024-03-01,eatingOut,Fast Food,192.65
+2024-03-01,bills,Water Bill,247.24
+2024-03-01,housing,Mortgage Payment,24.8
+2024-03-01,bills,Electric Bill,190.66
+2024-03-02,eatingOut,Lunch at Diner,253.06
+2024-03-02,misc,Gift,117.64
+2024-03-03,bills,Internet Bill,190.87
+2024-03-04,eatingOut,Fast Food,228.07
+2024-03-05,groceries,Snacks,263.05
+2024-03-05,groceries,Fruits,199.46
+2024-03-05,bills,Electric Bill,113.96
+2024-03-05,misc,Gift,132.26
+2024-03-06,apparel,T-Shirts,212.33
+2024-03-06,housing,Home Maintenance,146.47
+2024-03-06,pets,Pet Food,69.98
+2024-03-06,transportation,Public Transport,204.39
+2024-03-07,transportation,Car Repair,50.72
+2024-03-08,misc,Gift,52.64
+2024-03-08,misc,Donation,155.33
+2024-03-08,eatingOut,Dinner at Restaurant,16.04
+2024-03-09,education,Online Course,141.56
+2024-03-09,apparel,Jeans,150.75
+2024-03-09,pets,Vet Visit,8.78
+2024-03-09,transportation,Insurance,53.27
+2024-03-10,groceries,Vegetables,119.1
+2024-03-10,education,College Tuition,85.89
+2024-03-10,pets,Pet Food,41.04
+2024-03-10,misc,Gift,275.95
+2024-03-11,misc,Hobby Supplies,193.9
+2024-03-11,bills,Gas Bill,170.36
+2024-03-11,transportation,Public Transport,23.47
+2024-03-12,education,School Supplies,293.22
+2024-03-13,groceries,Snacks,99.76
+2024-03-13,bills,Internet Bill,85.44
+2024-03-14,apparel,T-Shirts,207.0
+2024-03-14,housing,Mortgage Payment,246.21
+2024-03-15,misc,Gift,107.54
+2024-03-15,housing,Rent Payment,71.2
+2024-03-15,eatingOut,Dinner at Restaurant,66.28
+2024-03-15,eatingOut,Fast Food,163.97
+2024-03-16,vacations,Local Attractions,201.93
+2024-03-16,eatingOut,Lunch at Diner,136.5
+2024-03-16,groceries,Vegetables,55.3
+2024-03-16,bills,Electric Bill,18.93
+2024-03-17,housing,Rent Payment,249.98
+2024-03-18,misc,Hobby Supplies,114.15
+2024-03-19,housing,Rent Payment,78.14
+2024-03-19,groceries,Fruits,212.12
+2024-03-19,misc,Gift,245.82
+2024-03-19,pets,Pet Food,261.91
+2024-03-20,education,School Supplies,36.53
+2024-03-20,misc,Gift,201.25
+2024-03-21,education,Books,74.87
+2024-03-21,groceries,Vegetables,206.69
+2024-03-21,pets,Vet Visit,178.84
+2024-03-22,vacations,Dining Out,210.22
+2024-03-22,misc,Gift,165.72
+2024-03-22,vacations,Airfare,215.53
+2024-03-22,transportation,Gas,23.65
+2024-03-23,apparel,Jacket,37.82
+2024-03-23,education,School Supplies,250.62
+2024-03-24,bills,Internet Bill,173.21
+2024-03-24,apparel,T-Shirts,290.51
+2024-03-25,groceries,Vegetables,32.93
+2024-03-26,vacations,Airfare,36.69
+2024-03-27,misc,Donation,217.58
+2024-03-27,housing,Home Maintenance,176.49
+2024-03-28,bills,Internet Bill,201.02
+2024-03-29,transportation,Insurance,18.72
+2024-03-29,groceries,Meat,178.92
+2024-03-29,groceries,Vegetables,245.53
+2024-03-30,housing,Mortgage Payment,194.86
+2024-03-30,misc,Gift,170.32
+2024-03-30,transportation,Public Transport,127.45
+2024-03-30,pets,Pet Food,99.02
+2024-03-31,transportation,Public Transport,176.57
+2024-03-31,education,Online Course,14.07
+2024-03-31,transportation,Public Transport,48.8
+2024-04-01,apparel,Jacket,24.0
+2024-04-01,bills,Gas Bill,146.49
+2024-04-01,groceries,Meat,21.22
+2024-04-02,bills,Internet Bill,276.44
+2024-04-02,eatingOut,Lunch at Diner,61.13
+2024-04-03,vacations,Local Attractions,34.0
+2024-04-03,apparel,Jeans,166.21
+2024-04-03,bills,Electric Bill,169.99
+2024-04-03,eatingOut,Coffee,148.63
+2024-04-04,bills,Water Bill,290.27
+2024-04-04,misc,Hobby Supplies,12.4
+2024-04-04,apparel,Jacket,54.38
+2024-04-04,groceries,Fruits,84.24
+2024-04-05,bills,Electric Bill,285.02
+2024-04-05,misc,Gift,271.81
+2024-04-06,housing,Home Maintenance,217.25
+2024-04-07,education,College Tuition,221.24
+2024-04-08,eatingOut,Fast Food,17.32
+2024-04-08,bills,Electric Bill,42.26
+2024-04-08,vacations,Hotel Stay,35.91
+2024-04-08,groceries,Snacks,89.84
+2024-04-09,housing,Rent Payment,218.24
+2024-04-10,eatingOut,Dinner at Restaurant,245.16
+2024-04-10,bills,Electric Bill,111.35
+2024-04-10,eatingOut,Fast Food,167.22
+2024-04-11,education,Books,170.47
+2024-04-11,transportation,Gas,210.54
+2024-04-11,misc,Gift,237.02
+2024-04-12,groceries,Vegetables,59.72
+2024-04-12,misc,Hobby Supplies,199.3
+2024-04-13,transportation,Public Transport,97.87
+2024-04-13,bills,Gas Bill,255.95
+2024-04-13,transportation,Public Transport,19.38
+2024-04-13,vacations,Airfare,199.51
+2024-04-14,housing,Home Maintenance,150.98
+2024-04-14,misc,Hobby Supplies,102.13
+2024-04-14,groceries,Meat,226.97
+2024-04-14,vacations,Airfare,41.46
+2024-04-15,vacations,Airfare,183.25
+2024-04-15,eatingOut,Coffee,106.25
+2024-04-15,vacations,Dining Out,41.74
+2024-04-16,misc,Donation,237.8
+2024-04-16,transportation,Car Repair,240.84
+2024-04-16,education,School Supplies,110.38
+2024-04-16,vacations,Hotel Stay,11.75
+2024-04-17,misc,Donation,91.64
+2024-04-17,pets,Pet Food,128.79
+2024-04-17,education,Online Course,149.64
+2024-04-17,education,College Tuition,20.59
+2024-04-18,bills,Electric Bill,16.32
+2024-04-18,bills,Internet Bill,263.72
+2024-04-18,education,Online Course,267.08
+2024-04-18,vacations,Local Attractions,293.37
+2024-04-19,pets,Vet Visit,169.05
+2024-04-19,vacations,Hotel Stay,115.93
+2024-04-20,misc,Donation,115.59
+2024-04-20,vacations,Dining Out,141.36
+2024-04-21,vacations,Local Attractions,212.4
+2024-04-21,bills,Electric Bill,80.41
+2024-04-21,groceries,Vegetables,141.6
+2024-04-21,pets,Vet Visit,273.2
+2024-04-22,housing,Home Maintenance,30.85
+2024-04-23,education,Online Course,178.15
+2024-04-24,education,School Supplies,225.23
+2024-04-25,groceries,Vegetables,242.61
+2024-04-26,education,School Supplies,140.8
+2024-04-26,pets,Pet Food,128.69
+2024-04-27,groceries,Snacks,172.18
+2024-04-28,pets,Pet Food,153.84
+2024-04-29,bills,Gas Bill,65.95
+2024-04-30,vacations,Airfare,92.32
+2024-04-30,groceries,Snacks,169.79
+2024-05-01,bills,Water Bill,24.95
+2024-05-02,groceries,Snacks,137.43
+2024-05-02,groceries,Fruits,34.81
+2024-05-02,bills,Internet Bill,64.21
+2024-05-03,eatingOut,Dinner at Restaurant,147.47
+2024-05-03,groceries,Vegetables,159.32
+2024-05-03,housing,Home Maintenance,134.08
+2024-05-03,groceries,Fruits,177.73
+2024-05-04,bills,Gas Bill,40.31
+2024-05-04,housing,Mortgage Payment,238.42
+2024-05-04,transportation,Gas,287.69
+2024-05-04,bills,Electric Bill,16.36
+2024-05-05,apparel,T-Shirts,286.07
+2024-05-05,misc,Hobby Supplies,217.17
+2024-05-06,apparel,Shoes,93.14
+2024-05-06,apparel,Jacket,129.61
+2024-05-06,housing,Rent Payment,41.81
+2024-05-06,misc,Hobby Supplies,57.15
+2024-05-07,housing,Rent Payment,18.34
+2024-05-07,groceries,Meat,162.96
+2024-05-07,apparel,Jeans,124.34
+2024-05-07,groceries,Meat,279.41
+2024-05-08,groceries,Snacks,92.72
+2024-05-08,housing,Mortgage Payment,74.1
+2024-05-08,eatingOut,Lunch at Diner,201.66
+2024-05-09,pets,Toys,144.54
+2024-05-09,misc,Hobby Supplies,262.52
+2024-05-09,eatingOut,Fast Food,237.58
+2024-05-10,housing,Mortgage Payment,85.96
+2024-05-11,vacations,Dining Out,276.76
+2024-05-11,vacations,Local Attractions,100.02
+2024-05-12,apparel,T-Shirts,19.87
+2024-05-12,vacations,Hotel Stay,15.27
+2024-05-13,transportation,Insurance,67.47
+2024-05-13,pets,Vet Visit,279.89
+2024-05-13,pets,Pet Food,94.21
+2024-05-14,eatingOut,Fast Food,103.5
+2024-05-14,misc,Donation,83.97
+2024-05-15,transportation,Public Transport,206.04
+2024-05-15,apparel,T-Shirts,227.34
+2024-05-16,housing,Home Maintenance,121.62
+2024-05-16,transportation,Car Repair,250.2
+2024-05-16,education,Online Course,94.59
+2024-05-17,apparel,T-Shirts,291.41
+2024-05-17,bills,Gas Bill,177.69
+2024-05-18,groceries,Vegetables,218.15
+2024-05-19,eatingOut,Lunch at Diner,74.73
+2024-05-19,apparel,Jeans,204.8
+2024-05-19,education,College Tuition,123.41
+2024-05-20,education,Online Course,288.36
+2024-05-20,pets,Toys,75.61
+2024-05-20,groceries,Vegetables,15.07
+2024-05-21,pets,Pet Food,283.32
+2024-05-21,misc,Donation,127.34
+2024-05-22,vacations,Local Attractions,229.18
+2024-05-23,education,College Tuition,297.24
+2024-05-24,groceries,Meat,57.59
+2024-05-24,groceries,Fruits,296.57
+2024-05-24,pets,Toys,25.16
+2024-05-25,vacations,Hotel Stay,30.19
+2024-05-26,bills,Electric Bill,255.62
+2024-05-27,apparel,Jeans,267.38
+2024-05-27,vacations,Hotel Stay,19.12
+2024-05-27,vacations,Local Attractions,294.01
+2024-05-28,groceries,Snacks,284.58
+2024-05-28,bills,Electric Bill,235.29
+2024-05-28,pets,Pet Food,83.01
+2024-05-28,misc,Gift,272.54
+2024-05-29,bills,Water Bill,29.43
+2024-05-30,misc,Gift,193.71
+2024-05-31,housing,Mortgage Payment,21.73
+2024-05-31,vacations,Dining Out,285.3
+2024-06-01,pets,Pet Food,288.71
+2024-06-01,pets,Vet Visit,156.02
+2024-06-02,apparel,Jeans,143.43
+2024-06-02,education,College Tuition,202.48
+2024-06-02,vacations,Airfare,89.76
+2024-06-03,eatingOut,Dinner at Restaurant,95.16
+2024-06-03,education,Online Course,27.45
+2024-06-04,housing,Rent Payment,279.61
+2024-06-05,vacations,Hotel Stay,115.94
+2024-06-05,bills,Internet Bill,50.68
+2024-06-05,misc,Hobby Supplies,102.93
+2024-06-05,transportation,Gas,74.11
+2024-06-06,apparel,T-Shirts,75.54
+2024-06-06,bills,Internet Bill,246.85
+2024-06-06,housing,Home Maintenance,86.0
+2024-06-07,transportation,Public Transport,254.37
+2024-06-07,groceries,Meat,294.48
+2024-06-07,transportation,Public Transport,107.13
+2024-06-08,housing,Home Maintenance,191.73
+2024-06-08,transportation,Public Transport,97.07
+2024-06-08,vacations,Hotel Stay,238.57
+2024-06-08,misc,Donation,82.67
+2024-06-09,groceries,Vegetables,61.97
+2024-06-09,apparel,T-Shirts,225.91
+2024-06-09,groceries,Meat,197.93
+2024-06-09,education,Books,204.87
+2024-06-10,transportation,Car Repair,299.0
+2024-06-11,groceries,Meat,237.3
+2024-06-11,pets,Pet Food,92.42
+2024-06-12,groceries,Meat,189.63
+2024-06-12,transportation,Car Repair,7.6
+2024-06-12,bills,Internet Bill,231.44
+2024-06-13,apparel,Jacket,16.14
+2024-06-14,housing,Rent Payment,213.88
+2024-06-14,groceries,Snacks,29.84
+2024-06-15,misc,Donation,204.2
+2024-06-16,eatingOut,Coffee,185.95
+2024-06-16,education,Books,33.63
+2024-06-16,housing,Home Maintenance,18.72
+2024-06-16,vacations,Dining Out,30.6
+2024-06-17,vacations,Dining Out,260.91
+2024-06-17,education,College Tuition,62.89
+2024-06-17,transportation,Car Repair,170.12
+2024-06-18,education,School Supplies,116.05
+2024-06-18,eatingOut,Lunch at Diner,27.76
+2024-06-18,misc,Donation,286.47
+2024-06-18,education,School Supplies,211.45
+2024-06-19,housing,Mortgage Payment,114.07
+2024-06-19,misc,Hobby Supplies,137.88
+2024-06-19,education,Online Course,26.83
+2024-06-20,eatingOut,Dinner at Restaurant,86.52
+2024-06-20,vacations,Dining Out,247.98
+2024-06-20,vacations,Local Attractions,213.25
+2024-06-20,pets,Pet Food,281.91
+2024-06-21,transportation,Car Repair,155.4
+2024-06-21,groceries,Snacks,229.69
+2024-06-21,vacations,Hotel Stay,222.39
+2024-06-22,vacations,Airfare,64.98
+2024-06-22,housing,Home Maintenance,281.38
+2024-06-22,groceries,Vegetables,128.86
+2024-06-23,housing,Rent Payment,30.49
+2024-06-23,eatingOut,Coffee,275.11
+2024-06-23,misc,Hobby Supplies,131.32
+2024-06-23,pets,Vet Visit,176.95
+2024-06-24,housing,Mortgage Payment,56.62
+2024-06-24,groceries,Snacks,12.49
+2024-06-25,groceries,Fruits,43.85
+2024-06-25,pets,Vet Visit,57.19
+2024-06-25,groceries,Fruits,119.25
+2024-06-25,eatingOut,Lunch at Diner,175.75
+2024-06-26,pets,Toys,255.91
+2024-06-27,apparel,Jeans,51.72
+2024-06-27,housing,Home Maintenance,209.93
+2024-06-28,groceries,Snacks,293.94
+2024-06-28,transportation,Car Repair,147.07
+2024-06-28,pets,Vet Visit,243.69
+2024-06-29,vacations,Local Attractions,78.35
+2024-06-30,eatingOut,Fast Food,84.93
+2024-07-01,vacations,Hotel Stay,258.16
+2024-07-01,transportation,Gas,231.6
+2024-07-01,education,Books,119.95
+2024-07-01,pets,Vet Visit,12.09
+2024-07-02,housing,Rent Payment,260.38
+2024-07-03,housing,Mortgage Payment,152.6
+2024-07-03,misc,Hobby Supplies,205.53
+2024-07-04,bills,Electric Bill,146.81
+2024-07-04,misc,Hobby Supplies,90.88
+2024-07-05,transportation,Insurance,245.05
+2024-07-05,transportation,Insurance,24.89
+2024-07-05,education,Books,233.49
+2024-07-06,misc,Hobby Supplies,90.52
+2024-07-06,vacations,Airfare,39.37
+2024-07-06,eatingOut,Fast Food,26.04
+2024-07-07,vacations,Hotel Stay,145.38
+2024-07-07,housing,Rent Payment,127.62
+2024-07-07,apparel,Jacket,64.87
+2024-07-08,housing,Mortgage Payment,150.06
+2024-07-08,misc,Hobby Supplies,245.79
+2024-07-09,misc,Donation,278.5
+2024-07-09,pets,Pet Food,139.33
+2024-07-10,bills,Gas Bill,204.35
+2024-07-11,groceries,Fruits,79.36
+2024-07-11,pets,Vet Visit,53.28
+2024-07-11,vacations,Dining Out,145.76
+2024-07-11,housing,Rent Payment,25.33
+2024-07-12,education,Online Course,112.98
+2024-07-12,apparel,Shoes,140.13
+2024-07-12,vacations,Dining Out,77.64
+2024-07-13,eatingOut,Coffee,161.0
+2024-07-14,education,Online Course,289.81
+2024-07-14,groceries,Snacks,264.16
+2024-07-15,apparel,Jeans,181.61
+2024-07-16,transportation,Gas,283.51
+2024-07-16,vacations,Hotel Stay,49.13
+2024-07-16,transportation,Car Repair,47.69
+2024-07-16,pets,Pet Food,265.42
+2024-07-17,education,College Tuition,147.84
+2024-07-18,eatingOut,Lunch at Diner,279.93
+2024-07-18,pets,Pet Food,244.32
+2024-07-19,pets,Pet Food,61.98
+2024-07-19,groceries,Fruits,53.89
+2024-07-19,apparel,T-Shirts,258.17
+2024-07-19,housing,Mortgage Payment,118.63
+2024-07-20,bills,Internet Bill,55.96
+2024-07-20,pets,Pet Food,239.13
+2024-07-20,eatingOut,Dinner at Restaurant,50.52
+2024-07-21,misc,Gift,244.54
+2024-07-21,eatingOut,Coffee,258.39
+2024-07-21,bills,Water Bill,62.08
+2024-07-22,pets,Vet Visit,138.64
+2024-07-22,vacations,Airfare,272.05
+2024-07-22,pets,Pet Food,27.17
+2024-07-22,pets,Toys,193.75
+2024-07-23,vacations,Hotel Stay,248.48
+2024-07-23,misc,Hobby Supplies,37.67
+2024-07-23,eatingOut,Lunch at Diner,98.29
+2024-07-23,housing,Rent Payment,47.57
+2024-07-24,eatingOut,Coffee,10.3
+2024-07-24,housing,Home Maintenance,144.37
+2024-07-24,transportation,Insurance,56.04
+2024-07-25,misc,Donation,97.15
+2024-07-25,pets,Toys,260.22
+2024-07-26,pets,Pet Food,107.99
+2024-07-27,vacations,Dining Out,62.43
+2024-07-27,pets,Vet Visit,89.0
+2024-07-27,apparel,Jacket,132.57
+2024-07-27,groceries,Meat,268.79
+2024-07-28,bills,Internet Bill,33.92
+2024-07-28,groceries,Meat,177.27
+2024-07-28,pets,Vet Visit,293.81
+2024-07-28,housing,Mortgage Payment,64.47
+2024-07-29,housing,Mortgage Payment,20.57
+2024-07-30,pets,Vet Visit,217.23
+2024-07-30,apparel,Shoes,168.85
+2024-07-30,apparel,Shoes,145.49
+2024-07-30,bills,Gas Bill,284.21
+2024-07-31,education,Online Course,104.34
+2024-08-01,education,School Supplies,64.32
+2024-08-01,transportation,Insurance,27.92
+2024-08-01,eatingOut,Coffee,298.84
+2024-08-02,housing,Mortgage Payment,232.52
+2024-08-03,education,Books,123.51
+2024-08-03,transportation,Insurance,191.08
+2024-08-03,misc,Gift,248.49
+2024-08-03,eatingOut,Fast Food,129.5
+2024-08-04,transportation,Insurance,216.95
+2024-08-04,misc,Gift,99.12
+2024-08-05,education,Books,299.67
+2024-08-05,housing,Mortgage Payment,88.37
+2024-08-05,vacations,Local Attractions,205.26
+2024-08-05,bills,Water Bill,79.93
+2024-08-06,misc,Gift,218.0
+2024-08-06,bills,Gas Bill,85.26
+2024-08-06,housing,Home Maintenance,199.52
+2024-08-07,misc,Donation,36.36
+2024-08-07,housing,Mortgage Payment,282.81
+2024-08-07,pets,Pet Food,257.11
+2024-08-08,bills,Electric Bill,214.21
+2024-08-08,eatingOut,Dinner at Restaurant,120.8
+2024-08-08,education,Online Course,121.97
+2024-08-08,transportation,Public Transport,236.96
+2024-08-09,pets,Pet Food,280.92
+2024-08-09,eatingOut,Lunch at Diner,125.99
+2024-08-09,transportation,Insurance,183.39
+2024-08-09,apparel,Jeans,57.7
+2024-08-10,vacations,Dining Out,42.91
+2024-08-10,housing,Rent Payment,272.72
+2024-08-11,eatingOut,Lunch at Diner,143.9
+2024-08-11,bills,Gas Bill,46.89
+2024-08-11,misc,Hobby Supplies,79.57
+2024-08-11,apparel,Shoes,297.11
+2024-08-12,vacations,Hotel Stay,229.38
+2024-08-12,housing,Rent Payment,255.36
+2024-08-12,groceries,Meat,285.12
+2024-08-13,eatingOut,Fast Food,53.02
+2024-08-14,education,College Tuition,244.23
+2024-08-14,transportation,Gas,211.6
+2024-08-15,eatingOut,Lunch at Diner,83.75
+2024-08-16,misc,Donation,210.16
+2024-08-16,bills,Electric Bill,36.98
+2024-08-16,vacations,Local Attractions,184.07
+2024-08-16,pets,Pet Food,28.84
+2024-08-17,misc,Gift,255.62
+2024-08-18,misc,Gift,199.92
+2024-08-19,eatingOut,Lunch at Diner,242.61
+2024-08-19,vacations,Local Attractions,106.41
+2024-08-19,misc,Hobby Supplies,152.77
+2024-08-19,education,School Supplies,211.88
+2024-08-20,bills,Internet Bill,192.62
+2024-08-20,eatingOut,Fast Food,142.11
+2024-08-20,housing,Mortgage Payment,156.13
+2024-08-20,transportation,Public Transport,93.22
+2024-08-21,housing,Mortgage Payment,32.55
+2024-08-21,apparel,Shoes,88.85
+2024-08-22,transportation,Gas,193.9
+2024-08-22,bills,Internet Bill,20.85
+2024-08-22,eatingOut,Lunch at Diner,228.26
+2024-08-23,bills,Internet Bill,293.28
+2024-08-23,transportation,Gas,260.47
+2024-08-23,education,Books,90.22
+2024-08-24,eatingOut,Coffee,208.45
+2024-08-24,pets,Pet Food,172.67
+2024-08-24,groceries,Fruits,123.32
+2024-08-25,education,School Supplies,83.95
+2024-08-26,eatingOut,Fast Food,120.25
+2024-08-26,transportation,Gas,124.57
+2024-08-27,transportation,Gas,101.37
+2024-08-27,education,Books,128.91
+2024-08-27,housing,Home Maintenance,144.05
+2024-08-27,pets,Pet Food,28.07
+2024-08-28,transportation,Car Repair,40.24
+2024-08-29,housing,Mortgage Payment,144.66
+2024-08-30,eatingOut,Dinner at Restaurant,83.43
+2024-08-30,transportation,Car Repair,159.48
+2024-08-31,bills,Electric Bill,291.04
+2024-08-31,apparel,T-Shirts,258.81
+2024-08-31,vacations,Local Attractions,132.63
+2024-08-31,eatingOut,Lunch at Diner,246.46
+2024-09-01,eatingOut,Coffee,289.97
+2024-09-01,groceries,Meat,133.87
+2024-09-01,vacations,Hotel Stay,182.33
+2024-09-02,housing,Rent Payment,102.71
+2024-09-02,transportation,Public Transport,109.33
+2024-09-03,vacations,Hotel Stay,278.04
+2024-09-03,vacations,Local Attractions,120.37
+2024-09-03,pets,Pet Food,105.64
+2024-09-03,housing,Rent Payment,184.56
+2024-09-04,eatingOut,Fast Food,174.79
+2024-09-04,misc,Hobby Supplies,93.02
+2024-09-04,eatingOut,Coffee,44.68
+2024-09-05,apparel,T-Shirts,46.76
+2024-09-05,eatingOut,Fast Food,209.74
+2024-09-05,groceries,Snacks,199.5
+2024-09-06,pets,Toys,172.8
+2024-09-06,bills,Internet Bill,212.57
+2024-09-06,vacations,Dining Out,230.69
+2024-09-07,bills,Internet Bill,255.3
+2024-09-08,vacations,Airfare,13.31
+2024-09-08,housing,Mortgage Payment,21.23
+2024-09-08,eatingOut,Dinner at Restaurant,140.01
+2024-09-08,misc,Gift,226.4
+2024-09-09,eatingOut,Dinner at Restaurant,90.53
+2024-09-10,misc,Hobby Supplies,126.44
+2024-09-11,eatingOut,Fast Food,77.88
+2024-09-12,housing,Home Maintenance,275.32
+2024-09-13,misc,Donation,44.0
+2024-09-13,misc,Donation,214.1
+2024-09-13,bills,Internet Bill,205.29
+2024-09-14,vacations,Dining Out,288.21
+2024-09-14,misc,Hobby Supplies,160.06
+2024-09-14,education,College Tuition,225.11
+2024-09-14,vacations,Local Attractions,294.49
+2024-09-15,apparel,Jeans,202.02
+2024-09-15,vacations,Airfare,112.67
+2024-09-16,pets,Toys,95.5
+2024-09-16,apparel,T-Shirts,263.97
+2024-09-17,pets,Pet Food,150.35
+2024-09-17,transportation,Public Transport,179.52
+2024-09-17,misc,Hobby Supplies,132.27
+2024-09-18,groceries,Vegetables,100.6
+2024-09-19,misc,Gift,249.0
+2024-09-20,housing,Mortgage Payment,224.53
+2024-09-20,misc,Gift,59.63
+2024-09-20,bills,Electric Bill,67.77
+2024-09-20,transportation,Public Transport,67.9
+2024-09-21,transportation,Insurance,11.33
+2024-09-21,apparel,Jeans,200.37
+2024-09-21,misc,Donation,112.34
+2024-09-21,transportation,Gas,24.63
+2024-09-22,misc,Gift,46.14
+2024-09-22,vacations,Dining Out,204.73
+2024-09-23,apparel,Shoes,101.94
+2024-09-23,misc,Hobby Supplies,49.0
+2024-09-23,misc,Donation,198.57
+2024-09-23,vacations,Local Attractions,51.22
+2024-09-24,pets,Pet Food,35.46
+2024-09-25,apparel,T-Shirts,215.22
+2024-09-25,pets,Vet Visit,227.46
+2024-09-25,vacations,Local Attractions,145.65
+2024-09-25,bills,Internet Bill,95.94
+2024-09-26,misc,Donation,49.96
+2024-09-26,housing,Mortgage Payment,73.86
+2024-09-26,groceries,Fruits,170.68
+2024-09-26,eatingOut,Lunch at Diner,120.33
+2024-09-27,vacations,Hotel Stay,136.04
+2024-09-27,pets,Vet Visit,218.37
+2024-09-27,apparel,T-Shirts,100.37
+2024-09-28,eatingOut,Dinner at Restaurant,93.58
+2024-09-28,housing,Mortgage Payment,170.45
+2024-09-29,education,Online Course,268.2
+2024-09-29,apparel,Shoes,17.9
+2024-09-29,education,Online Course,252.53
+2024-09-30,groceries,Snacks,174.08
+2024-09-30,education,Books,101.14
+2024-09-30,eatingOut,Fast Food,107.1
+2024-10-01,transportation,Gas,38.44
+2024-10-01,vacations,Dining Out,289.99
+2024-10-01,misc,Donation,138.78
+2024-10-02,apparel,Shoes,98.05
+2024-10-03,apparel,Shoes,121.79
+2024-10-03,housing,Mortgage Payment,203.22
+2024-10-03,bills,Electric Bill,221.98
+2024-10-03,misc,Hobby Supplies,197.22
+2024-10-04,eatingOut,Fast Food,237.62
+2024-10-04,education,College Tuition,113.78
+2024-10-04,transportation,Car Repair,70.97
+2024-10-05,groceries,Snacks,139.01
+2024-10-05,bills,Internet Bill,212.28
+2024-10-06,housing,Mortgage Payment,84.41
+2024-10-06,housing,Mortgage Payment,186.37
+2024-10-06,eatingOut,Dinner at Restaurant,227.7
+2024-10-06,education,College Tuition,68.85
+2024-10-07,eatingOut,Coffee,139.92
+2024-10-07,misc,Gift,170.7
+2024-10-07,transportation,Car Repair,128.95
+2024-10-07,eatingOut,Dinner at Restaurant,26.15
+2024-10-08,pets,Vet Visit,227.69
+2024-10-08,transportation,Insurance,240.83
+2024-10-08,transportation,Public Transport,108.94
+2024-10-09,misc,Gift,44.46
+2024-10-09,vacations,Local Attractions,28.08
+2024-10-09,misc,Hobby Supplies,168.87
+2024-10-09,housing,Home Maintenance,158.93
+2024-10-10,vacations,Hotel Stay,267.21
+2024-10-10,pets,Toys,76.52
+2024-10-11,housing,Home Maintenance,181.64
+2024-10-11,bills,Gas Bill,115.83
+2024-10-11,misc,Gift,32.42
+2024-10-12,misc,Hobby Supplies,240.86
+2024-10-13,bills,Water Bill,46.79
+2024-10-13,misc,Gift,190.63
+2024-10-14,pets,Vet Visit,173.93
+2024-10-14,pets,Vet Visit,165.25
+2024-10-14,pets,Toys,242.9
+2024-10-14,transportation,Public Transport,155.92
+2024-10-15,pets,Toys,209.08
+2024-10-16,groceries,Fruits,82.0
+2024-10-16,apparel,Shoes,64.68
+2024-10-16,housing,Home Maintenance,237.95
+2024-10-17,eatingOut,Dinner at Restaurant,85.8
+2024-10-17,pets,Toys,199.16
+2024-10-17,vacations,Hotel Stay,52.59
+2024-10-18,vacations,Airfare,167.17
+2024-10-19,pets,Toys,63.34
+2024-10-19,transportation,Gas,19.55
+2024-10-20,pets,Vet Visit,196.56
+2024-10-20,bills,Internet Bill,117.93
+2024-10-20,misc,Hobby Supplies,131.89
+2024-10-21,misc,Donation,54.58
+2024-10-21,vacations,Hotel Stay,116.9
+2024-10-21,bills,Water Bill,60.37
+2024-10-22,bills,Water Bill,227.09
+2024-10-23,misc,Gift,157.05
+2024-10-23,groceries,Meat,268.49
+2024-10-23,eatingOut,Lunch at Diner,278.27
+2024-10-23,pets,Pet Food,261.83
+2024-10-24,misc,Donation,139.38
+2024-10-24,bills,Internet Bill,112.17
+2024-10-25,bills,Gas Bill,251.25
+2024-10-26,groceries,Snacks,275.93
+2024-10-27,pets,Pet Food,188.41
+2024-10-28,education,Books,50.8
+2024-10-28,education,Online Course,115.66
+2024-10-28,groceries,Snacks,144.29
+2024-10-28,housing,Home Maintenance,146.59
+2024-10-29,transportation,Gas,185.17
+2024-10-29,misc,Gift,273.08
+2024-10-29,misc,Donation,200.09
+2024-10-29,eatingOut,Dinner at Restaurant,258.56
+2024-10-30,bills,Water Bill,240.68
+2024-10-31,misc,Gift,39.03
+2024-10-31,transportation,Gas,290.27
+2024-10-31,pets,Vet Visit,233.96
+2024-11-01,bills,Electric Bill,221.86
+2024-11-01,transportation,Gas,195.04
+2024-11-01,bills,Gas Bill,252.02
+2024-11-02,housing,Mortgage Payment,124.66
+2024-11-02,groceries,Fruits,94.22
+2024-11-02,eatingOut,Fast Food,255.57
+2024-11-03,groceries,Snacks,232.79
+2024-11-03,vacations,Dining Out,110.84
+2024-11-03,groceries,Fruits,51.73
+2024-11-03,eatingOut,Dinner at Restaurant,75.09
+2024-11-04,misc,Donation,187.08
+2024-11-04,pets,Toys,259.47
+2024-11-05,apparel,T-Shirts,157.0
+2024-11-06,eatingOut,Fast Food,10.35
+2024-11-06,eatingOut,Lunch at Diner,247.5
+2024-11-06,vacations,Dining Out,72.43
+2024-11-07,housing,Mortgage Payment,282.59
+2024-11-07,housing,Mortgage Payment,105.0
+2024-11-07,apparel,Shoes,102.2
+2024-11-07,apparel,T-Shirts,190.41
+2024-11-08,misc,Gift,296.19
+2024-11-08,transportation,Gas,220.29
+2024-11-09,transportation,Insurance,78.16
+2024-11-09,groceries,Fruits,141.21
+2024-11-09,eatingOut,Fast Food,60.83
+2024-11-09,transportation,Car Repair,5.78
+2024-11-10,education,Books,225.46
+2024-11-10,misc,Gift,75.94
+2024-11-10,vacations,Local Attractions,96.44
+2024-11-11,groceries,Vegetables,118.99
+2024-11-12,transportation,Car Repair,13.04
+2024-11-12,bills,Water Bill,164.95
+2024-11-13,pets,Toys,93.23
+2024-11-13,pets,Pet Food,168.69
+2024-11-13,housing,Rent Payment,104.02
+2024-11-14,pets,Toys,86.0
+2024-11-14,misc,Gift,125.27
+2024-11-14,vacations,Hotel Stay,160.36
+2024-11-14,pets,Toys,171.44
+2024-11-15,misc,Donation,102.82
+2024-11-15,bills,Gas Bill,117.32
+2024-11-15,transportation,Public Transport,156.45
+2024-11-16,pets,Toys,54.84
+2024-11-16,pets,Vet Visit,133.43
+2024-11-16,bills,Gas Bill,97.66
+2024-11-16,eatingOut,Fast Food,22.55
+2024-11-17,vacations,Hotel Stay,44.08
+2024-11-17,groceries,Fruits,147.67
+2024-11-17,eatingOut,Fast Food,208.63
+2024-11-18,bills,Water Bill,285.09
+2024-11-18,eatingOut,Fast Food,280.58
+2024-11-18,vacations,Airfare,126.0
+2024-11-19,groceries,Vegetables,125.46
+2024-11-19,transportation,Car Repair,239.16
+2024-11-19,misc,Hobby Supplies,295.52
+2024-11-20,transportation,Public Transport,156.14
+2024-11-20,vacations,Hotel Stay,174.54
+2024-11-20,housing,Rent Payment,213.69
+2024-11-20,transportation,Car Repair,15.51
+2024-11-21,bills,Internet Bill,170.21
+2024-11-21,vacations,Airfare,20.88
+2024-11-22,bills,Internet Bill,234.26
+2024-11-22,bills,Water Bill,287.94
+2024-11-22,groceries,Vegetables,63.61
+2024-11-22,apparel,Jeans,215.45
+2024-11-23,education,School Supplies,242.71
+2024-11-23,pets,Pet Food,68.84
+2024-11-23,bills,Water Bill,165.88
+2024-11-24,housing,Home Maintenance,230.93
+2024-11-24,groceries,Fruits,76.39
+2024-11-24,apparel,Jacket,178.99
+2024-11-25,transportation,Insurance,92.33
+2024-11-26,eatingOut,Coffee,123.68
+2024-11-26,vacations,Local Attractions,209.11
+2024-11-27,transportation,Public Transport,201.93
+2024-11-28,housing,Rent Payment,102.56
+2024-11-28,bills,Gas Bill,170.25
+2024-11-28,misc,Donation,227.82
+2024-11-29,vacations,Airfare,204.05
+2024-11-29,housing,Home Maintenance,239.23
+2024-11-29,groceries,Meat,164.68
+2024-11-30,misc,Donation,172.0
+2024-11-30,transportation,Public Transport,203.16
+2024-12-01,transportation,Car Repair,106.34
+2024-12-02,housing,Mortgage Payment,108.97
+2024-12-02,pets,Pet Food,78.5
+2024-12-02,housing,Rent Payment,111.06
+2024-12-02,misc,Hobby Supplies,103.78
+2024-12-03,misc,Donation,37.98
+2024-12-03,education,School Supplies,144.79
+2024-12-04,bills,Gas Bill,79.18
+2024-12-04,transportation,Gas,198.53
+2024-12-04,transportation,Car Repair,255.75
+2024-12-05,pets,Pet Food,18.78
+2024-12-05,apparel,Jeans,283.35
+2024-12-06,apparel,Shoes,163.75
+2024-12-06,housing,Rent Payment,174.11
+2024-12-06,apparel,Jeans,230.57
+2024-12-06,vacations,Airfare,26.52
+2024-12-07,misc,Hobby Supplies,210.2
+2024-12-07,education,Books,279.6
+2024-12-07,vacations,Hotel Stay,179.34
+2024-12-07,misc,Gift,26.08
+2024-12-08,transportation,Insurance,75.6
+2024-12-08,transportation,Insurance,15.01
+2024-12-09,vacations,Dining Out,250.98
+2024-12-09,groceries,Fruits,185.09
+2024-12-09,transportation,Insurance,265.0
+2024-12-09,housing,Home Maintenance,200.04
+2024-12-10,pets,Vet Visit,158.24
+2024-12-10,bills,Internet Bill,158.86
+2024-12-10,bills,Electric Bill,292.6
+2024-12-10,groceries,Meat,35.2
+2024-12-11,vacations,Dining Out,298.55
+2024-12-11,education,College Tuition,71.07
+2024-12-12,apparel,Jacket,68.23
+2024-12-12,eatingOut,Coffee,30.22
+2024-12-12,education,College Tuition,224.24
+2024-12-13,groceries,Vegetables,224.69
+2024-12-14,apparel,Jeans,90.45
+2024-12-14,pets,Pet Food,171.24
+2024-12-14,vacations,Hotel Stay,185.21
+2024-12-15,transportation,Gas,213.11
+2024-12-16,groceries,Vegetables,253.31
+2024-12-17,transportation,Car Repair,116.4
+2024-12-17,vacations,Dining Out,16.82
+2024-12-17,pets,Toys,107.55
+2024-12-17,vacations,Hotel Stay,38.38
+2024-12-18,vacations,Airfare,198.26
+2024-12-18,education,College Tuition,281.81
+2024-12-19,education,School Supplies,283.89
+2024-12-19,vacations,Airfare,246.43
+2024-12-19,bills,Internet Bill,226.31
+2024-12-20,apparel,Jeans,27.1
+2024-12-21,misc,Hobby Supplies,63.39
+2024-12-22,eatingOut,Fast Food,189.52
+2024-12-22,education,College Tuition,219.11
+2024-12-22,vacations,Airfare,110.04
+2024-12-23,transportation,Public Transport,37.77
+2024-12-23,groceries,Vegetables,210.78
+2024-12-24,eatingOut,Dinner at Restaurant,290.62
+2024-12-24,pets,Vet Visit,170.28
+2024-12-24,vacations,Local Attractions,208.19
+2024-12-24,transportation,Gas,27.68
+2024-12-25,housing,Rent Payment,51.28
+2024-12-26,bills,Internet Bill,213.35
+2024-12-27,pets,Pet Food,110.68
+2024-12-27,transportation,Car Repair,117.75
+2024-12-28,housing,Home Maintenance,163.49
+2024-12-29,eatingOut,Fast Food,77.21
+2024-12-29,vacations,Airfare,80.27
+2024-12-29,bills,Electric Bill,166.48
+2024-12-29,misc,Hobby Supplies,20.97
+2024-12-30,housing,Mortgage Payment,110.55
+2024-12-30,pets,Toys,123.46
+2024-12-30,groceries,Meat,215.29
+2024-12-31,apparel,Jeans,67.61
+2024-12-31,transportation,Insurance,110.13
+2024-12-31,groceries,Fruits,295.87
+2024-12-31,education,College Tuition,48.59
+2025-01-01,groceries,Vegetables,255.72
+2025-01-01,groceries,Vegetables,61.74
+2025-01-02,misc,Hobby Supplies,14.38
+2025-01-02,vacations,Airfare,49.36
+2025-01-03,misc,Donation,38.65
+2025-01-03,eatingOut,Fast Food,198.28
+2025-01-03,transportation,Gas,18.95
+2025-01-03,apparel,T-Shirts,29.65
+2025-01-04,pets,Pet Food,190.49
+2025-01-04,education,Books,243.45
+2025-01-05,vacations,Dining Out,98.79
+2025-01-05,apparel,Jeans,54.66
+2025-01-05,apparel,Shoes,147.77
+2025-01-05,pets,Toys,197.91
+2025-01-06,transportation,Public Transport,213.64
+2025-01-07,vacations,Local Attractions,262.77
+2025-01-07,misc,Gift,170.94
+2025-01-08,eatingOut,Lunch at Diner,41.81
+2025-01-08,vacations,Airfare,283.48
+2025-01-08,transportation,Insurance,97.48
+2025-01-09,groceries,Vegetables,56.56
+2025-01-09,pets,Pet Food,231.54
+2025-01-09,eatingOut,Coffee,91.01
+2025-01-09,misc,Donation,13.65
+2025-01-10,apparel,Jeans,22.9
+2025-01-10,housing,Home Maintenance,11.98
+2025-01-10,housing,Mortgage Payment,130.89
+2025-01-11,housing,Home Maintenance,172.21
+2025-01-12,bills,Water Bill,40.64
+2025-01-13,pets,Vet Visit,234.69
+2025-01-14,transportation,Insurance,157.46
+2025-01-14,groceries,Vegetables,124.71
+2025-01-15,apparel,Shoes,13.38
+2025-01-15,education,Books,160.39
+2025-01-16,housing,Home Maintenance,271.9
+2025-01-17,apparel,Jeans,181.21
+2025-01-17,eatingOut,Fast Food,226.3
+2025-01-17,bills,Electric Bill,178.07
+2025-01-18,apparel,T-Shirts,251.18
+2025-01-19,apparel,Jacket,128.4
+2025-01-19,eatingOut,Coffee,175.8
+2025-01-20,pets,Vet Visit,187.31
+2025-01-20,bills,Internet Bill,210.4
+2025-01-20,education,School Supplies,66.45
+2025-01-21,bills,Electric Bill,112.15
+2025-01-21,bills,Water Bill,72.21
+2025-01-21,transportation,Insurance,223.94
+2025-01-21,vacations,Local Attractions,172.64
+2025-01-22,apparel,Shoes,229.88
+2025-01-23,housing,Home Maintenance,229.86
+2025-01-23,education,Online Course,62.03
+2025-01-23,vacations,Local Attractions,95.03
+2025-01-23,pets,Pet Food,244.89
+2025-01-24,vacations,Airfare,32.68
+2025-01-24,apparel,T-Shirts,15.58
+2025-01-24,eatingOut,Fast Food,175.75
+2025-01-25,bills,Gas Bill,137.19
+2025-01-25,eatingOut,Coffee,87.63
+2025-01-26,misc,Gift,212.46
+2025-01-26,bills,Internet Bill,230.57
+2025-01-26,bills,Water Bill,176.15
+2025-01-27,apparel,Jeans,281.2
+2025-01-27,eatingOut,Fast Food,178.82
+2025-01-27,pets,Vet Visit,63.29
+2025-01-28,education,School Supplies,5.26
+2025-01-28,misc,Gift,195.75
+2025-01-28,bills,Water Bill,230.26
+2025-01-29,pets,Pet Food,235.8
+2025-01-29,eatingOut,Coffee,66.28
+2025-01-29,bills,Internet Bill,45.59
+2025-01-30,education,College Tuition,36.54
+2025-01-30,vacations,Airfare,86.01
+2025-01-30,apparel,Jeans,24.87
+2025-01-31,misc,Donation,280.05
+2025-01-31,groceries,Vegetables,127.9
+2025-01-31,transportation,Gas,151.63
+2025-02-01,misc,Gift,192.83
+2025-02-01,education,Books,23.97
+2025-02-01,groceries,Vegetables,163.04
+2025-02-01,eatingOut,Dinner at Restaurant,282.37
+2025-02-02,misc,Gift,95.9
+2025-02-02,misc,Donation,18.43
+2025-02-03,education,Online Course,37.84
+2025-02-03,groceries,Vegetables,29.42
+2025-02-03,transportation,Car Repair,126.75
+2025-02-03,transportation,Insurance,42.16
+2025-02-04,transportation,Gas,217.22
+2025-02-05,vacations,Airfare,150.29
+2025-02-05,housing,Mortgage Payment,12.68
+2025-02-06,apparel,T-Shirts,117.9
+2025-02-06,housing,Mortgage Payment,147.55
+2025-02-06,housing,Rent Payment,13.5
+2025-02-07,eatingOut,Dinner at Restaurant,123.36
+2025-02-08,eatingOut,Lunch at Diner,102.64
+2025-02-08,housing,Home Maintenance,59.35
+2025-02-09,housing,Mortgage Payment,80.2
+2025-02-09,misc,Donation,268.72
+2025-02-09,transportation,Insurance,109.77
+2025-02-09,pets,Vet Visit,197.39
+2025-02-10,transportation,Public Transport,130.21
+2025-02-11,transportation,Insurance,152.83
+2025-02-11,misc,Donation,73.8
+2025-02-11,transportation,Public Transport,7.37
+2025-02-12,education,Online Course,144.56
+2025-02-12,misc,Hobby Supplies,11.44
+2025-02-13,groceries,Meat,279.15
+2025-02-13,misc,Donation,128.93
+2025-02-13,transportation,Gas,218.62
+2025-02-14,eatingOut,Fast Food,228.39
+2025-02-14,groceries,Snacks,191.28
+2025-02-14,bills,Electric Bill,145.48
+2025-02-15,misc,Gift,199.35
+2025-02-16,eatingOut,Fast Food,127.02
+2025-02-16,bills,Electric Bill,215.67
+2025-02-16,housing,Rent Payment,116.87
+2025-02-16,education,College Tuition,173.38
+2025-02-17,housing,Mortgage Payment,111.17
+2025-02-18,groceries,Vegetables,269.87
+2025-02-18,housing,Rent Payment,234.18
+2025-02-18,pets,Vet Visit,177.82
+2025-02-19,eatingOut,Coffee,201.99
+2025-02-19,apparel,T-Shirts,213.69
+2025-02-20,bills,Electric Bill,280.88
+2025-02-21,vacations,Local Attractions,120.16
+2025-02-21,pets,Vet Visit,28.04
+2025-02-22,pets,Vet Visit,26.58
+2025-02-23,vacations,Airfare,114.65
+2025-02-23,vacations,Airfare,116.78
+2025-02-23,groceries,Fruits,251.44
+2025-02-24,apparel,Jacket,40.78
+2025-02-24,eatingOut,Fast Food,233.75
+2025-02-24,apparel,Jacket,24.64
+2025-02-25,transportation,Gas,233.18
+2025-02-25,education,Online Course,108.75
+2025-02-26,transportation,Car Repair,158.56
+2025-02-26,eatingOut,Dinner at Restaurant,55.06
+2025-02-26,bills,Electric Bill,81.92
+2025-02-27,transportation,Car Repair,116.74
+2025-02-27,pets,Toys,271.74
+2025-02-27,vacations,Hotel Stay,237.69
+2025-02-28,vacations,Dining Out,246.18

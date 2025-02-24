@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PFT - LOGIN</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+</head>
+
+<body>
+    <header class="pageHeader" aria-label="Page Header">
+        <h2>
+            Log In
+        </h2>        
+        <p>
+            Please log in.            
+        </p>
+        <p class="u-center u-smallFont">
+            Don't have a User?
+            <a href="./register.html">Sign Up</a>
+        </p>
+
+    </header>
+
+    <menu class="sideMenu" aria-label="Site navigation menu">
+        <li class="u-marginTop-1rem">
+            <div class="iconPH">
+                <a href="./index.html">$</a>
+            </div>
+        </li>        
+        <li>
+            <div class="iconPH">
+                <a href="./expenses.html">E</a>
+            </div>
+        </li>
+        <li>
+            <div class="iconPH">
+                <a href="./configuration.html">CFG</a>
+            </div>
+        </li>
+        <li>
+            <div class="iconPH">
+                <a href="./add_transaction.html">+</a>
+            </div>
+        </li>
+        <li class="u-marginBot-1rem">
+            <div class="iconPH">👨🏼</div>
+        </li>
+    </menu> 
+    
+    <form name="login" class="loginForm">
+        <li>
+            <label for="username">Username:</label>
+            <input name="username" type="text" id="username" class="u-inputFieldShort">
+        </li>
+        <li>
+            <label for="password">Password:</label>
+            <input  name="password" type="text" id="password" class="u-inputFieldShort">
+        </li>               
+        <button id="logInButton" class="button">Log In</button>
+    </form>
+    
+
+    <script type="module">
+        import { login } from "./dist/view.js";
+
+        login(
+            document.forms.namedItem("login")            
+        );
+    </script>
+    
+</body>
