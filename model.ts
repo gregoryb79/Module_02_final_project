@@ -56,6 +56,11 @@ function loadIncomes(): Map<string, Income> {
     ]));
 }
 
+export function addExpense(expense: Expense){
+    expenses.set(expense.id,expense);
+    saveExpenses(expenses);
+}
+
 function saveExpenses(expenses: Map<string, Expense>) {
     const expensesArray = Array.from(expenses.entries()); 
     localStorage.setItem(expencesStorageKey, JSON.stringify(expensesArray));
@@ -135,6 +140,10 @@ function parseIncomesCSV(csv : string) : Map<string, Income> {
 
     return incomes;
 
+}
+
+export function getExpenseById (id: string) : Expense {
+   return expenses.get(id);
 }
 
 export function getExpensesByDates(startDate : Date, stopDate : Date) : Expense[] {

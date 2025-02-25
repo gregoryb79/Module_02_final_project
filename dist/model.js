@@ -30,6 +30,10 @@ function loadIncomes() {
         { ...income, date: new Date(income.date) } // Recreate Date object
     ]));
 }
+export function addExpense(expense) {
+    expenses.set(expense.id, expense);
+    saveExpenses(expenses);
+}
 function saveExpenses(expenses) {
     const expensesArray = Array.from(expenses.entries());
     localStorage.setItem(expencesStorageKey, JSON.stringify(expensesArray));
@@ -84,6 +88,9 @@ function parseIncomesCSV(csv) {
             sum: parseFloat(sum) });
     }
     return incomes;
+}
+export function getExpenseById(id) {
+    return expenses.get(id);
 }
 export function getExpensesByDates(startDate, stopDate) {
     // console.log(startDate);

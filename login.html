@@ -8,56 +8,61 @@
 </head>
 
 <body>
-    <header class="pageHeader" aria-label="Page Header">
+    <header class="loginHeader" aria-label="Page Header">
         <h2>
             Log In
         </h2>        
         <p>
-            Please log in.            
-        </p>
-        <p class="u-center u-smallFont">
+            Please log in. 
             Don't have a User?
-            <a href="./register.html">Sign Up</a>
+            <a href="./register.html">Sign Up.</a>        
         </p>
-
     </header>
 
-    <menu class="sideMenu" aria-label="Site navigation menu">
+    <menu class="sideMenu u-borderRadius-16 u-margin-4" aria-label="Site navigation menu">
         <li class="u-marginTop-1rem">
-            <div class="iconPH">
-                <a href="./index.html">$</a>
-            </div>
+            <a href="./index.html">
+                <div class="iconPH">
+                    $
+                </div>
+            </a>
         </li>        
         <li>
-            <div class="iconPH">
-                <a href="./expenses.html">E</a>
-            </div>
+            <a href="./expenses.html">
+                <div class="iconPH">
+                E
+                </div>
+            </a>
+        </li>
+        <li>
+            <a href="./incomes.html">
+                <div class="iconPH">
+                    I
+                </div>
+            </a>
         </li>
         <li>
             <div class="iconPH">
-                <a href="./configuration.html">CFG</a>
-            </div>
-        </li>
-        <li>
-            <div class="iconPH">
-                <a href="./add_transaction.html">+</a>
+                +
             </div>
         </li>
         <li class="u-marginBot-1rem">
-            <div class="iconPH">👨🏼</div>
+            <a href="./login.html">
+                <div class="iconPH">L</div>
+            </a>
         </li>
     </menu> 
     
-    <form name="login" class="loginForm">
+    <form name="login" class="loginForm u-borderRadius-16">
         <li>
             <label for="username">Username:</label>
-            <input name="username" type="text" id="username" class="u-inputFieldShort">
+            <input name="username" type="text" id="username" class="u-inputFieldShort u-largeFont" required>
         </li>
         <li>
             <label for="password">Password:</label>
-            <input  name="password" type="text" id="password" class="u-inputFieldShort">
+            <input  name="password" type="text" id="password" class="u-inputFieldShort u-largeFont" required>
         </li>               
-        <button id="logInButton" class="button">Log In</button>
+        <button id="logInButton" class="button u-largeFont u-borderRadius-8" >Log In</button>
     </form>
     
 

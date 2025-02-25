@@ -1,5 +1,5 @@
-import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile } from "./controller.js";
-import { getCurrentUser, getExpensesByDates, getIncomesByDates, getExpensesByCategories } from "./model.js";
+import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile, onExpenseSubmit } from "./controller.js";
+import { getCurrentUser, getExpensesByDates, getIncomesByDates, getExpensesByCategories, getExpenseById } from "./model.js";
 export function checkUser() {
     const currentUser = getCurrentUser();
     if (currentUser === "") {
@@ -195,7 +195,7 @@ export function index(monthInput, balanceSheet, expenseMeterCanvas, balance, per
         drawMeter(income, expense);
     }
 }
-export function expenses(filesForm, datesForm, expensesList) {
+export function expenses(filesForm, datesForm, expensesList, expenseForm) {
     const today = new Date();
     const monthAgo = new Date();
     monthAgo.setMonth(monthAgo.getMonth() - 1);
@@ -203,6 +203,7 @@ export function expenses(filesForm, datesForm, expensesList) {
     const formattedMonthAgo = monthAgo.toISOString().slice(0, 10);
     datesForm.startDate.value = formattedMonthAgo;
     datesForm.stopDate.value = formattedToday;
+    expenseForm.date.value = today.toISOString().slice(0, 10);
     renderTransactions(monthAgo, today, expensesList, "expenses");
     filesForm.addEventListener("change", function (e) {
         const target = e.target;
@@ -221,6 +222,40 @@ export function expenses(filesForm, datesForm, expensesList) {
             // Handle export logic here
         }
         renderTransactions(startDate, stopDate, expensesList, "expenses");
+    });
+    expenseForm.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const formData = new FormData(expenseForm, e.submitter);
+        try {
+            onExpenseSubmit(formData);
+            expenseForm.reset();
+        }
+        catch (error) {
+            console.error(error);
+            displayToast(expenseForm, error);
+        }
+        renderTransactions(startDate, stopDate, expensesList, "expenses");
+    });
+    expensesList.addEventListener("click", function (e) {
+        const target = e.target.closest("li");
+        const expenseId = target.dataset.id;
+        console.log("expensesList clicked");
+        if (!expenseId) {
+            return;
+        }
+        console.log(`Espense record ${expenseId} clicked`);
+        try {
+            const expense = getExpenseById(expenseId);
+            const idInput = expenseForm.elements.namedItem('id');
+            idInput.value = expense.id;
+            expenseForm.date.value = expense.date.toISOString().slice(0, 10);
+            expenseForm.category.value = expense.category;
+            expenseForm.sum.value = expense.sum;
+            expenseForm.description.value = expense.description;
+        }
+        catch (error) {
+            displayToast(expenseForm, error);
+        }
     });
     let stopDate = today;
     let startDate = monthAgo;

@@ -7,30 +7,36 @@
     <title>Expenses</title>    
 </head>
 <body>
-    <header class="pageHeader" aria-label="Page Header">
+    <header class="expsesHeader u-borderRadius-16  u-margin-4" aria-label="Page Header">
         <h2>
-            Expences
+            Expenses
         </h2> 
         <p>
             Manage all your expences in a simple way.
         </p>
     </header>
 
-    <menu class="sideMenu" aria-label="Site navigation menu">
+    <menu class="sideMenu u-borderRadius-16 u-margin-4" aria-label="Site navigation menu">
         <li class="u-marginTop-1rem">
-            <div class="iconPH">
-                <a href="./index.html">$</a>
-            </div>
+            <a href="./index.html">
+                <div class="iconPH">
+                    $
+                </div>
+            </a>
         </li>        
         <li>
-            <div class="iconPH">
-                <a href="./expenses.html">E</a>
-            </div>
+            <a href="./expenses.html">
+                <div class="iconPH">
+                E
+                </div>
+            </a>
         </li>
         <li>
-            <div class="iconPH">
-                <a href="./incomes.html">I</a>
-            </div>
+            <a href="./incomes.html">
+                <div class="iconPH">
+                    I
+                </div>
+            </a>
         </li>
         <li>
             <div class="iconPH">
@@ -38,10 +44,12 @@
             </div>
         </li>
         <li class="u-marginBot-1rem">
-            <div class="iconPH">👨🏼</div>
+            <a href="./login.html">
+                <div class="iconPH">L</div>
+            </a>
         </li>
     </menu> 
-    <section class="expensesSection">
+    <section class="expensesSection u-borderRadius-16 u-margin-4">
         <form name="datesRange" class="datesRange">
             <span>
                 <label for="startDate">From:</label>
@@ -54,18 +62,49 @@
         </form>
         <ul class="expensesList" id="expensesList" aria-label="List of all expenses in given period.">
             <li>
-               catIcon description date sum
+               No expenses to display!
            </li>
        </ul>
     </section>
     
 
-    <form name="fileHandler" class="fileHandler">        
+    <form name="fileHandler" class="fileHandler u-borderRadius-16 u-margin-4">        
         <label for="importFile">Import Expenses</label>
         <input type="file" id="importFile" name="importFile">
         <label for="exportFile">Export Expenses</label>
         <input type="file" id="exportFile" name="exportFile">
         <p>must be CSV file</p>
+    </form>
+
+    <form name="expenseForm" class="expenseForm u-borderRadius-16 u-margin-4" id="expenseForm">
+        <input type="hidden" name="id">
+        <div class="form-control">
+            <label for="category">Category:</label>
+            <select name="category" id="category" class="u-largeFont u-borderRadius-8 u-maxWidth-10rem" name="category">
+                <option>Groceries</option>
+                <option>Bills</option>
+                <option>Housing</option>
+                <option>Miscellaneous</option>
+                <option>Apparel</option>
+                <option>Pets</option>
+                <option>Transportation</option>
+                <option>Eating Out</option>
+                <option>Education</option>
+                <option>Vacations</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <input type="date" class="u-largeFont u-borderRadius-8 " name="date" id="date" required>
+        </div>
+        <div class="form-control">
+            <label for="sum">Sum ($):</label>
+            <input type="number" name="sum" id="sum" class="u-largeFont u-borderRadius-8  u-textRight" step="0.01" min="0" required>
+        </div>
+        <div class="form-control">
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" type="text" rows="6" class="u-largeFont u-radius-8" required></textarea>
+        </div>
+        <button class="u-borderRadius-8">Apply</button>
     </form>
     
     <script type="module">
@@ -75,7 +114,8 @@
 
         expenses(document.forms.namedItem("fileHandler"),
             document.forms.namedItem("datesRange"),
-            document.getElementById("expensesList")
+            document.getElementById("expensesList"),
+            document.forms.namedItem("expenseForm"),
         );
     </script>
 

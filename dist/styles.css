@@ -104,6 +104,10 @@ body {
   border-radius: 1rem;
 }
 
+.u-borderRadius-8 {
+  border-radius: 0.5rem;
+}
+
 .u-margin-4 {
   margin: 0.25rem;
 }
@@ -112,8 +116,21 @@ body {
   font-size: var(--regularFont);
 }
 
+.u-largeFont {
+  font-size: var(--largeFont);
+}
+
 .u-smallerH2 {
   font-size: 2rem;
+}
+
+.u-inputFieldShort {
+  width: 13rem;
+  height: 2rem;
+}
+
+.u-textRight {
+  text-align: right;
 }
 
 .u-Bills {
@@ -227,6 +244,29 @@ body {
   padding-right: 0.5rem;
 }
 
+.expsesHeader {
+  border: 1px solid darkgray;
+  grid-column: 2/5;
+  grid-row: 1/3;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 0.5rem;
+}
+
+.loginHeader {
+  grid-column: 2/13;
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.loginHeader a {
+  text-decoration: underline;
+}
+
 .balanceSheet {
   border: 1px solid darkgrey;
   grid-column: 2/5;
@@ -293,7 +333,8 @@ body {
 }
 
 .expensesSection {
-  grid-column: 2/8;
+  border: 1px solid darkgray;
+  grid-column: 5/13;
   grid-row: 1/13;
 }
 
@@ -325,6 +366,7 @@ body {
   grid-template-columns: 0.85fr 1.1fr 3fr 2fr;
   font-size: var(--regularFont);
   align-items: center;
+  cursor: pointer;
 }
 .transactionRow :first-child {
   margin-left: 1rem;
@@ -373,13 +415,42 @@ body {
 }
 
 .fileHandler {
-  border: 1px solid red;
-  grid-column: 2/3;
+  border: 1px solid darkgray;
+  grid-column: 2/5;
   grid-row: 3/5;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   padding-left: 1rem;
+}
+
+.expenseForm {
+  border: 1px solid darkgray;
+  grid-column: 2/5;
+  grid-row: 5/13;
+  font-size: var(--largeFont);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.expenseForm button {
+  font-size: var(--largeFont);
+  border: 1px solid darkgray;
+  width: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.expenseForm button:hover {
+  transform: scale(1.1);
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .transactioFileHandler {
@@ -393,23 +464,56 @@ body {
 }
 
 .loginForm {
-  border: 1px solid red;
-  grid-column: 3/4;
-  grid-row: 4/10;
+  border: 1px solid darkgray;
+  grid-column: 5/span 5;
+  grid-row: 4/8;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  font-size: var(--largeFont);
+}
+.loginForm li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 1.5rem);
+}
+.loginForm button {
+  border: 1px solid darkgray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+.loginForm button:hover {
+  transform: scale(1.1);
 }
 
 .registerForm {
-  border: 1px solid red;
-  grid-column: 3/4;
-  grid-row: 4/10;
+  border: 1px solid darkgray;
+  grid-column: 5/span 5;
+  grid-row: 4/9;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  font-size: var(--largeFont);
+}
+.registerForm li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 1.5rem);
+  align-items: center;
+}
+.registerForm button {
+  border: 1px solid darkgray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+.registerForm button:hover {
+  transform: scale(1.1);
 }
 
 .toast {
