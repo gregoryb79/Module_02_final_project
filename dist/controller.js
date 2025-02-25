@@ -1,4 +1,4 @@
-import { addUser, getPassword, setCurrentUser, importFromCSV, addExpense } from "./model.js";
+import { addUser, getPassword, setCurrentUser, importFromCSV, addExpense, addIncome } from "./model.js";
 export function onRegisterFormSubmit(formData) {
     const rawUsername = formData.get("username");
     if (typeof rawUsername !== "string") {
@@ -65,6 +65,34 @@ export function onExpenseSubmit(formData) {
         id = crypto.randomUUID().replaceAll("-", "").slice(-8);
     }
     addExpense({ id, date, description, category, sum });
+}
+export function onIncomeSubmit(formData) {
+    const dateRaw = formData.get("date").toString();
+    if (!dateRaw) {
+        throw new Error("Date can't be empty");
+    }
+    const date = new Date(dateRaw);
+    const sumRaw = formData.get("sum").toString();
+    if (!sumRaw) {
+        throw new Error("Sum can't be empty");
+    }
+    const sum = parseFloat(sumRaw);
+    const sourceRaw = formData.get("source");
+    if (typeof sourceRaw !== "string") {
+        throw new Error("Source must be a string");
+    }
+    const source = sourceRaw.trim();
+    if (!source) {
+        throw new Error("Source can't be empty");
+    }
+    let id = formData.get("id");
+    if (typeof id !== "string") {
+        throw new Error("Id must be a string");
+    }
+    if (!id) {
+        id = crypto.randomUUID().replaceAll("-", "").slice(-8);
+    }
+    addIncome({ id, date, source, sum });
 }
 export function onLoginFormSubmit(formData) {
     const username = formData.get("username");

@@ -1,6 +1,7 @@
-import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile, onExpenseSubmit } from "./controller.js";
+import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile, onExpenseSubmit, onIncomeSubmit } from "./controller.js";
 import { Expense, Income, getCurrentUser, getExpensesByDates, getIncomesByDates,
-        getExpensesByCategories, getExpenseById} from "./model.js";
+        getExpensesByCategories, getExpenseById, getIncomeById,
+        addExpense} from "./model.js";
 
 
 export function checkUser(){
@@ -12,7 +13,8 @@ export function checkUser(){
 
 export function index(monthInput: HTMLInputElement, balanceSheet: HTMLElement, expenseMeterCanvas: HTMLCanvasElement,
                     balance: HTMLElement, percentage: HTMLElement, expenseGraphCanvas: HTMLCanvasElement,
-                    largestCategories: HTMLElement, recentExpensesList: HTMLElement){
+                    largestCategories: HTMLElement, recentExpensesList: HTMLElement,
+                    addExpense: HTMLElement, expenseForm: HTMLFormElement){
     const today = new Date();
     const monthAgo = new Date();
     const firstOfThisMonth = new Date(today.getFullYear(),today.getMonth(),1);
@@ -41,6 +43,43 @@ export function index(monthInput: HTMLInputElement, balanceSheet: HTMLElement, e
         renderLargestCategories(categories);       
     });
 
+    let expenseFormShown = false;
+    addExpense.addEventListener("click",function(e){
+        console.log(`+ clicked, formShown is: ${expenseFormShown}`);
+        if (expenseFormShown) {
+            expenseForm.classList.remove("active");
+            expenseFormShown = false;
+        } else{
+            doExpenseForm();
+            expenseForm.classList.add("active");
+            expenseFormShown = true;           
+            console.log(`expense form done, formShown is: ${expenseFormShown}`);
+        }
+    });
+
+    function doExpenseForm(){
+        const newForm = expenseForm.cloneNode(true) as HTMLFormElement;;
+        expenseForm.replaceWith(newForm);
+        expenseForm = newForm;
+        newForm.reset();
+
+        newForm.date.value = today.toISOString().slice(0, 10);
+        newForm.addEventListener("submit", function(e){
+            e.preventDefault();
+            const formData = new FormData(newForm, e.submitter);
+            try {
+                onExpenseSubmit(formData);
+                newForm.reset();
+            }catch (error) {
+                console.error(error);
+                displayToast(expenseForm,error);
+            }
+            renderTransactions(monthAgo,today,recentExpensesList,"expenses");
+            newForm.classList.remove("active");
+            expenseFormShown = false;
+        });
+        return newForm;
+    }
 
     function drawChart(categories: Array<[string, number]>){
         
@@ -167,7 +206,6 @@ export function index(monthInput: HTMLInputElement, balanceSheet: HTMLElement, e
         ctx.fill();
         ctx.closePath();
         ctx.globalCompositeOperation = "source-over";
-
         
     }
     
@@ -304,12 +342,11 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
             idInput.value = expense.id;
             expenseForm.date.value = expense.date.toISOString().slice(0, 10);
             expenseForm.category.value = expense.category;
-            expenseForm.sum.value = expense.sum;
+            expenseForm.sum.value = Math.round(expense.sum * 100) / 100;;
             expenseForm.description.value = expense.description;          
         } catch (error){
             displayToast(expenseForm,error);
-        }
-        
+        }        
 
     });
 
@@ -333,7 +370,9 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
 
 }
 
-export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, incomesList: HTMLElement){
+export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, incomesList: HTMLElement,
+                        incomeForm: HTMLFormElement
+){
 
     const today = new Date(); 
     const yearAgo = new Date();
@@ -344,6 +383,7 @@ export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, 
     const formattedMonthAgo = yearAgo.toISOString().slice(0, 10);
     datesForm.startDate.value = formattedMonthAgo;
     datesForm.stopDate.value = formattedToday;    
+    incomeForm.date.value = today.toISOString().slice(0, 10);
 
     renderTransactions(yearAgo,today,incomesList,"income");
 
@@ -364,6 +404,44 @@ export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, 
             // Handle export logic here
         }
     });
+
+    
+    incomeForm.addEventListener("submit", function(e){
+        e.preventDefault();
+        const formData = new FormData(incomeForm, e.submitter);
+        try {
+            onIncomeSubmit(formData);
+            incomeForm.reset();
+        }catch (error) {
+            console.error(error);
+            displayToast(incomeForm,error);
+        }
+        renderTransactions(startDate,stopDate,incomesList,"income");
+    });
+
+    incomesList.addEventListener("click", function(e){
+        const target = (e.target as HTMLElement).closest("li");
+        const incomeID =target.dataset.id;
+        console.log("incomesList clicked");
+        if (!incomeID){
+            return;
+        }
+        console.log(`Income record ${incomeID} clicked`);
+        
+        try{
+            const income = getIncomeById(incomeID);
+            const idInput = incomeForm.elements.namedItem('id') as HTMLInputElement;
+            idInput.value = income.id;
+            incomeForm.date.value = income.date.toISOString().slice(0, 10);          
+            incomeForm.sum.value = Math.round(income.sum * 100) / 100;
+            incomeForm.source.value = income.source;          
+        } catch (error){
+            displayToast(incomeForm,error);
+        }
+        
+
+    });
+
 
     let stopDate = today;
     let startDate = yearAgo;

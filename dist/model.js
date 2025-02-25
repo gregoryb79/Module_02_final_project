@@ -34,6 +34,10 @@ export function addExpense(expense) {
     expenses.set(expense.id, expense);
     saveExpenses(expenses);
 }
+export function addIncome(income) {
+    incomes.set(income.id, income);
+    saveIncomes(incomes);
+}
 function saveExpenses(expenses) {
     const expensesArray = Array.from(expenses.entries());
     localStorage.setItem(expencesStorageKey, JSON.stringify(expensesArray));
@@ -91,6 +95,9 @@ function parseIncomesCSV(csv) {
 }
 export function getExpenseById(id) {
     return expenses.get(id);
+}
+export function getIncomeById(id) {
+    return incomes.get(id);
 }
 export function getExpensesByDates(startDate, stopDate) {
     // console.log(startDate);
