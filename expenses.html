@@ -69,11 +69,13 @@
     
 
     <form name="fileHandler" class="fileHandler u-borderRadius-16 u-margin-4">        
-        <label for="importFile">Import Expenses</label>
-        <input type="file" id="importFile" name="importFile">
-        <label for="exportFile">Export Expenses</label>
-        <input type="file" id="exportFile" name="exportFile">
-        <p>must be CSV file</p>
+        <section class="cluster">
+            <label for="importFile" class="custom-file-label  u-borderRadius-8">Import</label>
+            <input type="file" id="importFile" name="importFile" class="hidden-file-input">
+            <label for="exportFile" class="custom-file-label  u-borderRadius-8">Export</label>
+            <input type="file" id="exportFile" name="exportFile" class="hidden-file-input">
+        </section>        
+        <p class="u-textCenter">CSV format only</p>
     </form>
 
     <form name="expenseForm" class="expenseForm u-borderRadius-16 u-margin-4" id="expenseForm">
@@ -102,7 +104,7 @@
         </div>
         <div class="form-control">
             <label for="description">Description:</label>
-            <textarea id="description" name="description" type="text" rows="6" class="u-largeFont u-radius-8" required></textarea>
+            <textarea id="description" name="description" type="text" rows="4" class="u-largeFont u-radius-8" required></textarea>
         </div>
         <button class="u-borderRadius-8">Apply</button>
     </form>

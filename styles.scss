@@ -157,6 +157,10 @@ body{
     text-align: right;
 }
 
+.u-textCenter{
+    text-align: center;
+}
+
 .u-Bills{
     background-color: var(--billsColor, #0066cc);
 }
@@ -468,8 +472,28 @@ body{
 
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding-left: 1rem;
+    justify-content: space-around;     
+   
+    .cluster{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+.hidden-file-input{
+    display: none;
+}
+.custom-file-label{
+    width: 5rem;
+    height:1.5rem;
+    padding-top: 0.1rem;
+    background-color:lightgrey;
+    border: 1px solid darkgray;
+    
+    cursor: pointer;
+    font-size: var(regularFont);
+    text-align: center;
+    
 }
 
 .expenseForm{
