@@ -6,8 +6,10 @@ const currentUser = sessionStorage.getItem(currentUserStorageKey) ?? "";
 const expencesStorageKey = `${currentUser}_expenses`;
 const incomesStorageKey = `${currentUser}_incomes`;
 let expenses = loadExpenses();
-//console.log(expenses);
+console.log(expenses);
 let incomes = loadIncomes();
+// console.log("incomes");
+// console.log(incomes);
 function loadExpenses() {
     const storedExpenses = localStorage.getItem(expencesStorageKey);
     if (!storedExpenses)
@@ -36,18 +38,29 @@ function saveIncomes(incomes) {
     const incomesArray = Array.from(incomes.entries());
     localStorage.setItem(incomesStorageKey, JSON.stringify(incomesArray));
 }
-export function importFromCSV(file) {
+export function importFromCSV(file, type) {
     const reader = new FileReader();
     reader.onload = function (e) {
         if (!e.target || typeof e.target.result !== "string")
             return;
         const csvData = e.target.result;
-        const expenses = parseCSV(csvData);
-        saveExpenses(expenses);
+        // console.log("importFromCSV");
+        // console.log(file);
+        // console.log(csvData);
+        switch (type) {
+            case "expenses":
+                const expenses = parseExpensesCSV(csvData);
+                saveExpenses(expenses);
+                break;
+            case "incomes":
+                const incomes = parseIncomesCSV(csvData);
+                saveIncomes(incomes);
+                break;
+        }
     };
     reader.readAsText(file);
 }
-function parseCSV(csv) {
+function parseExpensesCSV(csv) {
     const lines = csv.trim().split("\n");
     const expenses = new Map();
     for (const line of lines.slice(1)) { // Skip header
@@ -59,13 +72,47 @@ function parseCSV(csv) {
     }
     return expenses;
 }
+function parseIncomesCSV(csv) {
+    const lines = csv.trim().split("\n");
+    const incomes = new Map();
+    for (const line of lines.slice(1)) { // Skip header
+        const [day, source, sum] = line.split(",");
+        const id = crypto.randomUUID().replaceAll("-", "").slice(-8);
+        incomes.set(id, { id,
+            date: new Date(day),
+            source,
+            sum: parseFloat(sum) });
+    }
+    return incomes;
+}
 export function getExpensesByDates(startDate, stopDate) {
-    console.log(startDate);
-    console.log(stopDate);
+    // console.log(startDate);
+    // console.log(stopDate);
     const expenseByDates = Array.from(expenses.values()).filter(expense => (expense.date >= startDate) && (expense.date <= stopDate));
     // console.log("expenseByDates:");
     // console.log(expenseByDates);
-    return expenseByDates.sort((a, b) => a.date.valueOf() - b.date.valueOf());
+    return expenseByDates.sort((a, b) => b.date.valueOf() - a.date.valueOf());
+}
+export function getExpensesByCategories(expenses) {
+    const categorySums = {};
+    expenses.forEach(({ category, sum }) => {
+        if (categorySums[category]) {
+            categorySums[category] += sum;
+        }
+        else {
+            categorySums[category] = sum;
+        }
+    });
+    return Object.entries(categorySums).sort(([, sumA], [, sumB]) => sumB - sumA);
+    ;
+}
+export function getIncomesByDates(startDate, stopDate) {
+    console.log(startDate);
+    console.log(stopDate);
+    const incomeByDates = Array.from(incomes.values()).filter(income => (income.date >= startDate) && (income.date <= stopDate));
+    // console.log("expenseByDates:");
+    // console.log(expenseByDates);
+    return incomeByDates.sort((a, b) => b.date.valueOf() - a.date.valueOf());
 }
 export function getPassword(username) {
     const password = users.get(username);

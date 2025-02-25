@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="dist/styles.css">
-    <title>Expenses</title>    
+    <title>Incomes</title>    
 </head>
 <body>
     <header class="pageHeader" aria-label="Page Header">
         <h2>
-            Expences
+            Incomes
         </h2> 
         <p>
-            Manage all your expences in a simple way.
+            Manage all your incomes in a simple way.
         </p>
     </header>
 
@@ -52,7 +52,7 @@
                 <input class="u-regFont" type="date" id="stopDate" name="stopDate" aria-label="stop date setector"> 
             </span>                     
         </form>
-        <ul class="expensesList" id="expensesList" aria-label="List of all expenses in given period.">
+        <ul class="expensesList" id="incomesList" aria-label="List of all incomes in given period.">
             <li>
                catIcon description date sum
            </li>
@@ -61,21 +61,21 @@
     
 
     <form name="fileHandler" class="fileHandler">        
-        <label for="importFile">Import Expenses</label>
+        <label for="importFile">Import Incomes</label>
         <input type="file" id="importFile" name="importFile">
-        <label for="exportFile">Export Expenses</label>
+        <label for="exportFile">Export Incomes</label>
         <input type="file" id="exportFile" name="exportFile">
         <p>must be CSV file</p>
     </form>
     
     <script type="module">
-        import { expenses, checkUser } from "./dist/view.js";
+        import { incomes, checkUser } from "./dist/view.js";
 
         checkUser();
 
-        expenses(document.forms.namedItem("fileHandler"),
+        incomes(document.forms.namedItem("fileHandler"),
             document.forms.namedItem("datesRange"),
-            document.getElementById("expensesList")
+            document.getElementById("incomesList")
         );
     </script>
 

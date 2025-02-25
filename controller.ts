@@ -70,7 +70,7 @@ export function onLoginFormSubmit(formData: FormData) : boolean{
 
 }
 
-export function onImportFile (fileList: FileList){
+export function onImportFile (fileList: FileList,type : "expenses" | "incomes"){
 
     if (!fileList){
         throw new Error("No file selected");
@@ -87,7 +87,12 @@ export function onImportFile (fileList: FileList){
         throw new Error("Must be CSV file!");
     }
 
-    importFromCSV(fileList[0]);
-
+    try{
+        importFromCSV(fileList[0],type);
+    }catch(error){
+        console.error(error);
+        throw new Error(error);
+    }
+    
 
 }

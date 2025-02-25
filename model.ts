@@ -1,17 +1,16 @@
-type Expense = {
+export type Expense = {
     id: string;
     date: Date;
     description: string;
-    category: "apparel" | "bills" | "eatingOut" | "education" | "grosceries" 
-                | "misc" | "pets" | "housing" | "transportation" | "vacations";
+    category: "Apparel" | "Bills" | "Eating Out" | "Education" | "Groceries" 
+                | "Miscellaneous" | "Pets" | "Housing" | "Transportation" | "Vacations";
     sum: number;
 }
 
-type Income = {
-    id: string;
-    source : string;
+export type Income = {
+    id: string;    
     date: Date;
-    description: string;
+    source: string;
     sum: number;     
 }
 
@@ -27,8 +26,10 @@ const expencesStorageKey = `${currentUser}_expenses`;
 const incomesStorageKey = `${currentUser}_incomes`;
 
 let expenses = loadExpenses();
-//console.log(expenses);
+console.log(expenses);
 let incomes = loadIncomes();
+// console.log("incomes");
+// console.log(incomes);
 
 function loadExpenses(): Map<string, Expense> {
     const storedExpenses = localStorage.getItem(expencesStorageKey);
@@ -65,21 +66,35 @@ function saveIncomes(incomes: Map<string, Income>) {
     localStorage.setItem(incomesStorageKey, JSON.stringify(incomesArray));
 }
 
-export function importFromCSV (file: File){
+export function importFromCSV (file: File, type: "expenses" | "incomes"){
     const reader = new FileReader();
 
     reader.onload = function (e) {
         if (!e.target || typeof e.target.result !== "string") return;
 
         const csvData = e.target.result;
-        const expenses = parseCSV(csvData);
-        saveExpenses(expenses);
+
+        // console.log("importFromCSV");
+        // console.log(file);
+        // console.log(csvData);
+
+        switch (type){
+            case "expenses":
+                const expenses = parseExpensesCSV(csvData);
+                saveExpenses(expenses);
+                break;
+            case "incomes":
+                const incomes = parseIncomesCSV(csvData);
+                saveIncomes(incomes);
+                break;
+        }
+        
     };
 
     reader.readAsText(file);
 }
 
-function parseCSV(csv : string) : Map<string, Expense> {
+function parseExpensesCSV(csv : string) : Map<string, Expense> {
     
     const lines = csv.trim().split("\n");
     const expenses = new Map<string, Expense>();
@@ -101,13 +116,57 @@ function parseCSV(csv : string) : Map<string, Expense> {
 
 }
 
+function parseIncomesCSV(csv : string) : Map<string, Income> {
+    
+    const lines = csv.trim().split("\n");
+    const incomes = new Map<string, Income>();
+
+    for (const line of lines.slice(1)) { // Skip header
+        const [day, source, sum] = line.split(",");
+
+        const id = crypto.randomUUID().replaceAll("-", "").slice(-8);
+        incomes.set(id,
+            {id,
+            date: new Date(day),
+            source,
+            sum: parseFloat(sum)}
+        );
+    }
+
+    return incomes;
+
+}
+
 export function getExpensesByDates(startDate : Date, stopDate : Date) : Expense[] {
-    console.log(startDate);
-    console.log(stopDate);
+    // console.log(startDate);
+    // console.log(stopDate);
     const expenseByDates = Array.from(expenses.values()).filter(expense => (expense.date >= startDate) && (expense.date <= stopDate)); 
     // console.log("expenseByDates:");
     // console.log(expenseByDates);
-    return expenseByDates.sort((a,b) => a.date.valueOf() - b.date.valueOf());
+    return expenseByDates.sort((a,b) => b.date.valueOf() - a.date.valueOf());
+}
+
+export function getExpensesByCategories(expenses: Expense[]) :Array<[string, number]> {
+    
+    const categorySums: Record<string, number> = {};
+    expenses.forEach(({category,sum}) => {
+        if(categorySums[category]){
+            categorySums[category] += sum;
+        } else{
+            categorySums[category] = sum;
+        }
+    });
+
+    return Object.entries(categorySums).sort(([, sumA], [, sumB]) => sumB - sumA);;
+}
+
+export function getIncomesByDates(startDate : Date, stopDate : Date) : Income[] {
+    console.log(startDate);
+    console.log(stopDate);
+    const incomeByDates = Array.from(incomes.values()).filter(income => (income.date >= startDate) && (income.date <= stopDate)); 
+    // console.log("expenseByDates:");
+    // console.log(expenseByDates);
+    return incomeByDates.sort((a,b) => b.date.valueOf() - a.date.valueOf());
 }
 
 export function getPassword(username : string) : string {

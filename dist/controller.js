@@ -59,7 +59,7 @@ export function onLoginFormSubmit(formData) {
         throw new Error("username and password dont match");
     }
 }
-export function onImportFile(fileList) {
+export function onImportFile(fileList, type) {
     if (!fileList) {
         throw new Error("No file selected");
     }
@@ -72,5 +72,11 @@ export function onImportFile(fileList) {
     if (extention != "csv") {
         throw new Error("Must be CSV file!");
     }
-    importFromCSV(fileList[0]);
+    try {
+        importFromCSV(fileList[0], type);
+    }
+    catch (error) {
+        console.error(error);
+        throw new Error(error);
+    }
 }
