@@ -7,12 +7,8 @@
     <title>Overview</title>    
 </head>
 <body class="u-borderRadius-16">
-    <header class="pageHeader u-borderRadius-16  u-margin-4" aria-label="Page Header">
-        <input type="month" class="monthInput" id="monthInput" name="monthInput">       
-    </header>
-
     <menu class="sideMenu u-borderRadius-16 u-margin-4" aria-label="Site navigation menu">
-        <li class="u-marginTop-1rem">
+        <li>
             <a href="./index.html">
                 <div class="iconPH active">
                     $
@@ -38,12 +34,16 @@
                 +
             </div>
         </li>
-        <li class="u-marginBot-1rem">
+        <li class=>
             <a href="./login.html">
                 <div class="iconPH active">L</div>
             </a>
         </li>
     </menu> 
+
+    <header class="pageHeader u-borderRadius-16  u-margin-4" aria-label="Page Header">
+        <input type="month" class="monthInput" id="monthInput" name="monthInput">       
+    </header>
     
     <ul id="balanceSheet" class="balanceSheet u-borderRadius-16  u-margin-4" name="balanceSheet" aria-label="Balance Summary">
         <li data-type="income">
@@ -65,7 +65,12 @@
         
         <canvas id="expenseMeterCanvas" class="expenseMeterCanvas" width = "200" height="120">        
         </canvas>                              
-    </div>
+    </div> 
+   
+    <section id="recentExpences" class="recentExpences u-borderRadius-16 u-margin-4">
+        <h3>Recent Expences</h3>
+        <ul id="recentExpencesList" class="recentExpensesList"></ul>
+    </section>
 
     <div id="expencesGraph" class="expencesGraph u-borderRadius-16 u-margin-4" name="expencesGraph" aria-label="Graphical representaion of this month expenses.">
         <h3 id="expenseGraphTitle">
@@ -80,11 +85,6 @@
         <ul id="largestCategories" class="largestCategoriesList" aria-label="Largest expenses categories">
             
         </ul>
-    </section>
-   
-    <section id="recentExpences" class="recentExpences u-borderRadius-16 u-margin-4">
-        <h3>Recent Expences</h3>
-        <ul id="recentExpencesList" class="recentExpensesList"></ul>
     </section>
 
     <form name="expenseForm" class="expenseForm u-borderRadius-16 u-margin-4 addExpense" id="expenseForm">

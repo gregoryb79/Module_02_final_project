@@ -7,22 +7,11 @@
     <link rel="stylesheet" href="dist/styles.css" />
 </head>
 
-<body>
-    <div class="frame u-borderRadius-16 u-margin-4">
-        <!-- To draw a frame around the page. -->
-    </div>
-
-    <header class="loginHeader" aria-label="Page Header">
-        <h2>
-            Register
-        </h2>        
-        <p>
-            Please choose username and password.            
-        </p>      
-    </header>
+<body class="login">
+      
 
     <menu class="sideMenu u-borderRadius-16 u-margin-4" aria-label="Site navigation menu">
-        <li class="u-marginTop-1rem">
+        <li>
             <a href="./index.html">
                 <div class="iconPH active">
                     $
@@ -44,32 +33,45 @@
             </a>
         </li>
         <li>
-            <div class="iconPH">
+            <div id="addExpense" class="iconPH">
                 +
             </div>
         </li>
-        <li class="u-marginBot-1rem">
+        <li class=>
             <a href="./login.html">
                 <div class="iconPH active">L</div>
             </a>
         </li>
     </menu> 
+
+    <div class="frame u-borderRadius-16 u-margin-4">
     
-    <form name="register" class="registerForm u-borderRadius-16">
-        <li>
-            <label for="username">Username:</label>
-            <input name="username" type="text" id="username" class="u-inputFieldShort u-largeFont" required>
-        </li>
-        <li>
-            <label for="password">Password:</label>
-            <input name="password" type="text" id="password" class="u-inputFieldShort u-largeFont" required>
-        </li>    
-        <li>
-            <label for="repeatPassword">Repeat Password:</label>
-            <input name="repeatPassword" type="text" id="repeatPassword" class="u-inputFieldShort u-largeFont" required>
-        </li>            
-        <button id="register" class="button u-largeFont u-borderRadius-8">Register</button>
-    </form>    
+        <header class="loginHeader" aria-label="Page Header">
+            <h2>
+                Register
+            </h2>        
+            <p>
+                Please choose username and password.            
+            </p>      
+        </header>
+        
+        <form name="register" class="registerForm u-borderRadius-16">
+            <li>
+                <label for="username">Username:</label>
+                <input name="username" type="text" id="username" class="u-inputFieldShort u-largeFont" required>
+            </li>
+            <li>
+                <label for="password">Password:</label>
+                <input name="password" type="text" id="password" class="u-inputFieldShort u-largeFont" required>
+            </li>    
+            <li>
+                <label for="repeatPassword">Repeat Password:</label>
+                <input name="repeatPassword" type="text" id="repeatPassword" class="u-inputFieldShort u-largeFont" required>
+            </li>            
+            <button id="register" class="button u-largeFont u-borderRadius-8">Register</button>
+        </form> 
+
+    </div> 
 
     <script type="module">
         import { register } from "./dist/view.js";
