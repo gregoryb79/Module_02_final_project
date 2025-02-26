@@ -9,8 +9,6 @@ const incomesStorageKey = `${currentUser}_incomes`;
 let expenses = loadExpenses();
 console.log(expenses);
 let incomes = loadIncomes();
-// console.log("incomes");
-// console.log(incomes);
 function loadExpenses() {
     const storedExpenses = localStorage.getItem(expencesStorageKey);
     if (!storedExpenses)
@@ -53,9 +51,6 @@ export function importFromCSV(file, type) {
         if (!e.target || typeof e.target.result !== "string")
             return;
         const csvData = e.target.result;
-        // console.log("importFromCSV");
-        // console.log(file);
-        // console.log(csvData);
         switch (type) {
             case "expenses":
                 const importedExpenses = parseExpensesCSV(csvData);
@@ -159,11 +154,7 @@ export function getIncomeById(id) {
     return incomes.get(id);
 }
 export function getExpensesByDates(startDate, stopDate) {
-    // console.log(startDate);
-    // console.log(stopDate);
     const expenseByDates = Array.from(expenses.values()).filter(expense => (expense.date >= startDate) && (expense.date <= stopDate));
-    // console.log("expenseByDates:");
-    // console.log(expenseByDates);
     return expenseByDates.sort((a, b) => b.date.valueOf() - a.date.valueOf());
 }
 export function getExpensesByCategories(expenses) {
@@ -183,8 +174,6 @@ export function getIncomesByDates(startDate, stopDate) {
     console.log(startDate);
     console.log(stopDate);
     const incomeByDates = Array.from(incomes.values()).filter(income => (income.date >= startDate) && (income.date <= stopDate));
-    // console.log("expenseByDates:");
-    // console.log(expenseByDates);
     return incomeByDates.sort((a, b) => b.date.valueOf() - a.date.valueOf());
 }
 export function getPassword(username) {

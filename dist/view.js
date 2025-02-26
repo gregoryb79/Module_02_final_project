@@ -178,7 +178,6 @@ export function index(monthInput, balanceSheet, expenseMeterCanvas, balance, per
     function renderLargestCategories(categories) {
         largestCategories.innerHTML = "";
         for (const category of categories) {
-            // const category = categories[i];
             const li = document.createElement("li");
             li.className = "categoryRow";
             const icon = document.createElement("div");
@@ -448,14 +447,12 @@ function renderTransactions(startDate, stopDate, transactionsList, transactionTy
     }
     console.log(transactions);
     transactionsList.innerHTML = "";
-    // console.log(transactionType==="expenses");
     for (const transaction of transactions) {
         const li = document.createElement("li");
         li.dataset.id = transaction.id;
         li.className = "transactionRow";
         const icon = document.createElement("div");
         if (transactionType === "expenses") {
-            // console.log(transactionType);
             const expence = transaction;
             icon.className = `u-${expence.category} iconPHsmall`;
             const firstLetter = expence.category.charAt(0).toUpperCase();
@@ -468,7 +465,6 @@ function renderTransactions(startDate, stopDate, transactionsList, transactionTy
         li.appendChild(icon);
         const day = document.createElement("span");
         day.className = "day";
-        // day.textContent = expense.date.toISOString().slice(0, 10);
         day.textContent = transaction.date.toLocaleDateString('en-GB', { day: '2-digit', month: '2-digit', year: '2-digit' })
             .slice(0, 10);
         li.appendChild(day);

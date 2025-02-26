@@ -1,0 +1,991 @@
+id,date,description,category,sum
+7e26642e,2024-02-01,"College Tuition",Education,114.90
+fc61e285,2024-02-01,"Mortgage Payment",Housing,169.10
+dd28dceb,2024-02-02,"Hobby Supplies",Miscellaneous,23.79
+17984cfa,2024-02-03,"Local Attractions",Vacations,58.04
+98b12006,2024-02-03,"Donation",Miscellaneous,51.72
+53e4e7d6,2024-02-04,"Coffee",Eating Out,115.90
+538cda2b,2024-02-04,"Mortgage Payment",Housing,251.51
+746c3c38,2024-02-04,"Electric Bill",Bills,101.08
+b36026ba,2024-02-05,"Local Attractions",Vacations,175.22
+406646b4,2024-02-05,"Gas Bill",Bills,170.25
+cb622461,2024-02-06,"Vet Visit",Pets,260.72
+5cf81e59,2024-02-07,"Jeans",Apparel,67.89
+6863a075,2024-02-08,"Mortgage Payment",Housing,116.41
+b042ad28,2024-02-08,"Insurance",Transportation,45.92
+040ce306,2024-02-08,"Jacket",Apparel,100.02
+889a5dac,2024-02-08,"Local Attractions",Vacations,274.73
+f7bdf090,2024-02-09,"Lunch at Diner",Eating Out,148.83
+a133297f,2024-02-09,"Vegetables",Groceries,286.34
+6f3a9315,2024-02-10,"Gas Bill",Bills,5.91
+d4d5c4c1,2024-02-10,"Online Course",Education,203.39
+d984a496,2024-02-10,"Airfare",Vacations,243.48
+ea3e3e4e,2024-02-10,"Gift",Miscellaneous,281.51
+53bb9e11,2024-02-11,"Lunch at Diner",Eating Out,74.28
+f15f04dc,2024-02-11,"Fruits",Groceries,136.84
+40fce96b,2024-02-11,"Public Transport",Transportation,40.58
+68a6eed2,2024-02-11,"Car Repair",Transportation,63.02
+8fa480fe,2024-02-12,"Coffee",Eating Out,281.43
+10232b0d,2024-02-12,"Gas Bill",Bills,284.54
+b986d077,2024-02-13,"Jacket",Apparel,219.55
+59949ff8,2024-02-13,"Jacket",Apparel,293.29
+913c3633,2024-02-13,"Vet Visit",Pets,130.19
+7026dfc9,2024-02-13,"Online Course",Education,41.99
+3af9a94c,2024-02-14,"Pet Food",Pets,193.73
+29aae3d2,2024-02-14,"Gas Bill",Bills,207.53
+e2976dfd,2024-02-14,"Public Transport",Transportation,144.81
+547677ed,2024-02-14,"Airfare",Vacations,81.86
+28f6541b,2024-02-15,"Public Transport",Transportation,54.81
+2d45b175,2024-02-15,"Pet Food",Pets,134.38
+683aaa91,2024-02-15,"Meat",Groceries,60.48
+924a6119,2024-02-15,"Home Maintenance",Housing,257.83
+9bb22b76,2024-02-16,"Jeans",Apparel,92.13
+882b6e4f,2024-02-16,"Mortgage Payment",Housing,46.32
+8f857117,2024-02-16,"Local Attractions",Vacations,282.31
+56b26f30,2024-02-17,"Hobby Supplies",Miscellaneous,236.23
+056fc5bc,2024-02-17,"Shoes",Apparel,226.84
+b330feff,2024-02-17,"Jeans",Apparel,101.23
+55d144d7,2024-02-17,"Online Course",Education,75.55
+5a09e744,2024-02-18,"Donation",Miscellaneous,147.65
+489655d9,2024-02-18,"Water Bill",Bills,98.90
+0b0d3f51,2024-02-18,"Vegetables",Groceries,15.47
+36828dc1,2024-02-18,"Fruits",Groceries,188.23
+1d4c0377,2024-02-19,"Car Repair",Transportation,41.89
+9420a94d,2024-02-19,"Vet Visit",Pets,14.58
+1e2d632f,2024-02-19,"Home Maintenance",Housing,181.53
+66cdf666,2024-02-20,"Snacks",Groceries,160.48
+ada834f1,2024-02-20,"Electric Bill",Bills,60.33
+80b25897,2024-02-21,"Electric Bill",Bills,204.96
+d4ea6a2a,2024-02-22,"Insurance",Transportation,194.54
+ed7465ab,2024-02-22,"Water Bill",Bills,176.58
+c7cd37e2,2024-02-22,"Lunch at Diner",Eating Out,292.60
+952fce20,2024-02-23,"Hotel Stay",Vacations,227.23
+fd290793,2024-02-23,"School Supplies",Education,58.86
+be9ad23a,2024-02-24,"Online Course",Education,73.59
+2bebdedc,2024-02-24,"Gift",Miscellaneous,290.71
+078c5332,2024-02-25,"Water Bill",Bills,146.98
+83895d25,2024-02-25,"Home Maintenance",Housing,220.12
+8e40f4f9,2024-02-25,"Rent Payment",Housing,260.92
+b1f9ec29,2024-02-25,"Vet Visit",Pets,223.42
+30ef2f3e,2024-02-26,"Coffee",Eating Out,100.07
+7cfa1fdc,2024-02-26,"Toys",Pets,190.75
+d56f5ef4,2024-02-27,"Airfare",Vacations,173.80
+096f6a12,2024-02-28,"Donation",Miscellaneous,104.82
+bc295573,2024-02-29,"Gift",Miscellaneous,150.42
+449f7fcf,2024-02-29,"Insurance",Transportation,119.58
+51c75207,2024-03-01,"Fast Food",Eating Out,192.65
+10b84192,2024-03-01,"Water Bill",Bills,247.24
+9e2b0c16,2024-03-01,"Mortgage Payment",Housing,24.80
+ab69c65b,2024-03-01,"Electric Bill",Bills,190.66
+1df52d60,2024-03-02,"Lunch at Diner",Eating Out,253.06
+ba1b4957,2024-03-02,"Gift",Miscellaneous,117.64
+ed8490f2,2024-03-03,"Internet Bill",Bills,190.87
+4c76e9ae,2024-03-04,"Fast Food",Eating Out,228.07
+567107dc,2024-03-05,"Snacks",Groceries,263.05
+0f49c079,2024-03-05,"Fruits",Groceries,199.46
+8bf3ed6b,2024-03-05,"Electric Bill",Bills,113.96
+935e0fd3,2024-03-05,"Gift",Miscellaneous,132.26
+e3de83b3,2024-03-06,"T-Shirts",Apparel,212.33
+9003d271,2024-03-06,"Home Maintenance",Housing,146.47
+229d71af,2024-03-06,"Pet Food",Pets,69.98
+2ad0099c,2024-03-06,"Public Transport",Transportation,204.39
+1f2e3f51,2024-03-07,"Car Repair",Transportation,50.72
+1333b28f,2024-03-08,"Gift",Miscellaneous,52.64
+25968642,2024-03-08,"Donation",Miscellaneous,155.33
+e936de52,2024-03-08,"Dinner at Restaurant",Eating Out,16.04
+880f9d70,2024-03-09,"Online Course",Education,141.56
+f1c981c8,2024-03-09,"Jeans",Apparel,150.75
+8268f6e1,2024-03-09,"Vet Visit",Pets,8.78
+04051245,2024-03-09,"Insurance",Transportation,53.27
+7b6572b1,2024-03-10,"Vegetables",Groceries,119.10
+af81beae,2024-03-10,"College Tuition",Education,85.89
+63f1179e,2024-03-10,"Pet Food",Pets,41.04
+f51f1a73,2024-03-10,"Gift",Miscellaneous,275.95
+ff2fd484,2024-03-11,"Hobby Supplies",Miscellaneous,193.90
+9af0e3f9,2024-03-11,"Gas Bill",Bills,170.36
+ced2fe5d,2024-03-11,"Public Transport",Transportation,23.47
+47ed5218,2024-03-12,"School Supplies",Education,293.22
+42079a11,2024-03-13,"Snacks",Groceries,99.76
+7ddc4674,2024-03-13,"Internet Bill",Bills,85.44
+7a230901,2024-03-14,"T-Shirts",Apparel,207.00
+d5aa8bd0,2024-03-14,"Mortgage Payment",Housing,246.21
+bf91c45b,2024-03-15,"Gift",Miscellaneous,107.54
+e0c95c94,2024-03-15,"Rent Payment",Housing,71.20
+37d18cc3,2024-03-15,"Dinner at Restaurant",Eating Out,66.28
+02bf78a7,2024-03-15,"Fast Food",Eating Out,163.97
+73c46640,2024-03-16,"Local Attractions",Vacations,201.93
+c74bdf3d,2024-03-16,"Lunch at Diner",Eating Out,136.50
+5a914091,2024-03-16,"Vegetables",Groceries,55.30
+131adc12,2024-03-16,"Electric Bill",Bills,18.93
+93e55cf5,2024-03-17,"Rent Payment",Housing,249.98
+b25fb601,2024-03-18,"Hobby Supplies",Miscellaneous,114.15
+27a53e62,2024-03-19,"Rent Payment",Housing,78.14
+0989a5af,2024-03-19,"Fruits",Groceries,212.12
+69e1a3b8,2024-03-19,"Gift",Miscellaneous,245.82
+132a235c,2024-03-19,"Pet Food",Pets,261.91
+0c3b1ed3,2024-03-20,"School Supplies",Education,36.53
+d7cf64e4,2024-03-20,"Gift",Miscellaneous,201.25
+2efff2bf,2024-03-21,"Books",Education,74.87
+72ed8b72,2024-03-21,"Vegetables",Groceries,206.69
+df015a27,2024-03-21,"Vet Visit",Pets,178.84
+d4f112d2,2024-03-22,"Dining Out",Vacations,210.22
+a7880158,2024-03-22,"Gift",Miscellaneous,165.72
+cdeb91d0,2024-03-22,"Airfare",Vacations,215.53
+8378f08b,2024-03-22,"Gas",Transportation,23.65
+751394f7,2024-03-23,"Jacket",Apparel,37.82
+08a79348,2024-03-23,"School Supplies",Education,250.62
+6f5812f3,2024-03-24,"Internet Bill",Bills,173.21
+7143462b,2024-03-24,"T-Shirts",Apparel,290.51
+cc008953,2024-03-25,"Vegetables",Groceries,32.93
+8f51f610,2024-03-26,"Airfare",Vacations,36.69
+4f330a33,2024-03-27,"Donation",Miscellaneous,217.58
+4798d64b,2024-03-27,"Home Maintenance",Housing,176.49
+78367a6b,2024-03-28,"Internet Bill",Bills,201.02
+05735b7d,2024-03-29,"Insurance",Transportation,18.72
+c6134479,2024-03-29,"Meat",Groceries,178.92
+e79b75c0,2024-03-29,"Vegetables",Groceries,245.53
+010fe370,2024-03-30,"Mortgage Payment",Housing,194.86
+65a1860d,2024-03-30,"Gift",Miscellaneous,170.32
+93c6e40b,2024-03-30,"Public Transport",Transportation,127.45
+595f4b38,2024-03-30,"Pet Food",Pets,99.02
+80e1ec0a,2024-03-31,"Public Transport",Transportation,176.57
+4b2f97d3,2024-03-31,"Online Course",Education,14.07
+4a1dbd31,2024-03-31,"Public Transport",Transportation,48.80
+e4041c86,2024-04-01,"Jacket",Apparel,24.00
+e90f1aef,2024-04-01,"Gas Bill",Bills,146.49
+df9ed80a,2024-04-01,"Meat",Groceries,21.22
+e51c166e,2024-04-02,"Internet Bill",Bills,276.44
+2e0f0f42,2024-04-02,"Lunch at Diner",Eating Out,61.13
+b79a4b30,2024-04-03,"Local Attractions",Vacations,34.00
+ce07bf09,2024-04-03,"Jeans",Apparel,166.21
+b68dbd7b,2024-04-03,"Electric Bill",Bills,169.99
+e750a666,2024-04-03,"Coffee",Eating Out,148.63
+c9d72b2b,2024-04-04,"Water Bill",Bills,290.27
+b21a038c,2024-04-04,"Hobby Supplies",Miscellaneous,12.40
+f5d48ee6,2024-04-04,"Jacket",Apparel,54.38
+e01751cf,2024-04-04,"Fruits",Groceries,84.24
+e2085f9b,2024-04-05,"Electric Bill",Bills,285.02
+caa0f182,2024-04-05,"Gift",Miscellaneous,271.81
+dda1b34a,2024-04-06,"Home Maintenance",Housing,217.25
+8a4f1a1c,2024-04-07,"College Tuition",Education,221.24
+dce6cfda,2024-04-08,"Fast Food",Eating Out,17.32
+489c3e14,2024-04-08,"Electric Bill",Bills,42.26
+7b604fa2,2024-04-08,"Hotel Stay",Vacations,35.91
+560a7f69,2024-04-08,"Snacks",Groceries,89.84
+da1ab520,2024-04-09,"Rent Payment",Housing,218.24
+b2cec782,2024-04-10,"Dinner at Restaurant",Eating Out,245.16
+f0f3616c,2024-04-10,"Electric Bill",Bills,111.35
+1727048e,2024-04-10,"Fast Food",Eating Out,167.22
+fe0985f9,2024-04-11,"Books",Education,170.47
+2fa13a97,2024-04-11,"Gas",Transportation,210.54
+27c3212d,2024-04-11,"Gift",Miscellaneous,237.02
+3c6dac6a,2024-04-12,"Vegetables",Groceries,59.72
+27f1c858,2024-04-12,"Hobby Supplies",Miscellaneous,199.30
+78fa44e8,2024-04-13,"Public Transport",Transportation,97.87
+6dea3e26,2024-04-13,"Gas Bill",Bills,255.95
+a14b8b1f,2024-04-13,"Public Transport",Transportation,19.38
+4f4757bd,2024-04-13,"Airfare",Vacations,199.51
+83db81e9,2024-04-14,"Home Maintenance",Housing,150.98
+3d685c28,2024-04-14,"Hobby Supplies",Miscellaneous,102.13
+0f9811f1,2024-04-14,"Meat",Groceries,226.97
+1d0be394,2024-04-14,"Airfare",Vacations,41.46
+d21b28eb,2024-04-15,"Airfare",Vacations,183.25
+ddcd0059,2024-04-15,"Coffee",Eating Out,106.25
+97950d9f,2024-04-15,"Dining Out",Vacations,41.74
+741181ea,2024-04-16,"Donation",Miscellaneous,237.80
+6e83cba9,2024-04-16,"Car Repair",Transportation,240.84
+63d38bce,2024-04-16,"School Supplies",Education,110.38
+e14e3ba0,2024-04-16,"Hotel Stay",Vacations,11.75
+2ba68c67,2024-04-17,"Donation",Miscellaneous,91.64
+1cb81095,2024-04-17,"Pet Food",Pets,128.79
+f9fce3a5,2024-04-17,"Online Course",Education,149.64
+2e992b40,2024-04-17,"College Tuition",Education,20.59
+ba574612,2024-04-18,"Electric Bill",Bills,16.32
+8251f6f6,2024-04-18,"Internet Bill",Bills,263.72
+7c1ea003,2024-04-18,"Online Course",Education,267.08
+089e0835,2024-04-18,"Local Attractions",Vacations,293.37
+cb5b813e,2024-04-19,"Vet Visit",Pets,169.05
+03607efa,2024-04-19,"Hotel Stay",Vacations,115.93
+40b65478,2024-04-20,"Donation",Miscellaneous,115.59
+65155733,2024-04-20,"Dining Out",Vacations,141.36
+bd78753f,2024-04-21,"Local Attractions",Vacations,212.40
+8647a656,2024-04-21,"Electric Bill",Bills,80.41
+23c9f86a,2024-04-21,"Vegetables",Groceries,141.60
+8fc26f86,2024-04-21,"Vet Visit",Pets,273.20
+862d6ab2,2024-04-22,"Home Maintenance",Housing,30.85
+a4d53e26,2024-04-23,"Online Course",Education,178.15
+4fcb9b78,2024-04-24,"School Supplies",Education,225.23
+48d981fc,2024-04-25,"Vegetables",Groceries,242.61
+567cf88f,2024-04-26,"School Supplies",Education,140.80
+b4cf486f,2024-04-26,"Pet Food",Pets,128.69
+957dc723,2024-04-27,"Snacks",Groceries,172.18
+66956450,2024-04-28,"Pet Food",Pets,153.84
+5b082207,2024-04-29,"Gas Bill",Bills,65.95
+2c65164e,2024-04-30,"Airfare",Vacations,92.32
+2548b5fe,2024-04-30,"Snacks",Groceries,169.79
+451086bd,2024-05-01,"Water Bill",Bills,24.95
+70732994,2024-05-02,"Snacks",Groceries,137.43
+ad5566b4,2024-05-02,"Fruits",Groceries,34.81
+2c823b70,2024-05-02,"Internet Bill",Bills,64.21
+dd565528,2024-05-03,"Dinner at Restaurant",Eating Out,147.47
+ff843265,2024-05-03,"Vegetables",Groceries,159.32
+bde0bd35,2024-05-03,"Home Maintenance",Housing,134.08
+383e9076,2024-05-03,"Fruits",Groceries,177.73
+371a8cbc,2024-05-04,"Gas Bill",Bills,40.31
+f9770ab7,2024-05-04,"Mortgage Payment",Housing,238.42
+74fde33c,2024-05-04,"Gas",Transportation,287.69
+d6d3e0c4,2024-05-04,"Electric Bill",Bills,16.36
+8ecd3c89,2024-05-05,"T-Shirts",Apparel,286.07
+30a6d870,2024-05-05,"Hobby Supplies",Miscellaneous,217.17
+12e19e7d,2024-05-06,"Shoes",Apparel,93.14
+77e0b840,2024-05-06,"Jacket",Apparel,129.61
+7e0cc422,2024-05-06,"Rent Payment",Housing,41.81
+e1282b54,2024-05-06,"Hobby Supplies",Miscellaneous,57.15
+125fccc5,2024-05-07,"Rent Payment",Housing,18.34
+a473102d,2024-05-07,"Meat",Groceries,162.96
+7fc9fcc2,2024-05-07,"Jeans",Apparel,124.34
+9cba124e,2024-05-07,"Meat",Groceries,279.41
+c82c48d6,2024-05-08,"Snacks",Groceries,92.72
+8cbef285,2024-05-08,"Mortgage Payment",Housing,74.10
+903d4e3d,2024-05-08,"Lunch at Diner",Eating Out,201.66
+c208ed5b,2024-05-09,"Toys",Pets,144.54
+4fab3f0f,2024-05-09,"Hobby Supplies",Miscellaneous,262.52
+87a65cdf,2024-05-09,"Fast Food",Eating Out,237.58
+f66f2c16,2024-05-10,"Mortgage Payment",Housing,85.96
+c3d2c530,2024-05-11,"Dining Out",Vacations,276.76
+77f38ff7,2024-05-11,"Local Attractions",Vacations,100.02
+0e9e4844,2024-05-12,"T-Shirts",Apparel,19.87
+32fbac12,2024-05-12,"Hotel Stay",Vacations,15.27
+95c05fbf,2024-05-13,"Insurance",Transportation,67.47
+66a917d6,2024-05-13,"Vet Visit",Pets,279.89
+c3bb3bc0,2024-05-13,"Pet Food",Pets,94.21
+2ebfcc99,2024-05-14,"Fast Food",Eating Out,103.50
+ce80cfc2,2024-05-14,"Donation",Miscellaneous,83.97
+713fe673,2024-05-15,"Public Transport",Transportation,206.04
+7283702a,2024-05-15,"T-Shirts",Apparel,227.34
+a43f9f0d,2024-05-16,"Home Maintenance",Housing,121.62
+c21aac79,2024-05-16,"Car Repair",Transportation,250.20
+065bdde2,2024-05-16,"Online Course",Education,94.59
+bb767f45,2024-05-17,"T-Shirts",Apparel,291.41
+bcddd1b1,2024-05-17,"Gas Bill",Bills,177.69
+293fa3ad,2024-05-18,"Vegetables",Groceries,218.15
+c101b80d,2024-05-19,"Lunch at Diner",Eating Out,74.73
+c37a32f4,2024-05-19,"Jeans",Apparel,204.80
+fe6a9aa1,2024-05-19,"College Tuition",Education,123.41
+99f2718b,2024-05-20,"Online Course",Education,288.36
+14562b2e,2024-05-20,"Toys",Pets,75.61
+a19ddfec,2024-05-20,"Vegetables",Groceries,15.07
+531c797b,2024-05-21,"Pet Food",Pets,283.32
+e2de5e6a,2024-05-21,"Donation",Miscellaneous,127.34
+d0fb02d1,2024-05-22,"Local Attractions",Vacations,229.18
+f8bf9598,2024-05-23,"College Tuition",Education,297.24
+3e54a3a7,2024-05-24,"Meat",Groceries,57.59
+e4dfb461,2024-05-24,"Fruits",Groceries,296.57
+ea9cf1f6,2024-05-24,"Toys",Pets,25.16
+fcc6fa4e,2024-05-25,"Hotel Stay",Vacations,30.19
+1fe4b0f3,2024-05-26,"Electric Bill",Bills,255.62
+0dec2200,2024-05-27,"Jeans",Apparel,267.38
+d59458e1,2024-05-27,"Hotel Stay",Vacations,19.12
+49a19e38,2024-05-27,"Local Attractions",Vacations,294.01
+4b0594ca,2024-05-28,"Snacks",Groceries,284.58
+498f111b,2024-05-28,"Electric Bill",Bills,235.29
+797478c9,2024-05-28,"Pet Food",Pets,83.01
+ee5bbf79,2024-05-28,"Gift",Miscellaneous,272.54
+212f8577,2024-05-29,"Water Bill",Bills,29.43
+28d413ee,2024-05-30,"Gift",Miscellaneous,193.71
+599c2911,2024-05-31,"Mortgage Payment",Housing,21.73
+429f9879,2024-05-31,"Dining Out",Vacations,285.30
+990bcdf2,2024-06-01,"Pet Food",Pets,288.71
+119070dc,2024-06-01,"Vet Visit",Pets,156.02
+ebfadc53,2024-06-02,"Jeans",Apparel,143.43
+5f98317e,2024-06-02,"College Tuition",Education,202.48
+5aecb30c,2024-06-02,"Airfare",Vacations,89.76
+ff795686,2024-06-03,"Dinner at Restaurant",Eating Out,95.16
+73629be9,2024-06-03,"Online Course",Education,27.45
+04db200c,2024-06-04,"Rent Payment",Housing,279.61
+be16b591,2024-06-05,"Hotel Stay",Vacations,115.94
+d06a79de,2024-06-05,"Internet Bill",Bills,50.68
+3b97f039,2024-06-05,"Hobby Supplies",Miscellaneous,102.93
+89bec9d2,2024-06-05,"Gas",Transportation,74.11
+536b49cb,2024-06-06,"T-Shirts",Apparel,75.54
+ed5c3fb5,2024-06-06,"Internet Bill",Bills,246.85
+bad5b6ac,2024-06-06,"Home Maintenance",Housing,86.00
+6b9ce8fb,2024-06-07,"Public Transport",Transportation,254.37
+a1ffd206,2024-06-07,"Meat",Groceries,294.48
+cb1044a7,2024-06-07,"Public Transport",Transportation,107.13
+7b124fcd,2024-06-08,"Home Maintenance",Housing,191.73
+59c5393b,2024-06-08,"Public Transport",Transportation,97.07
+50fd2efa,2024-06-08,"Hotel Stay",Vacations,238.57
+2e86c84c,2024-06-08,"Donation",Miscellaneous,82.67
+2a095cd0,2024-06-09,"Vegetables",Groceries,61.97
+f82b2d0d,2024-06-09,"T-Shirts",Apparel,225.91
+d5fb7b02,2024-06-09,"Meat",Groceries,197.93
+05100600,2024-06-09,"Books",Education,204.87
+31e79ad0,2024-06-10,"Car Repair",Transportation,299.00
+d8ce148c,2024-06-11,"Meat",Groceries,237.30
+ba0abb11,2024-06-11,"Pet Food",Pets,92.42
+f2c3ec04,2024-06-12,"Meat",Groceries,189.63
+278d6001,2024-06-12,"Car Repair",Transportation,7.60
+9250051a,2024-06-12,"Internet Bill",Bills,231.44
+41a1120f,2024-06-13,"Jacket",Apparel,16.14
+95dbd376,2024-06-14,"Rent Payment",Housing,213.88
+4a238738,2024-06-14,"Snacks",Groceries,29.84
+a9199785,2024-06-15,"Donation",Miscellaneous,204.20
+3ac55605,2024-06-16,"Coffee",Eating Out,185.95
+af3d08f3,2024-06-16,"Books",Education,33.63
+31683019,2024-06-16,"Home Maintenance",Housing,18.72
+d72f58dc,2024-06-16,"Dining Out",Vacations,30.60
+13e5f02b,2024-06-17,"Dining Out",Vacations,260.91
+f48febf9,2024-06-17,"College Tuition",Education,62.89
+a93f1e42,2024-06-17,"Car Repair",Transportation,170.12
+016e94c0,2024-06-18,"School Supplies",Education,116.05
+6f3bc58c,2024-06-18,"Lunch at Diner",Eating Out,27.76
+9d539868,2024-06-18,"Donation",Miscellaneous,286.47
+98f29d47,2024-06-18,"School Supplies",Education,211.45
+856dec7e,2024-06-19,"Mortgage Payment",Housing,114.07
+5e2be4d1,2024-06-19,"Hobby Supplies",Miscellaneous,137.88
+41240d4b,2024-06-19,"Online Course",Education,26.83
+610268dd,2024-06-20,"Dinner at Restaurant",Eating Out,86.52
+88202fa3,2024-06-20,"Dining Out",Vacations,247.98
+6ccb190a,2024-06-20,"Local Attractions",Vacations,213.25
+58f8960f,2024-06-20,"Pet Food",Pets,281.91
+c3c15dc8,2024-06-21,"Car Repair",Transportation,155.40
+226513c7,2024-06-21,"Snacks",Groceries,229.69
+e71334ff,2024-06-21,"Hotel Stay",Vacations,222.39
+4c688531,2024-06-22,"Airfare",Vacations,64.98
+66ede386,2024-06-22,"Home Maintenance",Housing,281.38
+23114726,2024-06-22,"Vegetables",Groceries,128.86
+8e8e9444,2024-06-23,"Rent Payment",Housing,30.49
+3806aa85,2024-06-23,"Coffee",Eating Out,275.11
+b9ddc5c4,2024-06-23,"Hobby Supplies",Miscellaneous,131.32
+3b17907c,2024-06-23,"Vet Visit",Pets,176.95
+b7083970,2024-06-24,"Mortgage Payment",Housing,56.62
+a63b42e7,2024-06-24,"Snacks",Groceries,12.49
+5864c2e9,2024-06-25,"Fruits",Groceries,43.85
+c65a340a,2024-06-25,"Vet Visit",Pets,57.19
+6d68b021,2024-06-25,"Fruits",Groceries,119.25
+98b4d7cd,2024-06-25,"Lunch at Diner",Eating Out,175.75
+d758f858,2024-06-26,"Toys",Pets,255.91
+0a81147e,2024-06-27,"Jeans",Apparel,51.72
+1ebd97d4,2024-06-27,"Home Maintenance",Housing,209.93
+2148b807,2024-06-28,"Snacks",Groceries,293.94
+dcdca1ec,2024-06-28,"Car Repair",Transportation,147.07
+181f81f7,2024-06-28,"Vet Visit",Pets,243.69
+0ba8e0ca,2024-06-29,"Local Attractions",Vacations,78.35
+665fb34d,2024-06-30,"Fast Food",Eating Out,84.93
+492f1085,2024-07-01,"Hotel Stay",Vacations,258.16
+7946056d,2024-07-01,"Gas",Transportation,231.60
+2be3f69e,2024-07-01,"Books",Education,119.95
+8e73e980,2024-07-01,"Vet Visit",Pets,12.09
+1051b0f4,2024-07-02,"Rent Payment",Housing,260.38
+13ea08d6,2024-07-03,"Mortgage Payment",Housing,152.60
+0e4d7287,2024-07-03,"Hobby Supplies",Miscellaneous,205.53
+b73a63fa,2024-07-04,"Electric Bill",Bills,146.81
+22246f7f,2024-07-04,"Hobby Supplies",Miscellaneous,90.88
+eb417693,2024-07-05,"Insurance",Transportation,245.05
+9962b9d2,2024-07-05,"Insurance",Transportation,24.89
+a654605c,2024-07-05,"Books",Education,233.49
+b9837a60,2024-07-06,"Hobby Supplies",Miscellaneous,90.52
+90b4202a,2024-07-06,"Airfare",Vacations,39.37
+7bda3ba2,2024-07-06,"Fast Food",Eating Out,26.04
+dacc0620,2024-07-07,"Hotel Stay",Vacations,145.38
+6f063433,2024-07-07,"Rent Payment",Housing,127.62
+b53ae69e,2024-07-07,"Jacket",Apparel,64.87
+a0c57545,2024-07-08,"Mortgage Payment",Housing,150.06
+49ea20a5,2024-07-08,"Hobby Supplies",Miscellaneous,245.79
+f7c93044,2024-07-09,"Donation",Miscellaneous,278.50
+7ae563fb,2024-07-09,"Pet Food",Pets,139.33
+6af51cc8,2024-07-10,"Gas Bill",Bills,204.35
+4c7b2168,2024-07-11,"Fruits",Groceries,79.36
+46545c05,2024-07-11,"Vet Visit",Pets,53.28
+c8352a80,2024-07-11,"Dining Out",Vacations,145.76
+3e0d84f9,2024-07-11,"Rent Payment",Housing,25.33
+131a4763,2024-07-12,"Online Course",Education,112.98
+c66874f2,2024-07-12,"Shoes",Apparel,140.13
+9f0e2764,2024-07-12,"Dining Out",Vacations,77.64
+a0a5c9ea,2024-07-13,"Coffee",Eating Out,161.00
+6c84dd10,2024-07-14,"Online Course",Education,289.81
+abb37157,2024-07-14,"Snacks",Groceries,264.16
+9d9a15ad,2024-07-15,"Jeans",Apparel,181.61
+8403e612,2024-07-16,"Gas",Transportation,283.51
+fe25a8df,2024-07-16,"Hotel Stay",Vacations,49.13
+bde6b5ec,2024-07-16,"Car Repair",Transportation,47.69
+7f4529c9,2024-07-16,"Pet Food",Pets,265.42
+e02f8808,2024-07-17,"College Tuition",Education,147.84
+77a029bd,2024-07-18,"Lunch at Diner",Eating Out,279.93
+6be763b8,2024-07-18,"Pet Food",Pets,244.32
+5e6c9b73,2024-07-19,"Pet Food",Pets,61.98
+a68f80f4,2024-07-19,"Fruits",Groceries,53.89
+4f10c641,2024-07-19,"T-Shirts",Apparel,258.17
+754773e9,2024-07-19,"Mortgage Payment",Housing,118.63
+8df44f72,2024-07-20,"Internet Bill",Bills,55.96
+6cdd9efc,2024-07-20,"Pet Food",Pets,239.13
+0ed0e1ed,2024-07-20,"Dinner at Restaurant",Eating Out,50.52
+b97f941e,2024-07-21,"Gift",Miscellaneous,244.54
+b78dad90,2024-07-21,"Coffee",Eating Out,258.39
+c803d067,2024-07-21,"Water Bill",Bills,62.08
+c8e3f094,2024-07-22,"Vet Visit",Pets,138.64
+da61ab60,2024-07-22,"Airfare",Vacations,272.05
+0c5601d7,2024-07-22,"Pet Food",Pets,27.17
+dff49778,2024-07-22,"Toys",Pets,193.75
+15825937,2024-07-23,"Hotel Stay",Vacations,248.48
+f777e8f3,2024-07-23,"Hobby Supplies",Miscellaneous,37.67
+0dd42d89,2024-07-23,"Lunch at Diner",Eating Out,98.29
+251bacb1,2024-07-23,"Rent Payment",Housing,47.57
+3562f386,2024-07-24,"Coffee",Eating Out,10.30
+c9fbe657,2024-07-24,"Home Maintenance",Housing,144.37
+1bdfdead,2024-07-24,"Insurance",Transportation,56.04
+fd3b82fe,2024-07-25,"Donation",Miscellaneous,97.15
+88bcff62,2024-07-25,"Toys",Pets,260.22
+8de958b6,2024-07-26,"Pet Food",Pets,107.99
+2b737687,2024-07-27,"Dining Out",Vacations,62.43
+86430945,2024-07-27,"Vet Visit",Pets,89.00
+6027eede,2024-07-27,"Jacket",Apparel,132.57
+eaa13053,2024-07-27,"Meat",Groceries,268.79
+67263092,2024-07-28,"Internet Bill",Bills,33.92
+80bd015a,2024-07-28,"Meat",Groceries,177.27
+5dffff92,2024-07-28,"Vet Visit",Pets,293.81
+89380550,2024-07-28,"Mortgage Payment",Housing,64.47
+f2d0f3cf,2024-07-29,"Mortgage Payment",Housing,20.57
+6e5c5c78,2024-07-30,"Vet Visit",Pets,217.23
+b211444f,2024-07-30,"Shoes",Apparel,168.85
+8654d4f9,2024-07-30,"Shoes",Apparel,145.49
+89bb1314,2024-07-30,"Gas Bill",Bills,284.21
+ee12bcc5,2024-07-31,"Online Course",Education,104.34
+59be3ed3,2024-08-01,"School Supplies",Education,64.32
+ff1cc26a,2024-08-01,"Insurance",Transportation,27.92
+bfbb9dc5,2024-08-01,"Coffee",Eating Out,298.84
+17309429,2024-08-02,"Mortgage Payment",Housing,232.52
+27253f9b,2024-08-03,"Books",Education,123.51
+63e02090,2024-08-03,"Insurance",Transportation,191.08
+3c885181,2024-08-03,"Gift",Miscellaneous,248.49
+0e218417,2024-08-03,"Fast Food",Eating Out,129.50
+3570b998,2024-08-04,"Insurance",Transportation,216.95
+0f41f5fe,2024-08-04,"Gift",Miscellaneous,99.12
+2463e798,2024-08-05,"Books",Education,299.67
+d0c64ff7,2024-08-05,"Mortgage Payment",Housing,88.37
+076a6c2b,2024-08-05,"Local Attractions",Vacations,205.26
+26df3d76,2024-08-05,"Water Bill",Bills,79.93
+008fb990,2024-08-06,"Gift",Miscellaneous,218.00
+efe1e519,2024-08-06,"Gas Bill",Bills,85.26
+7e7ecc06,2024-08-06,"Home Maintenance",Housing,199.52
+d8efcb1c,2024-08-07,"Donation",Miscellaneous,36.36
+14de2df7,2024-08-07,"Mortgage Payment",Housing,282.81
+e69d48cc,2024-08-07,"Pet Food",Pets,257.11
+0b87914d,2024-08-08,"Electric Bill",Bills,214.21
+c282f6be,2024-08-08,"Dinner at Restaurant",Eating Out,120.80
+9a2df71b,2024-08-08,"Online Course",Education,121.97
+981826cc,2024-08-08,"Public Transport",Transportation,236.96
+f5600707,2024-08-09,"Pet Food",Pets,280.92
+e3f213e3,2024-08-09,"Lunch at Diner",Eating Out,125.99
+24b5c34f,2024-08-09,"Insurance",Transportation,183.39
+2bbef5bb,2024-08-09,"Jeans",Apparel,57.70
+f3a33dee,2024-08-10,"Dining Out",Vacations,42.91
+5ddb722c,2024-08-10,"Rent Payment",Housing,272.72
+47139dcb,2024-08-11,"Lunch at Diner",Eating Out,143.90
+ba63dd0b,2024-08-11,"Gas Bill",Bills,46.89
+db32e1f9,2024-08-11,"Hobby Supplies",Miscellaneous,79.57
+49fb7e38,2024-08-11,"Shoes",Apparel,297.11
+6feb48f5,2024-08-12,"Hotel Stay",Vacations,229.38
+c6b21f99,2024-08-12,"Rent Payment",Housing,255.36
+7912db3c,2024-08-12,"Meat",Groceries,285.12
+fd26bee2,2024-08-13,"Fast Food",Eating Out,53.02
+bd1d746b,2024-08-14,"College Tuition",Education,244.23
+b2838b5e,2024-08-14,"Gas",Transportation,211.60
+6c48c582,2024-08-15,"Lunch at Diner",Eating Out,83.75
+a91f23fd,2024-08-16,"Donation",Miscellaneous,210.16
+476fab7f,2024-08-16,"Electric Bill",Bills,36.98
+2859f6a9,2024-08-16,"Local Attractions",Vacations,184.07
+364f6bed,2024-08-16,"Pet Food",Pets,28.84
+e718a925,2024-08-17,"Gift",Miscellaneous,255.62
+9629216e,2024-08-18,"Gift",Miscellaneous,199.92
+9d8c1bed,2024-08-19,"Lunch at Diner",Eating Out,242.61
+15f10fc9,2024-08-19,"Local Attractions",Vacations,106.41
+20ff7662,2024-08-19,"Hobby Supplies",Miscellaneous,152.77
+c443e45b,2024-08-19,"School Supplies",Education,211.88
+90a00b8d,2024-08-20,"Internet Bill",Bills,192.62
+9a1385be,2024-08-20,"Fast Food",Eating Out,142.11
+3c6a791f,2024-08-20,"Mortgage Payment",Housing,156.13
+77de55f6,2024-08-20,"Public Transport",Transportation,93.22
+8d9969db,2024-08-21,"Mortgage Payment",Housing,32.55
+00b2d6af,2024-08-21,"Shoes",Apparel,88.85
+ba54112a,2024-08-22,"Gas",Transportation,193.90
+dce1b444,2024-08-22,"Internet Bill",Bills,20.85
+b0124fef,2024-08-22,"Lunch at Diner",Eating Out,228.26
+53d34713,2024-08-23,"Internet Bill",Bills,293.28
+aa22d084,2024-08-23,"Gas",Transportation,260.47
+5d36a07d,2024-08-23,"Books",Education,90.22
+90a70289,2024-08-24,"Coffee",Eating Out,208.45
+8fa89183,2024-08-24,"Pet Food",Pets,172.67
+87ed8bef,2024-08-24,"Fruits",Groceries,123.32
+9f7cd40a,2024-08-25,"School Supplies",Education,83.95
+c9f35952,2024-08-26,"Fast Food",Eating Out,120.25
+3c9d334a,2024-08-26,"Gas",Transportation,124.57
+31790ad6,2024-08-27,"Gas",Transportation,101.37
+d6d37fe7,2024-08-27,"Books",Education,128.91
+dd7b9089,2024-08-27,"Home Maintenance",Housing,144.05
+3bc97ff3,2024-08-27,"Pet Food",Pets,28.07
+1e595060,2024-08-28,"Car Repair",Transportation,40.24
+cdcac8ad,2024-08-29,"Mortgage Payment",Housing,144.66
+14c4390a,2024-08-30,"Dinner at Restaurant",Eating Out,83.43
+d26500c6,2024-08-30,"Car Repair",Transportation,159.48
+d8dc786d,2024-08-31,"Electric Bill",Bills,291.04
+e68e541d,2024-08-31,"T-Shirts",Apparel,258.81
+86d54112,2024-08-31,"Local Attractions",Vacations,132.63
+3890c7dd,2024-08-31,"Lunch at Diner",Eating Out,246.46
+be8469a6,2024-09-01,"Coffee",Eating Out,289.97
+469261a6,2024-09-01,"Meat",Groceries,133.87
+696ac9c4,2024-09-01,"Hotel Stay",Vacations,182.33
+d1b676c7,2024-09-02,"Rent Payment",Housing,102.71
+589a090d,2024-09-02,"Public Transport",Transportation,109.33
+79bdb5ff,2024-09-03,"Hotel Stay",Vacations,278.04
+649d4d2e,2024-09-03,"Local Attractions",Vacations,120.37
+fcb4afc3,2024-09-03,"Pet Food",Pets,105.64
+6dc04091,2024-09-03,"Rent Payment",Housing,184.56
+8f2f22ba,2024-09-04,"Fast Food",Eating Out,174.79
+1c2405b3,2024-09-04,"Hobby Supplies",Miscellaneous,93.02
+089323a3,2024-09-04,"Coffee",Eating Out,44.68
+e26d92df,2024-09-05,"T-Shirts",Apparel,46.76
+d67ee0c0,2024-09-05,"Fast Food",Eating Out,209.74
+574de0fd,2024-09-05,"Snacks",Groceries,199.50
+9871711f,2024-09-06,"Toys",Pets,172.80
+631a7863,2024-09-06,"Internet Bill",Bills,212.57
+c6e04778,2024-09-06,"Dining Out",Vacations,230.69
+034e0ed4,2024-09-07,"Internet Bill",Bills,255.30
+0694e328,2024-09-08,"Airfare",Vacations,13.31
+dcaeb872,2024-09-08,"Mortgage Payment",Housing,21.23
+b0a27af1,2024-09-08,"Dinner at Restaurant",Eating Out,140.01
+edff0cb6,2024-09-08,"Gift",Miscellaneous,226.40
+9c06e887,2024-09-09,"Dinner at Restaurant",Eating Out,90.53
+48b12ab0,2024-09-10,"Hobby Supplies",Miscellaneous,126.44
+dac8dad0,2024-09-11,"Fast Food",Eating Out,77.88
+b14112e4,2024-09-12,"Home Maintenance",Housing,275.32
+73e780d8,2024-09-13,"Donation",Miscellaneous,44.00
+6551c38e,2024-09-13,"Donation",Miscellaneous,214.10
+9a51b653,2024-09-13,"Internet Bill",Bills,205.29
+a282b86b,2024-09-14,"Dining Out",Vacations,288.21
+922dd8a4,2024-09-14,"Hobby Supplies",Miscellaneous,160.06
+98c254ec,2024-09-14,"College Tuition",Education,225.11
+9a55f08d,2024-09-14,"Local Attractions",Vacations,294.49
+f5726d65,2024-09-15,"Jeans",Apparel,202.02
+663854b6,2024-09-15,"Airfare",Vacations,112.67
+ca508350,2024-09-16,"Toys",Pets,95.50
+c873d1e6,2024-09-16,"T-Shirts",Apparel,263.97
+709885d0,2024-09-17,"Pet Food",Pets,150.35
+daf2e32c,2024-09-17,"Public Transport",Transportation,179.52
+529733cd,2024-09-17,"Hobby Supplies",Miscellaneous,132.27
+608d556e,2024-09-18,"Vegetables",Groceries,100.60
+38cc33ee,2024-09-19,"Gift",Miscellaneous,249.00
+d8aeaa13,2024-09-20,"Mortgage Payment",Housing,224.53
+ffcc7d2f,2024-09-20,"Gift",Miscellaneous,59.63
+b7e1f846,2024-09-20,"Electric Bill",Bills,67.77
+30a783d9,2024-09-20,"Public Transport",Transportation,67.90
+e5858127,2024-09-21,"Insurance",Transportation,11.33
+2947580a,2024-09-21,"Jeans",Apparel,200.37
+78e86730,2024-09-21,"Donation",Miscellaneous,112.34
+e44094ba,2024-09-21,"Gas",Transportation,24.63
+758a2ced,2024-09-22,"Gift",Miscellaneous,46.14
+384df3b9,2024-09-22,"Dining Out",Vacations,204.73
+b8426d23,2024-09-23,"Shoes",Apparel,101.94
+cef5193e,2024-09-23,"Hobby Supplies",Miscellaneous,49.00
+429b2c28,2024-09-23,"Donation",Miscellaneous,198.57
+99fd3f75,2024-09-23,"Local Attractions",Vacations,51.22
+629425fc,2024-09-24,"Pet Food",Pets,35.46
+cb768723,2024-09-25,"T-Shirts",Apparel,215.22
+14e85be6,2024-09-25,"Vet Visit",Pets,227.46
+dfd67069,2024-09-25,"Local Attractions",Vacations,145.65
+8db80c81,2024-09-25,"Internet Bill",Bills,95.94
+057f7d7c,2024-09-26,"Donation",Miscellaneous,49.96
+0bd9c4ff,2024-09-26,"Mortgage Payment",Housing,73.86
+54a11178,2024-09-26,"Fruits",Groceries,170.68
+b8cdfea7,2024-09-26,"Lunch at Diner",Eating Out,120.33
+9ee49caa,2024-09-27,"Hotel Stay",Vacations,136.04
+4cded6f0,2024-09-27,"Vet Visit",Pets,218.37
+237668eb,2024-09-27,"T-Shirts",Apparel,100.37
+e90c6cc5,2024-09-28,"Dinner at Restaurant",Eating Out,93.58
+8a9f1f6a,2024-09-28,"Mortgage Payment",Housing,170.45
+d4a91f93,2024-09-29,"Online Course",Education,268.20
+82603bc1,2024-09-29,"Shoes",Apparel,17.90
+e7db84cc,2024-09-29,"Online Course",Education,252.53
+85f28bf1,2024-09-30,"Snacks",Groceries,174.08
+132c12b2,2024-09-30,"Books",Education,101.14
+11b51c99,2024-09-30,"Fast Food",Eating Out,107.10
+55b8819d,2024-10-01,"Gas",Transportation,38.44
+45bf4994,2024-10-01,"Dining Out",Vacations,289.99
+4efb3ee1,2024-10-01,"Donation",Miscellaneous,138.78
+f302d1b4,2024-10-02,"Shoes",Apparel,98.05
+0454fcb7,2024-10-03,"Shoes",Apparel,121.79
+0ae2181e,2024-10-03,"Mortgage Payment",Housing,203.22
+e2320041,2024-10-03,"Electric Bill",Bills,221.98
+366d1fcf,2024-10-03,"Hobby Supplies",Miscellaneous,197.22
+b029e92d,2024-10-04,"Fast Food",Eating Out,237.62
+a61a4d20,2024-10-04,"College Tuition",Education,113.78
+5e622465,2024-10-04,"Car Repair",Transportation,70.97
+6563b39f,2024-10-05,"Snacks",Groceries,139.01
+611194e8,2024-10-05,"Internet Bill",Bills,212.28
+0e761347,2024-10-06,"Mortgage Payment",Housing,84.41
+32b4d233,2024-10-06,"Mortgage Payment",Housing,186.37
+455cd87e,2024-10-06,"Dinner at Restaurant",Eating Out,227.70
+63a101dd,2024-10-06,"College Tuition",Education,68.85
+639b9e37,2024-10-07,"Coffee",Eating Out,139.92
+0409fdbc,2024-10-07,"Gift",Miscellaneous,170.70
+3a8d7d80,2024-10-07,"Car Repair",Transportation,128.95
+3480b0f7,2024-10-07,"Dinner at Restaurant",Eating Out,26.15
+8fb4d98b,2024-10-08,"Vet Visit",Pets,227.69
+f73a2329,2024-10-08,"Insurance",Transportation,240.83
+b3100c88,2024-10-08,"Public Transport",Transportation,108.94
+312fdcc6,2024-10-09,"Gift",Miscellaneous,44.46
+ab1a7895,2024-10-09,"Local Attractions",Vacations,28.08
+e6bfb5aa,2024-10-09,"Hobby Supplies",Miscellaneous,168.87
+0a6653ca,2024-10-09,"Home Maintenance",Housing,158.93
+05faf970,2024-10-10,"Hotel Stay",Vacations,267.21
+c03d3d50,2024-10-10,"Toys",Pets,76.52
+458c735a,2024-10-11,"Home Maintenance",Housing,181.64
+25f0459d,2024-10-11,"Gas Bill",Bills,115.83
+2537f0cc,2024-10-11,"Gift",Miscellaneous,32.42
+0f9d6984,2024-10-12,"Hobby Supplies",Miscellaneous,240.86
+5e405253,2024-10-13,"Water Bill",Bills,46.79
+752c719b,2024-10-13,"Gift",Miscellaneous,190.63
+0e15b930,2024-10-14,"Vet Visit",Pets,173.93
+78bd0937,2024-10-14,"Vet Visit",Pets,165.25
+dee7b1d5,2024-10-14,"Toys",Pets,242.90
+1609f902,2024-10-14,"Public Transport",Transportation,155.92
+10754eb9,2024-10-15,"Toys",Pets,209.08
+9363348b,2024-10-16,"Fruits",Groceries,82.00
+fc808a7b,2024-10-16,"Shoes",Apparel,64.68
+2cf15bc9,2024-10-16,"Home Maintenance",Housing,237.95
+83b00902,2024-10-17,"Dinner at Restaurant",Eating Out,85.80
+fbba0995,2024-10-17,"Toys",Pets,199.16
+54c36614,2024-10-17,"Hotel Stay",Vacations,52.59
+2296eb39,2024-10-18,"Airfare",Vacations,167.17
+6c2d685f,2024-10-19,"Toys",Pets,63.34
+1eb46618,2024-10-19,"Gas",Transportation,19.55
+562bd6d5,2024-10-20,"Vet Visit",Pets,196.56
+64ffddbb,2024-10-20,"Internet Bill",Bills,117.93
+d6e61d29,2024-10-20,"Hobby Supplies",Miscellaneous,131.89
+fa0a2b24,2024-10-21,"Donation",Miscellaneous,54.58
+d625dedc,2024-10-21,"Hotel Stay",Vacations,116.90
+088080dd,2024-10-21,"Water Bill",Bills,60.37
+ab18ae08,2024-10-22,"Water Bill",Bills,227.09
+73faf610,2024-10-23,"Gift",Miscellaneous,157.05
+22be2e79,2024-10-23,"Meat",Groceries,268.49
+416232f5,2024-10-23,"Lunch at Diner",Eating Out,278.27
+71176eaf,2024-10-23,"Pet Food",Pets,261.83
+db6554d7,2024-10-24,"Donation",Miscellaneous,139.38
+a37ffca2,2024-10-24,"Internet Bill",Bills,112.17
+24ebe2d0,2024-10-25,"Gas Bill",Bills,251.25
+b43aeea9,2024-10-26,"Snacks",Groceries,275.93
+0d20d38b,2024-10-27,"Pet Food",Pets,188.41
+dde29455,2024-10-28,"Books",Education,50.80
+fb1b9a2f,2024-10-28,"Online Course",Education,115.66
+83a80d72,2024-10-28,"Snacks",Groceries,144.29
+59232b54,2024-10-28,"Home Maintenance",Housing,146.59
+799bc19b,2024-10-29,"Gas",Transportation,185.17
+5cefd5e0,2024-10-29,"Gift",Miscellaneous,273.08
+0bd9b443,2024-10-29,"Donation",Miscellaneous,200.09
+2a9ddb58,2024-10-29,"Dinner at Restaurant",Eating Out,258.56
+4c81f429,2024-10-30,"Water Bill",Bills,240.68
+90ae5aa2,2024-10-31,"Gift",Miscellaneous,39.03
+15e6a723,2024-10-31,"Gas",Transportation,290.27
+e957338d,2024-10-31,"Vet Visit",Pets,233.96
+be08d003,2024-11-01,"Electric Bill",Bills,221.86
+680d4a7a,2024-11-01,"Gas",Transportation,195.04
+1e0335da,2024-11-01,"Gas Bill",Bills,252.02
+a977dcb2,2024-11-02,"Mortgage Payment",Housing,124.66
+384cec4d,2024-11-02,"Fruits",Groceries,94.22
+5a95b61a,2024-11-02,"Fast Food",Eating Out,255.57
+d81cf24f,2024-11-03,"Snacks",Groceries,232.79
+429bef00,2024-11-03,"Dining Out",Vacations,110.84
+959e3b13,2024-11-03,"Fruits",Groceries,51.73
+6ca67667,2024-11-03,"Dinner at Restaurant",Eating Out,75.09
+cd1c4e01,2024-11-04,"Donation",Miscellaneous,187.08
+2a4e6d1f,2024-11-04,"Toys",Pets,259.47
+2e231b02,2024-11-05,"T-Shirts",Apparel,157.00
+33238611,2024-11-06,"Fast Food",Eating Out,10.35
+de02727b,2024-11-06,"Lunch at Diner",Eating Out,247.50
+0ac042ee,2024-11-06,"Dining Out",Vacations,72.43
+e05b921a,2024-11-07,"Mortgage Payment",Housing,282.59
+b936d96c,2024-11-07,"Mortgage Payment",Housing,105.00
+5a6bf101,2024-11-07,"Shoes",Apparel,102.20
+1b3c5581,2024-11-07,"T-Shirts",Apparel,190.41
+aea16e52,2024-11-08,"Gift",Miscellaneous,296.19
+7561b46f,2024-11-08,"Gas",Transportation,220.29
+7f726bd1,2024-11-09,"Insurance",Transportation,78.16
+56c26e34,2024-11-09,"Fruits",Groceries,141.21
+a40a119e,2024-11-09,"Fast Food",Eating Out,60.83
+3fa1ae3a,2024-11-09,"Car Repair",Transportation,5.78
+1709f53b,2024-11-10,"Books",Education,225.46
+fa781ab8,2024-11-10,"Gift",Miscellaneous,75.94
+50c2b921,2024-11-10,"Local Attractions",Vacations,96.44
+588f2492,2024-11-11,"Vegetables",Groceries,118.99
+0056a18c,2024-11-12,"Car Repair",Transportation,13.04
+4025a8b8,2024-11-12,"Water Bill",Bills,164.95
+a0064950,2024-11-13,"Toys",Pets,93.23
+f71da0fb,2024-11-13,"Pet Food",Pets,168.69
+59eada1c,2024-11-13,"Rent Payment",Housing,104.02
+16ec7fdb,2024-11-14,"Toys",Pets,86.00
+8e2d46bf,2024-11-14,"Gift",Miscellaneous,125.27
+b118dc6e,2024-11-14,"Hotel Stay",Vacations,160.36
+34d7226b,2024-11-14,"Toys",Pets,171.44
+31ddd650,2024-11-15,"Donation",Miscellaneous,102.82
+d88303d7,2024-11-15,"Gas Bill",Bills,117.32
+7a0c0caf,2024-11-15,"Public Transport",Transportation,156.45
+9d5dd457,2024-11-16,"Toys",Pets,54.84
+78fc531e,2024-11-16,"Vet Visit",Pets,133.43
+cc3264aa,2024-11-16,"Gas Bill",Bills,97.66
+f1686be1,2024-11-16,"Fast Food",Eating Out,22.55
+a7f2aab5,2024-11-17,"Hotel Stay",Vacations,44.08
+72d7cdaa,2024-11-17,"Fruits",Groceries,147.67
+bf6490cb,2024-11-17,"Fast Food",Eating Out,208.63
+959753cd,2024-11-18,"Water Bill",Bills,285.09
+27689d38,2024-11-18,"Fast Food",Eating Out,280.58
+8f9dbd87,2024-11-18,"Airfare",Vacations,126.00
+5d6bf0ce,2024-11-19,"Vegetables",Groceries,125.46
+262ce574,2024-11-19,"Car Repair",Transportation,239.16
+691806ec,2024-11-19,"Hobby Supplies",Miscellaneous,295.52
+5028de97,2024-11-20,"Public Transport",Transportation,156.14
+6fe9ba5b,2024-11-20,"Hotel Stay",Vacations,174.54
+71f1cd08,2024-11-20,"Rent Payment",Housing,213.69
+bb6c5da8,2024-11-20,"Car Repair",Transportation,15.51
+75a58194,2024-11-21,"Internet Bill",Bills,170.21
+3c0348e3,2024-11-21,"Airfare",Vacations,20.88
+89a4bc72,2024-11-22,"Internet Bill",Bills,234.26
+40f1e81a,2024-11-22,"Water Bill",Bills,287.94
+58a6ea7c,2024-11-22,"Vegetables",Groceries,63.61
+c7be105e,2024-11-22,"Jeans",Apparel,215.45
+ddb7af15,2024-11-23,"School Supplies",Education,242.71
+5987dbd8,2024-11-23,"Pet Food",Pets,68.84
+cbb9bc3d,2024-11-23,"Water Bill",Bills,165.88
+3dc50ff7,2024-11-24,"Home Maintenance",Housing,230.93
+0132bad6,2024-11-24,"Fruits",Groceries,76.39
+0d308b12,2024-11-24,"Jacket",Apparel,178.99
+161d7f15,2024-11-25,"Insurance",Transportation,92.33
+510964f7,2024-11-26,"Coffee",Eating Out,123.68
+c2638d00,2024-11-26,"Local Attractions",Vacations,209.11
+9ec741af,2024-11-27,"Public Transport",Transportation,201.93
+734ad505,2024-11-28,"Rent Payment",Housing,102.56
+879f7ef9,2024-11-28,"Gas Bill",Bills,170.25
+fd407d0a,2024-11-28,"Donation",Miscellaneous,227.82
+0528d4e8,2024-11-29,"Airfare",Vacations,204.05
+b44e59c6,2024-11-29,"Home Maintenance",Housing,239.23
+fd321875,2024-11-29,"Meat",Groceries,164.68
+9ba06b9e,2024-11-30,"Donation",Miscellaneous,172.00
+06f0a15a,2024-11-30,"Public Transport",Transportation,203.16
+89f149be,2024-12-01,"Car Repair",Transportation,106.34
+7fb56bbc,2024-12-02,"Mortgage Payment",Housing,108.97
+35946ba4,2024-12-02,"Pet Food",Pets,78.50
+655093fa,2024-12-02,"Rent Payment",Housing,111.06
+35a77e1d,2024-12-02,"Hobby Supplies",Miscellaneous,103.78
+f129c798,2024-12-03,"Donation",Miscellaneous,37.98
+310f1f1b,2024-12-03,"School Supplies",Education,144.79
+623d9c5f,2024-12-04,"Gas Bill",Bills,79.18
+ff076e60,2024-12-04,"Gas",Transportation,198.53
+75cca66b,2024-12-04,"Car Repair",Transportation,255.75
+5bf1a0db,2024-12-05,"Pet Food",Pets,18.78
+ebd36234,2024-12-05,"Jeans",Apparel,283.35
+3dc64cdf,2024-12-06,"Shoes",Apparel,163.75
+cd665e01,2024-12-06,"Rent Payment",Housing,174.11
+5ca4dd95,2024-12-06,"Jeans",Apparel,230.57
+ad95682e,2024-12-06,"Airfare",Vacations,26.52
+bd4c52f6,2024-12-07,"Hobby Supplies",Miscellaneous,210.20
+505b9bdd,2024-12-07,"Books",Education,279.60
+3efc338d,2024-12-07,"Hotel Stay",Vacations,179.34
+a5fb0fa8,2024-12-07,"Gift",Miscellaneous,26.08
+51714f82,2024-12-08,"Insurance",Transportation,75.60
+aa636323,2024-12-08,"Insurance",Transportation,15.01
+10d6d51b,2024-12-09,"Dining Out",Vacations,250.98
+2c14a58e,2024-12-09,"Fruits",Groceries,185.09
+5e1866ea,2024-12-09,"Insurance",Transportation,265.00
+7e56c60d,2024-12-09,"Home Maintenance",Housing,200.04
+7f811c3b,2024-12-10,"Vet Visit",Pets,158.24
+7ef4e98b,2024-12-10,"Internet Bill",Bills,158.86
+e99e0628,2024-12-10,"Electric Bill",Bills,292.60
+c53147e5,2024-12-10,"Meat",Groceries,35.20
+52afa3bc,2024-12-11,"Dining Out",Vacations,298.55
+219f0021,2024-12-11,"College Tuition",Education,71.07
+833d7b4c,2024-12-12,"Jacket",Apparel,68.23
+881eb062,2024-12-12,"Coffee",Eating Out,30.22
+24490fc3,2024-12-12,"College Tuition",Education,224.24
+e99a8d32,2024-12-13,"Vegetables",Groceries,224.69
+e90d6049,2024-12-14,"Jeans",Apparel,90.45
+538089c4,2024-12-14,"Pet Food",Pets,171.24
+4e5fc668,2024-12-14,"Hotel Stay",Vacations,185.21
+94ad3abe,2024-12-15,"Gas",Transportation,213.11
+774d2e65,2024-12-16,"Vegetables",Groceries,253.31
+b164a652,2024-12-17,"Car Repair",Transportation,116.40
+7d5f46fe,2024-12-17,"Dining Out",Vacations,16.82
+2621b2d1,2024-12-17,"Toys",Pets,107.55
+fa549c49,2024-12-17,"Hotel Stay",Vacations,38.38
+2ee0dda5,2024-12-18,"Airfare",Vacations,198.26
+94129aaa,2024-12-18,"College Tuition",Education,281.81
+237979df,2024-12-19,"School Supplies",Education,283.89
+1dc53712,2024-12-19,"Airfare",Vacations,246.43
+e3172ca5,2024-12-19,"Internet Bill",Bills,226.31
+faa8509c,2024-12-20,"Jeans",Apparel,27.10
+a01dc5b1,2024-12-21,"Hobby Supplies",Miscellaneous,63.39
+63f851ec,2024-12-22,"Fast Food",Eating Out,189.52
+ebf42b81,2024-12-22,"College Tuition",Education,219.11
+7eb8e39c,2024-12-22,"Airfare",Vacations,110.04
+a59f58f8,2024-12-23,"Public Transport",Transportation,37.77
+74f605d6,2024-12-23,"Vegetables",Groceries,210.78
+e99eb3a5,2024-12-24,"Dinner at Restaurant",Eating Out,290.62
+7d9d90fd,2024-12-24,"Vet Visit",Pets,170.28
+6c741c95,2024-12-24,"Local Attractions",Vacations,208.19
+40d02256,2024-12-24,"Gas",Transportation,27.68
+d8dd2afb,2024-12-25,"Rent Payment",Housing,51.28
+08c46d98,2024-12-26,"Internet Bill",Bills,213.35
+70c395ea,2024-12-27,"Pet Food",Pets,110.68
+585d9c22,2024-12-27,"Car Repair",Transportation,117.75
+fd797dca,2024-12-28,"Home Maintenance",Housing,163.49
+e204c1ee,2024-12-29,"Fast Food",Eating Out,77.21
+f314b212,2024-12-29,"Airfare",Vacations,80.27
+5effd771,2024-12-29,"Electric Bill",Bills,166.48
+68c1086e,2024-12-29,"Hobby Supplies",Miscellaneous,20.97
+300c0266,2024-12-30,"Mortgage Payment",Housing,110.55
+5fbbf0d1,2024-12-30,"Toys",Pets,123.46
+7d54e5b6,2024-12-30,"Meat",Groceries,215.29
+9d2f37c1,2024-12-31,"Jeans",Apparel,67.61
+7ebde41f,2024-12-31,"Insurance",Transportation,110.13
+36200314,2024-12-31,"Fruits",Groceries,295.87
+82c33a9c,2024-12-31,"College Tuition",Education,48.59
+0fa4f1c6,2025-01-01,"Vegetables",Groceries,255.72
+08e34a0b,2025-01-01,"Vegetables",Groceries,61.74
+4717788e,2025-01-02,"Hobby Supplies",Miscellaneous,14.38
+18e75c9b,2025-01-02,"Airfare",Vacations,49.36
+50999071,2025-01-03,"Donation",Miscellaneous,38.65
+9b724701,2025-01-03,"Fast Food",Eating Out,198.28
+d68234e0,2025-01-03,"Gas",Transportation,18.95
+58f61ffb,2025-01-03,"T-Shirts",Apparel,29.65
+1a2c5fd3,2025-01-04,"Pet Food",Pets,190.49
+61cf853b,2025-01-04,"Books",Education,243.45
+44cf93cc,2025-01-05,"Dining Out",Vacations,98.79
+3be6fec2,2025-01-05,"Jeans",Apparel,54.66
+6f7fb716,2025-01-05,"Shoes",Apparel,147.77
+8e85b69a,2025-01-05,"Toys",Pets,197.91
+fe2bbb00,2025-01-06,"Public Transport",Transportation,213.64
+c72371d4,2025-01-07,"Local Attractions",Vacations,262.77
+a1efe41d,2025-01-07,"Gift",Miscellaneous,170.94
+248b04d6,2025-01-08,"Lunch at Diner",Eating Out,41.81
+df9527a6,2025-01-08,"Airfare",Vacations,283.48
+548e87f0,2025-01-08,"Insurance",Transportation,97.48
+e56376a5,2025-01-09,"Vegetables",Groceries,56.56
+f6927829,2025-01-09,"Pet Food",Pets,231.54
+40a5b4a7,2025-01-09,"Coffee",Eating Out,91.01
+e99a868d,2025-01-09,"Donation",Miscellaneous,13.65
+4b2017ec,2025-01-10,"Jeans",Apparel,22.90
+e6bdf85a,2025-01-10,"Home Maintenance",Housing,11.98
+6348d40d,2025-01-10,"Mortgage Payment",Housing,130.89
+0d3e76c1,2025-01-11,"Home Maintenance",Housing,172.21
+0642112e,2025-01-12,"Water Bill",Bills,40.64
+bcbc8f1e,2025-01-13,"Vet Visit",Pets,234.69
+48999e20,2025-01-14,"Insurance",Transportation,157.46
+655fb33c,2025-01-14,"Vegetables",Groceries,124.71
+5e257bb5,2025-01-15,"Shoes",Apparel,13.38
+24283d4f,2025-01-15,"Books",Education,160.39
+225715bb,2025-01-16,"Home Maintenance",Housing,271.90
+88535e78,2025-01-17,"Jeans",Apparel,181.21
+dd99d8a0,2025-01-17,"Fast Food",Eating Out,226.30
+4051aeff,2025-01-17,"Electric Bill",Bills,178.07
+37af9271,2025-01-18,"T-Shirts",Apparel,251.18
+fac309cf,2025-01-19,"Jacket",Apparel,128.40
+75f68321,2025-01-19,"Coffee",Eating Out,175.80
+790f0d6f,2025-01-20,"Vet Visit",Pets,187.31
+fe814ae2,2025-01-20,"Internet Bill",Bills,210.40
+810f0434,2025-01-20,"School Supplies",Education,66.45
+5ab627ca,2025-01-21,"Electric Bill",Bills,112.15
+bdfb9f93,2025-01-21,"Water Bill",Bills,72.21
+d64f298f,2025-01-21,"Insurance",Transportation,223.94
+cddc71c6,2025-01-21,"Local Attractions",Vacations,172.64
+21acf194,2025-01-22,"Shoes",Apparel,229.88
+476aa522,2025-01-23,"Home Maintenance",Housing,229.86
+f6720c16,2025-01-23,"Online Course",Education,62.03
+a8f5b26b,2025-01-23,"Local Attractions",Vacations,95.03
+1a0dee55,2025-01-23,"Pet Food",Pets,244.89
+3c3a1f28,2025-01-24,"Airfare",Vacations,32.68
+b2841ae9,2025-01-24,"T-Shirts",Apparel,15.58
+ba389a83,2025-01-24,"Fast Food",Eating Out,175.75
+0e44ed02,2025-01-25,"Gas Bill",Bills,137.19
+622e44a8,2025-01-25,"Coffee",Eating Out,87.63
+5765956d,2025-01-26,"Gift",Miscellaneous,212.46
+fc4d7445,2025-01-26,"Internet Bill",Bills,230.57
+95c1d83d,2025-01-26,"Water Bill",Bills,176.15
+96e313d4,2025-01-27,"Jeans",Apparel,281.20
+506ebb30,2025-01-27,"Fast Food",Eating Out,178.82
+ce1ac93a,2025-01-27,"Vet Visit",Pets,63.29
+8e99893b,2025-01-28,"School Supplies",Education,5.26
+53121565,2025-01-28,"Gift",Miscellaneous,195.75
+6ce1d4b0,2025-01-28,"Water Bill",Bills,230.26
+6180aa83,2025-01-29,"Pet Food",Pets,235.80
+9c4739f1,2025-01-29,"Coffee",Eating Out,66.28
+d103e1be,2025-01-29,"Internet Bill",Bills,45.59
+995f2f1a,2025-01-30,"College Tuition",Education,36.54
+190c5c75,2025-01-30,"Airfare",Vacations,86.01
+df11b3fe,2025-01-30,"Jeans",Apparel,24.87
+ea76af00,2025-01-31,"Donation",Miscellaneous,280.05
+5d991da8,2025-01-31,"Vegetables",Groceries,127.90
+f4f8d1d9,2025-01-31,"Gas",Transportation,151.63
+5ebf9756,2025-02-01,"Gift",Miscellaneous,192.83
+bdcab4d9,2025-02-01,"Books",Education,23.97
+652c7af9,2025-02-01,"Vegetables",Groceries,163.04
+0cc910c5,2025-02-01,"Dinner at Restaurant",Eating Out,282.37
+ae371c11,2025-02-02,"Gift",Miscellaneous,95.90
+d2e34344,2025-02-02,"Donation",Miscellaneous,18.43
+e7a34260,2025-02-03,"Online Course",Education,37.84
+6c459c43,2025-02-03,"Vegetables",Groceries,29.42
+f2fe2ee2,2025-02-03,"Car Repair",Transportation,126.75
+e1fc20c2,2025-02-03,"Insurance",Transportation,42.16
+bcd1b43e,2025-02-04,"Gas",Transportation,217.22
+793fc4f1,2025-02-05,"Airfare",Vacations,150.29
+b51c1977,2025-02-05,"Mortgage Payment",Housing,12.68
+db0b2af1,2025-02-06,"T-Shirts",Apparel,117.90
+0720e8f1,2025-02-06,"Mortgage Payment",Housing,147.55
+77eea940,2025-02-06,"Rent Payment",Housing,13.50
+5295584a,2025-02-07,"Dinner at Restaurant",Eating Out,123.36
+9689b903,2025-02-08,"Lunch at Diner",Eating Out,102.64
+78d467cb,2025-02-08,"Home Maintenance",Housing,59.35
+c2b4aa98,2025-02-09,"Mortgage Payment",Housing,80.20
+069e7dc2,2025-02-09,"Donation",Miscellaneous,268.72
+de9f1cf8,2025-02-09,"Insurance",Transportation,109.77
+0529a454,2025-02-09,"Vet Visit",Pets,197.39
+1a73e575,2025-02-10,"Public Transport",Transportation,130.21
+135fb36e,2025-02-11,"Insurance",Transportation,152.83
+3e26ac48,2025-02-11,"Donation",Miscellaneous,73.80
+fd17c501,2025-02-11,"Public Transport",Transportation,7.37
+b4ad2741,2025-02-12,"Online Course",Education,144.56
+60eded8d,2025-02-12,"Hobby Supplies",Miscellaneous,11.44
+a6fc2fb9,2025-02-13,"Meat",Groceries,279.15
+31053466,2025-02-13,"Donation",Miscellaneous,128.93
+c250fb0d,2025-02-13,"Gas",Transportation,218.62
+cde7db47,2025-02-14,"Fast Food",Eating Out,228.39
+88a50ab9,2025-02-14,"Snacks",Groceries,191.28
+81dc00ea,2025-02-14,"Electric Bill",Bills,145.48
+47369492,2025-02-15,"Gift",Miscellaneous,199.35
+31215fd4,2025-02-16,"Fast Food",Eating Out,127.02
+bcaeca73,2025-02-16,"Electric Bill",Bills,215.67
+630397b2,2025-02-16,"Rent Payment",Housing,116.87
+3e0f6bd2,2025-02-16,"College Tuition",Education,173.38
+a4d52c21,2025-02-17,"Mortgage Payment",Housing,111.17
+5c5df40f,2025-02-18,"Vegetables",Groceries,269.87
+e0f5496b,2025-02-18,"Rent Payment",Housing,234.18
+1eab30ad,2025-02-18,"Vet Visit",Pets,177.82
+16be40e7,2025-02-19,"Coffee",Eating Out,201.99
+538d68b5,2025-02-19,"T-Shirts",Apparel,213.69
+be8dd401,2025-02-20,"Electric Bill",Bills,280.88
+027725d1,2025-02-21,"Local Attractions",Vacations,120.16
+dc27aa0d,2025-02-21,"Vet Visit",Pets,28.04
+ba793097,2025-02-22,"Vet Visit",Pets,26.58
+9dda36fd,2025-02-23,"Airfare",Vacations,114.65
+46daeeab,2025-02-23,"Airfare",Vacations,116.78
+68501cab,2025-02-23,"Fruits",Groceries,251.44
+2ff00a6b,2025-02-24,"Jacket",Apparel,40.78
+f4ccf081,2025-02-24,"Fast Food",Eating Out,233.75
+5d267368,2025-02-24,"Jacket",Apparel,24.64
+87a4e217,2025-02-25,"Gas",Transportation,233.18
+af199743,2025-02-25,"Online Course",Education,108.75
+6d9fb7f2,2025-02-26,"Car Repair",Transportation,158.56
+7e2e9080,2025-02-26,"Dinner at Restaurant",Eating Out,55.06
+af3a48ea,2025-02-26,"Electric Bill",Bills,81.92
+957ad17f,2025-02-27,"Car Repair",Transportation,116.74
+bdd52215,2025-02-27,"Toys",Pets,271.74
+0d34487b,2025-02-27,"Hotel Stay",Vacations,237.69
+a5d45281,2025-02-28,"Dining Out",Vacations,246.18

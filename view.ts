@@ -212,7 +212,6 @@ export function index(monthInput: HTMLInputElement, balanceSheet: HTMLElement, e
     function renderLargestCategories(categories: Array<[string, number]>){
         largestCategories.innerHTML = "";
         for (const category of categories ){       
-            // const category = categories[i];
             const li = document.createElement("li");       
             li.className = "categoryRow";
 
@@ -550,7 +549,6 @@ function renderTransactions(startDate : Date, stopDate : Date, transactionsList:
     }
     console.log(transactions);
     transactionsList.innerHTML = "";
-    // console.log(transactionType==="expenses");
 
     for (const transaction of transactions ){
 
@@ -561,7 +559,6 @@ function renderTransactions(startDate : Date, stopDate : Date, transactionsList:
         const icon = document.createElement("div");        
         
         if (transactionType === "expenses") {
-            // console.log(transactionType);
             const expence = transaction as Expense;
             icon.className = `u-${expence.category} iconPHsmall`;
             const firstLetter = expence.category.charAt(0).toUpperCase();
@@ -575,7 +572,6 @@ function renderTransactions(startDate : Date, stopDate : Date, transactionsList:
 
         const day = document.createElement("span");
         day.className = "day";
-        // day.textContent = expense.date.toISOString().slice(0, 10);
         day.textContent = transaction.date.toLocaleDateString('en-GB',{day: '2-digit',month: '2-digit',year: '2-digit'})
                                         .slice(0, 10);
         li.appendChild(day);
