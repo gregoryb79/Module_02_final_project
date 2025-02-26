@@ -1,3 +1,4 @@
+let onUpdateCallbacks = [];
 const usersStorageKey = "users";
 const currentUserStorageKey = "currUser";
 const storedUsers = JSON.parse(localStorage.getItem(usersStorageKey) || "[]"); // Ensure it's at least an empty array
@@ -57,12 +58,17 @@ export function importFromCSV(file, type) {
         // console.log(csvData);
         switch (type) {
             case "expenses":
-                const expenses = parseExpensesCSV(csvData);
-                saveExpenses(expenses);
+                const importedExpenses = parseExpensesCSV(csvData);
+                console.log("saving imported expesnses to local storage");
+                saveExpenses(importedExpenses);
+                expenses = loadExpenses();
+                console.log("loading imported expesnses from local storage");
                 break;
             case "incomes":
-                const incomes = parseIncomesCSV(csvData);
-                saveIncomes(incomes);
+                const importedIncomes = parseIncomesCSV(csvData);
+                saveIncomes(importedIncomes);
+                incomes = loadIncomes();
+                console.log(incomes);
                 break;
         }
     };

@@ -1,7 +1,7 @@
 import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile, onExpenseSubmit, onIncomeSubmit } from "./controller.js";
 import { Expense, Income, getCurrentUser, getExpensesByDates, getIncomesByDates,
         getExpensesByCategories, getExpenseById, getIncomeById,
-        addExpense} from "./model.js";
+        onUpdate} from "./model.js";
 
 
 export function checkUser(){
@@ -280,6 +280,9 @@ export function index(monthInput: HTMLInputElement, balanceSheet: HTMLElement, e
     }
 }
 
+
+
+
 export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
                          expensesList: HTMLElement, expenseForm: HTMLFormElement){
 
@@ -292,8 +295,10 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
     datesForm.startDate.value = formattedMonthAgo;
     datesForm.stopDate.value = formattedToday;
     expenseForm.date.value = today.toISOString().slice(0, 10);
+    let stopDate = today;
+    let startDate = monthAgo;
 
-    renderTransactions(monthAgo,today,expensesList,"expenses");
+    renderTransactions(startDate,stopDate,expensesList,"expenses");
 
     filesForm.addEventListener("change", function(e){
         const target = e.target as HTMLInputElement;
@@ -311,7 +316,12 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
             console.log("Export file changed:", target.files);
             // Handle export logic here
         }
-        renderTransactions(startDate,stopDate,expensesList,"expenses");
+
+        setTimeout(() => {
+            console.log(`render transactions ${startDate}, ${stopDate}`);
+            renderTransactions(startDate,stopDate,expensesList,"expenses");
+        }, 100);
+        
     });
 
     expenseForm.addEventListener("submit", function(e){
@@ -350,8 +360,7 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
 
     });
 
-    let stopDate = today;
-    let startDate = monthAgo;
+    
     datesForm.addEventListener("change",function(e){       
         const target = e.target as HTMLInputElement;
         if (target.id === "stopDate"){
@@ -366,8 +375,6 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
         renderTransactions(startDate,stopDate,expensesList,"expenses");
         
     });
-
-
 }
 
 export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, incomesList: HTMLElement,
@@ -403,6 +410,11 @@ export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, 
             console.log("Export file changed:", target.files);
             // Handle export logic here
         }
+
+        setTimeout(() => {
+            console.log(`render transactions ${startDate}, ${stopDate}`);
+            renderTransactions(startDate,stopDate,incomesList,"income");
+        }, 100);
     });
 
     
@@ -520,11 +532,14 @@ function displayToast(container: HTMLElement, message: string){
     }, 3000); // Auto-hide after 3s
 }
 
+
 function renderTransactions(startDate : Date, stopDate : Date, transactionsList: HTMLElement
                         , transactionType : "expenses" | "income"
 ){
 
     let transactions: (Expense | Income)[] = [];
+    console.log(`rendering transaction${startDate}, ${stopDate}, ${transactionType}.`)
+
 
     switch (transactionType){
         case "expenses":
@@ -535,7 +550,7 @@ function renderTransactions(startDate : Date, stopDate : Date, transactionsList:
             console.log(transactions);
             break;
     }
-    
+    console.log(transactions);
     transactionsList.innerHTML = "";
     // console.log(transactionType==="expenses");
 

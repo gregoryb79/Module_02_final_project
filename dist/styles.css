@@ -309,14 +309,14 @@ body {
   font-size: 2rem;
   font-weight: 600;
   position: absolute;
-  top: 0.5rem;
+  top: 0;
 }
 
 .meterPercentage {
   position: absolute;
   font-size: 4rem;
   font-weight: 600;
-  bottom: 2rem;
+  bottom: 1rem;
 }
 
 .expenseMeterCanvas {

@@ -14,6 +14,8 @@ export type Income = {
     sum: number;     
 }
 
+let onUpdateCallbacks: (() => void)[] = [];
+
 const usersStorageKey = "users";
 const currentUserStorageKey = "currUser";
 
@@ -90,12 +92,17 @@ export function importFromCSV (file: File, type: "expenses" | "incomes"){
 
         switch (type){
             case "expenses":
-                const expenses = parseExpensesCSV(csvData);
-                saveExpenses(expenses);
+                const importedExpenses = parseExpensesCSV(csvData);
+                console.log ("saving imported expesnses to local storage");
+                saveExpenses(importedExpenses);
+                expenses = loadExpenses();
+                console.log ("loading imported expesnses from local storage");                              
                 break;
             case "incomes":
-                const incomes = parseIncomesCSV(csvData);
-                saveIncomes(incomes);
+                const importedIncomes = parseIncomesCSV(csvData);
+                saveIncomes(importedIncomes);
+                incomes = loadIncomes();
+                console.log(incomes);
                 break;
         }
         

@@ -242,7 +242,9 @@ export function expenses(filesForm, datesForm, expensesList, expenseForm) {
     datesForm.startDate.value = formattedMonthAgo;
     datesForm.stopDate.value = formattedToday;
     expenseForm.date.value = today.toISOString().slice(0, 10);
-    renderTransactions(monthAgo, today, expensesList, "expenses");
+    let stopDate = today;
+    let startDate = monthAgo;
+    renderTransactions(startDate, stopDate, expensesList, "expenses");
     filesForm.addEventListener("change", function (e) {
         const target = e.target;
         if (target.id === "importFile") {
@@ -259,7 +261,10 @@ export function expenses(filesForm, datesForm, expensesList, expenseForm) {
             console.log("Export file changed:", target.files);
             // Handle export logic here
         }
-        renderTransactions(startDate, stopDate, expensesList, "expenses");
+        setTimeout(() => {
+            console.log(`render transactions ${startDate}, ${stopDate}`);
+            renderTransactions(startDate, stopDate, expensesList, "expenses");
+        }, 100);
     });
     expenseForm.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -296,8 +301,6 @@ export function expenses(filesForm, datesForm, expensesList, expenseForm) {
             displayToast(expenseForm, error);
         }
     });
-    let stopDate = today;
-    let startDate = monthAgo;
     datesForm.addEventListener("change", function (e) {
         const target = e.target;
         if (target.id === "stopDate") {
@@ -337,6 +340,10 @@ export function incomes(filesForm, datesForm, incomesList, incomeForm) {
             console.log("Export file changed:", target.files);
             // Handle export logic here
         }
+        setTimeout(() => {
+            console.log(`render transactions ${startDate}, ${stopDate}`);
+            renderTransactions(startDate, stopDate, incomesList, "income");
+        }, 100);
     });
     incomeForm.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -431,6 +438,7 @@ function displayToast(container, message) {
 }
 function renderTransactions(startDate, stopDate, transactionsList, transactionType) {
     let transactions = [];
+    console.log(`rendering transaction${startDate}, ${stopDate}, ${transactionType}.`);
     switch (transactionType) {
         case "expenses":
             transactions = getExpensesByDates(startDate, stopDate);
@@ -440,6 +448,7 @@ function renderTransactions(startDate, stopDate, transactionsList, transactionTy
             console.log(transactions);
             break;
     }
+    console.log(transactions);
     transactionsList.innerHTML = "";
     // console.log(transactionType==="expenses");
     for (const transaction of transactions) {
