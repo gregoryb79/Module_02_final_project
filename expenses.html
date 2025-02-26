@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="dist/composition.css">
     <link rel="stylesheet" href="dist/utilities.css">
     <link rel="stylesheet" href="dist/block.css">
-    <link rel="stylesheet" href="dist/exeptions.css">
+    <link rel="stylesheet" href="dist/exceptions.css">
     <title>Expenses</title>    
 </head>
 <body>
@@ -59,8 +59,8 @@
         <section class="cluster">
             <label for="importFile" class="custom-file-label  u-borderRadius-8">Import</label>
             <input type="file" id="importFile" name="importFile" class="u-hidden-file-input">
-            <label for="exportFile" class="custom-file-label  u-borderRadius-8">Export</label>
-            <input type="file" id="exportFile" name="exportFile" class="u-hidden-file-input">
+            <div id="exportFile" class="custom-file-label  u-borderRadius-8">Export</div>
+            <!-- <input type="file" id="exportFile" name="exportFile" class="u-hidden-file-input"> -->
         </section>        
         <p class="u-textCenter">CSV format only</p>
     </form>
@@ -122,7 +122,8 @@
         expenses(document.forms.namedItem("fileHandler"),
             document.forms.namedItem("datesRange"),
             document.getElementById("expensesList"),
-            document.forms.namedItem("expenseForm")
+            document.forms.namedItem("expenseForm"),
+            document.getElementById("exportFile")
         );
     </script>
 

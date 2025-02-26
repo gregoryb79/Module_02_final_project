@@ -111,6 +111,75 @@ export function importFromCSV (file: File, type: "expenses" | "incomes"){
     reader.readAsText(file);
 }
 
+export function saveExpensesToCSV() {
+    
+    const headers = ["date", "description", "category", "sum"];
+    const rows = [headers.join(",")];
+
+    
+    for (const [, expense] of expenses) {
+        const row = [            
+            expense.date.toISOString().slice(0, 10), 
+            `"${expense.description.replace(/"/g, '""')}"`, // Handle quotes in text
+            expense.category,
+            expense.sum.toFixed(2) 
+        ];
+        rows.push(row.join(","));
+    }
+
+    // Create CSV content as a single string
+    const csvContent = rows.join("\n");
+
+    // Create a Blob and a downloadable link
+    const blob = new Blob([csvContent], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+
+    // Create a hidden download link
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "expenses.csv";
+    document.body.appendChild(a);
+    a.click();
+
+    // Cleanup
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
+export function saveIncomesToCSV() {
+    
+    const headers = ["date", "source", "sum"];
+    const rows = [headers.join(",")];
+
+    
+    for (const [, income] of incomes) {
+        const row = [            
+            income.date.toISOString().slice(0, 10), 
+            `"${income.source.replace(/"/g, '""')}"`, // Handle quotes in text
+            income.sum.toFixed(2) 
+        ];
+        rows.push(row.join(","));
+    }
+
+    // Create CSV content as a single string
+    const csvContent = rows.join("\n");
+
+    // Create a Blob and a downloadable link
+    const blob = new Blob([csvContent], { type: "text/csv" });
+    const url = URL.createObjectURL(blob);
+
+    // Create a hidden download link
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = "incomes.csv";
+    document.body.appendChild(a);
+    a.click();
+
+    // Cleanup
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+}
+
 function parseExpensesCSV(csv : string) : Map<string, Expense> {
     
     const lines = csv.trim().split("\n");

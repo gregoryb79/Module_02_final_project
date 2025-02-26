@@ -1,7 +1,7 @@
 import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile, onExpenseSubmit, onIncomeSubmit } from "./controller.js";
 import { Expense, Income, getCurrentUser, getExpensesByDates, getIncomesByDates,
         getExpensesByCategories, getExpenseById, getIncomeById,
-        onUpdate} from "./model.js";
+        saveExpensesToCSV, saveIncomesToCSV} from "./model.js";
 
 
 export function checkUser(){
@@ -284,7 +284,8 @@ export function index(monthInput: HTMLInputElement, balanceSheet: HTMLElement, e
 
 
 export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
-                         expensesList: HTMLElement, expenseForm: HTMLFormElement){
+                         expensesList: HTMLElement, expenseForm: HTMLFormElement,
+                        exportFile: HTMLElement){
 
     const today = new Date();   
     const monthAgo = new Date();
@@ -310,18 +311,17 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
             } catch (error){
                 console.error(error);
                 displayToast(datesForm, error);
-            }
-            
-        } else if (target.id === "exportFile") {
-            console.log("Export file changed:", target.files);
-            // Handle export logic here
-        }
-
+            }           
+       
         setTimeout(() => {
             console.log(`render transactions ${startDate}, ${stopDate}`);
             renderTransactions(startDate,stopDate,expensesList,"expenses");
         }, 100);
         
+    });
+
+    exportFile.addEventListener("click", function(e){
+        saveExpensesToCSV();
     });
 
     expenseForm.addEventListener("submit", function(e){
@@ -378,7 +378,7 @@ export function expenses(filesForm: HTMLFormElement, datesForm: HTMLFormElement,
 }
 
 export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, incomesList: HTMLElement,
-                        incomeForm: HTMLFormElement
+                        incomeForm: HTMLFormElement, exportFile: HTMLElement
 ){
 
     const today = new Date(); 
@@ -406,18 +406,16 @@ export function incomes(filesForm: HTMLFormElement, datesForm: HTMLFormElement, 
                 displayToast(datesForm, error);
             }
             
-        } else if (target.id === "exportFile") {
-            console.log("Export file changed:", target.files);
-            // Handle export logic here
-        }
-
         setTimeout(() => {
             console.log(`render transactions ${startDate}, ${stopDate}`);
             renderTransactions(startDate,stopDate,incomesList,"income");
         }, 100);
     });
 
-    
+    exportFile.addEventListener("click", function(e){
+        saveIncomesToCSV();
+    });
+
     incomeForm.addEventListener("submit", function(e){
         e.preventDefault();
         const formData = new FormData(incomeForm, e.submitter);

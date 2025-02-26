@@ -1,5 +1,5 @@
 import { onRegisterFormSubmit, onLoginFormSubmit, onImportFile, onExpenseSubmit, onIncomeSubmit } from "./controller.js";
-import { getCurrentUser, getExpensesByDates, getIncomesByDates, getExpensesByCategories, getExpenseById, getIncomeById } from "./model.js";
+import { getCurrentUser, getExpensesByDates, getIncomesByDates, getExpensesByCategories, getExpenseById, getIncomeById, saveExpensesToCSV, saveIncomesToCSV } from "./model.js";
 export function checkUser() {
     const currentUser = getCurrentUser();
     if (currentUser === "") {
@@ -233,7 +233,7 @@ export function index(monthInput, balanceSheet, expenseMeterCanvas, balance, per
         drawMeter(income, expense);
     }
 }
-export function expenses(filesForm, datesForm, expensesList, expenseForm) {
+export function expenses(filesForm, datesForm, expensesList, expenseForm, exportFile) {
     const today = new Date();
     const monthAgo = new Date();
     monthAgo.setMonth(monthAgo.getMonth() - 1);
@@ -256,15 +256,14 @@ export function expenses(filesForm, datesForm, expensesList, expenseForm) {
                 console.error(error);
                 displayToast(datesForm, error);
             }
+            setTimeout(() => {
+                console.log(`render transactions ${startDate}, ${stopDate}`);
+                renderTransactions(startDate, stopDate, expensesList, "expenses");
+            }, 100);
         }
-        else if (target.id === "exportFile") {
-            console.log("Export file changed:", target.files);
-            // Handle export logic here
-        }
-        setTimeout(() => {
-            console.log(`render transactions ${startDate}, ${stopDate}`);
-            renderTransactions(startDate, stopDate, expensesList, "expenses");
-        }, 100);
+    });
+    exportFile.addEventListener("click", function (e) {
+        saveExpensesToCSV();
     });
     expenseForm.addEventListener("submit", function (e) {
         e.preventDefault();
@@ -314,7 +313,7 @@ export function expenses(filesForm, datesForm, expensesList, expenseForm) {
         renderTransactions(startDate, stopDate, expensesList, "expenses");
     });
 }
-export function incomes(filesForm, datesForm, incomesList, incomeForm) {
+export function incomes(filesForm, datesForm, incomesList, incomeForm, exportFile) {
     const today = new Date();
     const yearAgo = new Date();
     yearAgo.setFullYear(yearAgo.getFullYear() - 1);
@@ -335,15 +334,14 @@ export function incomes(filesForm, datesForm, incomesList, incomeForm) {
                 console.error(error);
                 displayToast(datesForm, error);
             }
+            setTimeout(() => {
+                console.log(`render transactions ${startDate}, ${stopDate}`);
+                renderTransactions(startDate, stopDate, incomesList, "income");
+            }, 100);
         }
-        else if (target.id === "exportFile") {
-            console.log("Export file changed:", target.files);
-            // Handle export logic here
-        }
-        setTimeout(() => {
-            console.log(`render transactions ${startDate}, ${stopDate}`);
-            renderTransactions(startDate, stopDate, incomesList, "income");
-        }, 100);
+    });
+    exportFile.addEventListener("click", function (e) {
+        saveIncomesToCSV();
     });
     incomeForm.addEventListener("submit", function (e) {
         e.preventDefault();
