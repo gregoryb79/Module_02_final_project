@@ -1,0 +1,99 @@
+.u-centerText{
+    text-align: center;
+}
+
+.u-listInline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.u-marginTop-1rem{
+    margin-top: 1rem;
+}
+
+.u-marginBot-1rem{
+    margin-bottom: 1rem;
+}
+
+.u-borderRadius-16{
+    border-radius: 1rem;
+}
+.u-borderRadius-8{
+    border-radius: 0.5rem;
+}
+
+.u-margin-4{
+    margin: 0.25rem;
+}
+.u-regFont{
+    font-size: var(--regularFont);
+}
+.u-largeFont{
+    font-size: var(--largeFont);
+}
+
+.u-smallerH2{
+    font-size: 2.0rem;
+}
+
+.u-inputFieldShort{
+    width: 60%;
+    height: 2rem;
+}
+
+.u-textRight{
+    text-align: right;
+}
+
+.u-textCenter{
+    text-align: center;
+}
+.u-hidden-file-input{
+    display: none;
+}
+.u-Bills{
+    background-color: var(--billsColor, #0066cc);
+}
+.u-Apparel{
+    background-color: var(--apparelColor, #ff69b4);
+}
+.u-Eating{
+    background-color: var(--eatingColor, #ffa500);
+}
+.u-Education{
+    background-color: var(--educationColor,#00ccff);
+}
+.u-Groceries{
+    background-color: var(--groceriesColor,#228b22);
+}
+.u-Miscellaneous{
+    background-color: var(--miscColor,#808080);
+}
+.u-Pets{
+    background-color: var(--petsColor,#ff6347);
+}
+.u-Housing{
+    background-color: var(--housingColor,#8b4513);
+}   
+.u-Transportation{
+    background-color: var(--transportColor,#008080);
+}
+.u-Vacations{
+    background-color: var(--vacationColor,#ffdfba);
+}
+.u-income{
+    background-color: #008000;
+}
+.u-totalIncome{
+    color: #008000;
+}
+.u-totalExpense{
+    color: #ff4500;
+}
+.u-pBalance{
+    color: #228b22;
+}
+.u-nBalance{
+    color: #b22222;
+}

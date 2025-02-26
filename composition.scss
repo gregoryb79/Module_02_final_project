@@ -1,0 +1,22 @@
+$bp-mobile: 27rem;
+$bp-tablet: 48rem;
+
+body{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12,1fr);
+    width: 97vw;
+    height: 97vh;
+    
+    margin: auto;
+    margin-top: 1.5vh;
+    @media screen and (max-width: $bp-tablet) {
+        display: flex;
+        flex-direction: column;
+        height: 100%; 
+        
+        &.login{
+           height: 97vh;
+        }
+    }   
+}

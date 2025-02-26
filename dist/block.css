@@ -1,0 +1,472 @@
+.monthInput {
+  font-size: var(--largeFont);
+  border: none;
+}
+
+.iconPH {
+  width: var(--iconWidth);
+  height: var(--iconWidth);
+  border-radius: 50%;
+  background-color: palegreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--largeFont);
+}
+.iconPH.active {
+  cursor: pointer;
+  background-color: green;
+}
+.iconPH.active:hover {
+  transform: scale(1.1);
+}
+
+.iconPHsmall {
+  width: var(--smallIconWidth);
+  height: var(--smallIconWidth);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--regularFont);
+}
+
+.sideMenu {
+  border: 1px solid darkgray;
+  grid-column: 1/2;
+  grid-row: 1/13;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+@media screen and (max-width: 48rem) {
+  .sideMenu {
+    flex-direction: row;
+    padding: 0.25rem;
+  }
+}
+
+.pageHeader {
+  border: 1px solid darkgray;
+  grid-column: 2/5;
+  grid-row: 1/2;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 0.5rem;
+}
+
+.expsesHeader {
+  border: 1px solid darkgray;
+  grid-column: 2/5;
+  grid-row: 1/3;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-right: 0.5rem;
+}
+
+.loginHeader {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.loginHeader a {
+  text-decoration: underline;
+}
+
+.balanceSheet {
+  border: 1px solid darkgrey;
+  grid-column: 2/5;
+  grid-row: 2/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.balanceSheet li {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.balanceSheet span {
+  font-size: var(--metersFont);
+  font-weight: 600;
+}
+@media screen and (max-width: 48rem) {
+  .balanceSheet {
+    flex-direction: row;
+  }
+}
+
+.expenseMeter {
+  position: relative;
+  border: 1px solid darkgray;
+  grid-column: 5/9;
+  grid-row: 1/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.meterBalance {
+  font-size: 2rem;
+  font-weight: 600;
+  position: absolute;
+  top: 0;
+}
+
+.meterPercentage {
+  position: absolute;
+  font-size: 4rem;
+  font-weight: 600;
+  bottom: 1rem;
+}
+
+.expenseMeterCanvas {
+  width: calc(100% - 0.5rem);
+  height: calc(100% - 0.5rem);
+}
+@media screen and (max-width: 48rem) {
+  .expenseMeterCanvas {
+    aspect-ratio: 1.8;
+  }
+}
+
+.expencesGraph {
+  border: 1px solid darkgray;
+  grid-column: 9/13;
+  grid-row: 1/6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.expencesGraphCanvas {
+  width: calc(100% - 0.5rem);
+  height: calc(100% - var(--regularFont) - 0.5rem);
+}
+@media screen and (max-width: 48rem) {
+  .expencesGraphCanvas {
+    aspect-ratio: 1;
+  }
+}
+
+.expensesSection {
+  border: 1px solid darkgray;
+  grid-column: 5/13;
+  grid-row: 1/13;
+}
+
+.expensesList {
+  max-height: calc(100% - var(--largeFont) - 3rem);
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  gap: 1rem;
+}
+
+.recentExpensesList {
+  max-height: calc(100% - var(--largeFont));
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  gap: 0.85rem;
+}
+
+.recentExpences {
+  border: 1px solid darkgray;
+  grid-column: 2/9;
+  grid-row: 6/13;
+}
+@media screen and (max-width: 48rem) {
+  .recentExpences {
+    height: 14rem;
+  }
+}
+
+.transactionRow {
+  display: grid;
+  grid-template-columns: 0.85fr 1.1fr 3fr 2fr;
+  font-size: var(--regularFont);
+  align-items: center;
+  cursor: pointer;
+}
+.transactionRow :first-child {
+  margin-left: 1rem;
+}
+.transactionRow :last-child {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.datesRange {
+  font-size: var(--largeFont);
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+@media screen and (max-width: 48rem) {
+  .datesRange {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+  }
+}
+
+.largestCategories {
+  border: 1px solid darkgray;
+  grid-column: 9/13;
+  grid-row: 6/13;
+}
+
+.largestCategoriesList {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  max-height: calc(100% - var(--largeFont));
+  overflow-x: hidden;
+  gap: 0.8rem;
+}
+
+.categoryRow {
+  font-size: var(--regularFont);
+  display: grid;
+  grid-template-columns: 1.25fr 3fr 2.5fr;
+  align-items: center;
+}
+.categoryRow :first-child {
+  margin-left: 1rem;
+}
+.categoryRow :last-child {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.fileHandler {
+  border: 1px solid darkgray;
+  grid-column: 2/5;
+  grid-row: 3/5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.fileHandler .cluster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+@media screen and (max-width: 48rem) {
+  .fileHandler {
+    padding-top: 0.5rem;
+    gap: 0.25rem;
+  }
+}
+
+.custom-file-label {
+  width: 5rem;
+  height: 1.5rem;
+  padding-top: 0.1rem;
+  background-color: lightgrey;
+  border: 1px solid darkgray;
+  cursor: pointer;
+  font-size: var(regularFont);
+  text-align: center;
+}
+
+.expenseForm {
+  border: 1px solid darkgray;
+  grid-column: 2/5;
+  grid-row: 5/13;
+  font-size: var(--largeFont);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.expenseForm button {
+  font-size: var(--largeFont);
+  border: 1px solid darkgray;
+  width: 6rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.expenseForm button:hover {
+  transform: scale(1.1);
+}
+@media screen and (max-width: 48rem) {
+  .expenseForm {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    justify-content: flex-start;
+    gap: 0.5rem;
+  }
+}
+
+.addExpense {
+  visibility: hidden;
+  opacity: 0;
+  background-color: seashell;
+  z-index: 999;
+  grid-column: 2/5;
+  grid-row: 4/12;
+  border: 3px solid black;
+}
+.addExpense.active {
+  opacity: 1;
+  visibility: visible;
+}
+@media screen and (max-width: 48rem) {
+  .addExpense {
+    position: fixed;
+    top: 5rem;
+    width: 90%;
+    left: 5%;
+    height: 80vw;
+  }
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.transactioFileHandler {
+  border: 1px solid red;
+  grid-column: 2/3;
+  grid-row: 3/8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-left: 1rem;
+}
+
+.frame {
+  border: 1px solid darkgray;
+  grid-column: 2/13;
+  grid-row: 1/13;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media screen and (max-width: 48rem) {
+  .frame {
+    height: 100%;
+  }
+}
+
+.loginForm {
+  border: 1px solid darkgray;
+  margin-top: 5rem;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  font-size: var(--largeFont);
+}
+@media screen and (max-width: 48rem) {
+  .loginForm {
+    width: 80%;
+  }
+}
+.loginForm :first-child {
+  margin-top: 0.5rem;
+}
+.loginForm :last-child {
+  margin-bottom: 0.5rem;
+}
+.loginForm li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: calc(100% - 1.5rem);
+}
+.loginForm button {
+  border: 1px solid darkgray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+  margin: auto;
+}
+.loginForm button:hover {
+  transform: scale(1.1);
+}
+
+.registerForm {
+  border: 1px solid darkgray;
+  margin-top: 5rem;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  justify-content: space-around;
+  align-items: center;
+  font-size: var(--largeFont);
+}
+@media screen and (max-width: 48rem) {
+  .registerForm {
+    width: 80%;
+  }
+}
+.registerForm :first-child {
+  margin-top: 0.5rem;
+}
+.registerForm :last-child {
+  margin-bottom: 0.5rem;
+}
+.registerForm li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 1.5rem);
+}
+.registerForm button {
+  border: 1px solid darkgray;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  cursor: pointer;
+}
+.registerForm button:hover {
+  transform: scale(1.1);
+}
+
+.toast {
+  background: #f44336;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  animation: fadeOut 3s ease forwards;
+  z-index: 1000;
+  position: absolute;
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

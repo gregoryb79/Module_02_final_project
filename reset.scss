@@ -1,0 +1,97 @@
+:root{
+    --primatry-color: #3f6ff3;
+    --secondary-color: #e2e9fd;
+    --neutral-300: #f8f9fb;
+    --neutral-400: #eceff4;
+    --neutral-500: #c5cfdd;
+    --neutral-600: #a2aab3;
+    --Green: #70d36b;
+    --Yellow: #ffcb05;
+    --Red: #ff5d54; 
+    --billsColor: #0066cc;    
+    --apparelColor: #ff69b4;
+    --eatingColor: #ffa500;
+    --educationColor: #00ccff;
+    --groceriesColor: #228b22;
+    --miscColor: #808080;
+    --petsColor: #ff6347;
+    --housingColor: #8b4513;
+    --transportColor: #008080;
+    --vacationColor: #ffdfba;    
+
+    --text-color-primary: #000000;
+    --text_color_secondary: #545454;
+
+    --h2-font-size: clamp(1.5rem, 2.5vw, 2.5rem);//2.5rem;
+    --metersFont : clamp(1.2rem, 3vw, 2rem);//2rem;
+    --regularFont : clamp(0.8rem, 1.8vw, 1.2rem);//1.2rem;
+    --largeFont : clamp(1rem, 2vw, 1.5rem);//1.5rem;
+
+    --iconWidth : 4rem;
+    --smallIconWidth : 3rem;
+   
+    @media (prefers-color-scheme: dark) {
+       
+    }
+
+    @media screen and (max-width: 48rem) {
+        --h2-font-size: clamp(1.5rem, 5.2vw, 2.5rem);//2.5rem;
+        --metersFont : clamp(1.2rem, 3.75vw, 2rem);//2rem;
+        --regularFont : clamp(1rem, 2.5vw, 1.2rem);//1.2rem;
+        --largeFont : clamp(1rem, 4vw, 1.5rem);//1.5rem;
+        --iconWidth : clamp(2.5rem, 8.3vw, 4rem);//4rem; large font
+        --smallIconWidth : clamp(2rem, 6.25vw, 3rem);//3rem; regular font
+    }
+}
+
+$bp-mobile: 27rem;
+$bp-tablet: 48rem;
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Archivo Black', sans-serif;
+}
+
+* {
+    margin: 0;    
+}
+
+ul, ol, menu, li {
+    padding: 0;
+    list-style: none;
+    
+}
+
+html{
+    background-color: var(--margin-color,darkgrey);
+    font-size: var(--regularFont,1rem);
+    color: var(--text-color-primary);
+}
+
+body, main {
+    background-color: var(--backgroundColor,white);    
+}
+
+h2{
+    color: var(--text-color-primary);
+    font-size: var(--h2-font-size, 3rem);
+}
+
+h3{
+    text-align: center;
+    color: var(--text_color_main);
+    font-size: var(--regularFont, 2rem);
+}
+
+p{
+    color: var(--text_color_secondary);
+}
+
+a{
+    color: var(--text_color_main);
+    text-decoration: none;
+    cursor: pointer;  
+}

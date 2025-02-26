@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  width: 97vw;
+  height: 97vh;
+  margin: auto;
+  margin-top: 1.5vh;
+}
+@media screen and (max-width: 48rem) {
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  body.login {
+    height: 97vh;
+  }
+}
