@@ -178,7 +178,9 @@ body{
 .u-textCenter{
     text-align: center;
 }
-
+.u-hidden-file-input{
+    display: none;
+}
 .u-Bills{
     background-color: var(--billsColor, #0066cc);
 }
@@ -477,6 +479,13 @@ body{
     gap: 2rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    @media screen and (max-width: $bp-tablet) {
+        display: flex;
+        flex-direction: column;
+        gap: 0.25rem;
+        align-items: center;
+        // background-color: red;
+    }
 
 }
 
@@ -527,12 +536,11 @@ body{
 
     @media screen and (max-width: $bp-tablet) {
         padding-top: 0.5rem;
+        gap: 0.25rem;
     }
 
 }
-.hidden-file-input{
-    display: none;
-}
+
 .custom-file-label{
     width: 5rem;
     height:1.5rem;

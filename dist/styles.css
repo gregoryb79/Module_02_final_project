@@ -159,6 +159,10 @@ body {
   text-align: center;
 }
 
+.u-hidden-file-input {
+  display: none;
+}
+
 .u-Bills {
   background-color: var(--billsColor, #0066cc);
 }
@@ -438,6 +442,14 @@ body {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+@media screen and (max-width: 48rem) {
+  .datesRange {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    align-items: center;
+  }
+}
 
 .largestCategories {
   border: 1px solid darkgray;
@@ -484,11 +496,8 @@ body {
 @media screen and (max-width: 48rem) {
   .fileHandler {
     padding-top: 0.5rem;
+    gap: 0.25rem;
   }
-}
-
-.hidden-file-input {
-  display: none;
 }
 
 .custom-file-label {
