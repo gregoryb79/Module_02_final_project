@@ -1,3 +1,7 @@
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js")
+        .then(() => console.log("Service Worker Registered"));
+}
 let onUpdateCallbacks = [];
 const usersStorageKey = "users";
 const currentUserStorageKey = "currUser";

@@ -14,6 +14,11 @@ export type Income = {
     sum: number;     
 }
 
+if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.register("/service-worker.js")
+      .then(() => console.log("Service Worker Registered"));
+  }
+
 let onUpdateCallbacks: (() => void)[] = [];
 
 const usersStorageKey = "users";
