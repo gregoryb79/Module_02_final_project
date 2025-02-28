@@ -9,13 +9,21 @@ self.addEventListener("install", (event) => {
     event.waitUntil(
       caches.open("app-cache").then((cache) => {
         return cache.addAll([
-          "/", // Cache the main page
+          "/", // Cache homepage
           "/index.html",
-          "/styles.css",
-          "/script.js",
-          "/favicon.ico",
-          // Add more assets your app needs
-        ]);
+          "/login.html",
+          "/register.html",
+          "dist/reset.css",
+          "dist/composition.css",
+          "dist/utilities.css",
+          "dist/block.css",
+          "dist/exceptions.css",
+          "dist/controller.js",
+          "dist/model.js",
+          "dist/view.js"
+        ]).catch((error) => {
+          console.error("Failed to cache files:", error);
+        });
       })
     );
   });

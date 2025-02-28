@@ -8,8 +8,9 @@ self.addEventListener("fetch", function (event) {
 });
 self.addEventListener("install", function (event) {
   event.waitUntil(caches.open("app-cache").then(function (cache) {
-    return cache.addAll(["/", // Cache the main page
-    "/index.html", "/styles.css", "/script.js", "/favicon.ico" // Add more assets your app needs
-    ]);
+    return cache.addAll(["/", // Cache homepage
+    "/index.html", "/login.html", "/register.html", "dist/reset.css", "dist/composition.css", "dist/utilities.css", "dist/block.css", "dist/exceptions.css", "dist/controller.js", "dist/model.js", "dist/view.js"])["catch"](function (error) {
+      console.error("Failed to cache files:", error);
+    });
   }));
 });
